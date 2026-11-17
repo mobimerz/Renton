@@ -164,9 +164,11 @@ export default function ImageCarousel({
               setAnimate(true);
               setIndex(i);
             }}
-            className="mx-1.5 size-[5px] rounded-full bg-black"
-            style={{ opacity: i === active ? 1 : 0.2 }}
-          />
+            // 24x24 tap target; the -3.5px margins keep the 17px dot pitch of the original 5px dots + 6px margins
+            className="-mx-[3.5px] inline-flex size-6 cursor-pointer items-center justify-center p-0"
+          >
+            <span className="block size-[5px] rounded-full bg-black" style={{ opacity: i === active ? 1 : 0.2 }} aria-hidden="true" />
+          </button>
         ))}
       </div>
     </div>
