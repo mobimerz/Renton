@@ -331,11 +331,12 @@ export function ElMap({
   cls,
   src,
   title,
-}: Base & { src: string; title?: string }) {
+  height,
+}: Base & { src: string; title?: string; height?: number }) {
   return (
     <W cls={cls}>
       <div className="elementor-custom-embed">
-        <GoogleMap src={src} title={title ?? "Map"} />
+        <GoogleMap src={src} title={title ?? "Map"} height={height} />
       </div>
     </W>
   );

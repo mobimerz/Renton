@@ -52,7 +52,7 @@ export default function Footer() {
 
           {/* Map */}
           <div className="w-1/2 p-5 md:w-[30%]">
-            <GoogleMap src={site.mapEmbed} title="Renton Technologies LLP, Electronic City, Bengaluru" height={250} />
+            <GoogleMap src={site.mapEmbed} title="Renton Technologies LLP, Electronic City, Bengaluru" height={250} small />
           </div>
 
           {/* Social + contact */}

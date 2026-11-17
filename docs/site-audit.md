@@ -2604,6 +2604,7 @@ Elementor's global kit colours (`#6EC1E4` etc.) are the untouched defaults and a
 | 5 | Accordion/toggle titles in posts and pages | `<a class="elementor-accordion-title">` with no href | Same class on a `<span>`; the title row is still a keyboard-focusable button | SEO (Lighthouse crawlable-anchors); identical styling |
 | 6 | Elementor CSS of two posts (post-9798, post-9978) | Section backgrounds load from `www.renton.org.in/wp-content/uploads/…` | Local `/images/…` copies | No dependency on the old WordPress uploads |
 | 7 | About/Contact hero background `about-bg-img.jpg` | 1.2 MB JPEG | Same 1920×1078 image re-encoded (quality 78, progressive): 187 KB | Mobile load speed |
+| 8 | Every Google Map (footer on all pages, Contact, 13 posts/pages) | Live iframe on page load (about 600 KB of Maps scripts) | Static snapshot of the same embed at native scale, centred on the pin, with the same "Open in Maps"/"Maps" chip and attribution; the real iframe loads on click/tap at the same size. Google's zoom/fullscreen buttons and layer thumbnail appear once it loads. Snapshots: `scripts/capture-maps.mjs` | Mobile performance |
 
 ## 11. Build notes (2026-11-18)
 

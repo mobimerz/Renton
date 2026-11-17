@@ -1,0 +1,13 @@
+{
+  "width": 1920,
+  "height": 480,
+  "smWidth": 480,
+  "smHeight": 260,
+  "maps": {
+    "https://maps.google.com/maps?q=Renton%20Technologies%20LLP%2C%20First%20Floor%2C%20Lava%20Kusha%20Building.%206%2F2%2C%20near%20Damro%20Furniture%2C%20Beratena%20Agrahara%2C%20Electronic%20City%2C%20Bengaluru%2C%20Karnataka%20560100&t=m&z=16&output=embed&iwloc=near": "a4e0ca6ad8",
+    "https://maps.google.com/maps?q=Renton%20Technologies%20LLP%2C%20First%20Floor%2C%20Lava%20Kusha%20Building%2C%20No.%206%2F2%2C%20Beratena%20Agrahara%2C%20Electronic%20City%2C%20Bengaluru%2C%20Karnataka%20560100.&t=m&z=20&output=embed&iwloc=near": "2d4b83ea78",
+    "https://maps.google.com/maps?q=Renton%20Technologies%20LLP%2C%20First%20Floor%2C%20Lava%20Kusha%20Building.%206%2F2%2C%20near%20Damro%20Furniture%2C%20Beratena%20Agrahara%2C%20Electronic%20City%2C%20Bengaluru%2C%20Karnataka%20560100&t=m&z=17&output=embed&iwloc=near": "77a153062c",
+    "https://maps.google.com/maps?q=Renton%20Technologies%20LLP%2C%20First%20Floor%2C%20Lava%20Kusha%20Building%2C%20No.%206%2F2%2C%20Beratena%20Agrahara%2C%20Electronic%20City%2C%20Bengaluru%2C%20Karnataka%20560100&t=m&z=20&output=embed&iwloc=near": "9d1cb94bef",
+    "https://maps.google.com/maps?q=Renton%20Technologies%20LLP%2C%20First%20Floor%2C%20Lava%20Kusha%20Building%2C%20No.%206%2F2%2C%20Beratena%20Agrahara%2C%20Electronic%20City%2C%20Bengaluru%2C%20Karnataka%20560100&t=m&z=12&output=embed&iwloc=near": "5f0d65c2a2"
+  }
+}

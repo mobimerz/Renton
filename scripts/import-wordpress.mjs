@@ -217,6 +217,9 @@ const FA = (i) => {
   return name ? `${style}:${name.slice(3)}` : undefined;
 };
 
+/** Elementor CSS of the page being imported (set by importOne). */
+let pageCss = "";
+
 function widget(el, d, report) {
   const type = (el.getAttribute("data-widget_type") || "").split(".")[0];
   const id = el.getAttribute("data-id");
@@ -319,7 +322,11 @@ function widget(el, d, report) {
     }
     case "google_maps": {
       const f = c.querySelector("iframe");
-      return `${ind(d)}<Map ${attrs({ ...base, src: f?.getAttribute("src"), title: f?.getAttribute("title") || f?.getAttribute("aria-label") })} />`;
+      // The page CSS sizes the iframe (`.elementor-element-<id> iframe{height:Npx}`); the click-to-load
+      // facade needs that height up front. Without a rule the iframe is the browser default, 150px.
+      const h = pageCss.match(new RegExp(`elementor-element-${id} iframe\\{height:(\\d+)px`))?.[1];
+      const mapAttrs = attrs({ ...base, src: f?.getAttribute("src"), title: f?.getAttribute("title") || f?.getAttribute("aria-label") });
+      return `${ind(d)}<Map ${mapAttrs}${h ? ` height={${h}}` : ""} />`;
     }
     case "wpr-grid": {
       // Royal Elementor Addons post grid (/blog/): keep the exact class names its page CSS targets.
@@ -429,6 +436,8 @@ function importOne(slug, kind) {
   doc.getElementById("colophon")?.remove();
   const root = [...doc.querySelectorAll("[data-elementor-type]")].find((e) => !HEADER_FOOTER_IDS.has(e.getAttribute("data-elementor-id")));
   const elementorId = root.getAttribute("data-elementor-id");
+  const cssPath = path.join(RAW, "css", `post-${elementorId}.css`);
+  pageCss = fs.existsSync(cssPath) ? fs.readFileSync(cssPath, "utf8") : "";
   const report = { types: {}, raw: [] };
   const body = children(root, 0, report).join("\n\n");
   // FAQ content for FAQPage structured data (every accordion/toggle on the page)
