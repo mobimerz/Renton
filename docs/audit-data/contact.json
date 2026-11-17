@@ -1,0 +1,447 @@
+{
+ "url": "https://www.renton.org.in/contact/",
+ "slug": "contact",
+ "file": "contact",
+ "title": "Contact - Renton Technologies",
+ "description": null,
+ "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "canonical": "https://www.renton.org.in/contact/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Contact - Renton Technologies",
+  "og:description": "Connect with Expert Sales Team Contact for Premium Business Services Reach out for quotes, consultations, or support on secure data erasure, IT asset management, and compliance. Our team is ready to provide prompt, professional assistance for all your technology needs. We’d Love to Hear from You Please enable JavaScript in your browser to complete this form.Name *Email *Mob Numbers *ProductsServer RentalPrintersLaptop / Workstation RentalIT Repair & AMC ServicesSales of New/Used EquipmentsLeave Your RequirementsTerms of Service * I agree to the Terms & Conditions. Submit Connect Renton for tailored IT Solutions +91 8050281515 contact@renton.org.in Renton Technologies LLP No. 6/2, First Floor, Lava Kusha Building, Beratena Agrahara, Electronic City, Bengaluru – 560100 Frequently Asked Question! Take the Next Step Toward Secure Data Management Partner with Renton to safeguard your data, ensure compliance, and streamline IT asset management. Our experts are ready to provide tailored solutions for your unique needs. Connect with us today to experience secure, automated data erasure and IT services you can trust.",
+  "og:url": "https://www.renton.org.in/contact/",
+  "og:site_name": "Renton Technologies",
+  "og:updated_time": "2026-10-28T17:47:17+05:30",
+  "og:image": "https://www.renton.org.in/wp-content/uploads/2025/12/pexels-photo-8112160-1024x684.jpeg",
+  "og:image:secure_url": "https://www.renton.org.in/wp-content/uploads/2025/12/pexels-photo-8112160-1024x684.jpeg",
+  "og:image:alt": "Contact",
+  "article:published_time": "2025-12-06T06:08:36+05:30",
+  "article:modified_time": "2026-10-28T17:47:17+05:30"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Contact - Renton Technologies",
+  "twitter:description": "Connect with Expert Sales Team Contact for Premium Business Services Reach out for quotes, consultations, or support on secure data erasure, IT asset management, and compliance. Our team is ready to provide prompt, professional assistance for all your technology needs. We’d Love to Hear from You Please enable JavaScript in your browser to complete this form.Name *Email *Mob Numbers *ProductsServer RentalPrintersLaptop / Workstation RentalIT Repair & AMC ServicesSales of New/Used EquipmentsLeave Your RequirementsTerms of Service * I agree to the Terms & Conditions. Submit Connect Renton for tailored IT Solutions +91 8050281515 contact@renton.org.in Renton Technologies LLP No. 6/2, First Floor, Lava Kusha Building, Beratena Agrahara, Electronic City, Bengaluru – 560100 Frequently Asked Question! Take the Next Step Toward Secure Data Management Partner with Renton to safeguard your data, ensure compliance, and streamline IT asset management. Our experts are ready to provide tailored solutions for your unique needs. Connect with us today to experience secure, automated data erasure and IT services you can trust.",
+  "twitter:image": "https://www.renton.org.in/wp-content/uploads/2025/12/pexels-photo-8112160-1024x684.jpeg",
+  "twitter:label1": "Time to read",
+  "twitter:data1": "Less than a minute"
+ },
+ "jsonld_types": [
+  "ComputerStore/Organization",
+  "WebSite",
+  "ImageObject",
+  "BreadcrumbList",
+  "WebPage",
+  "Person",
+  "BlogPosting",
+  "FAQPage"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "ComputerStore",
+      "Organization"
+     ],
+     "@id": "https://www.renton.org.in/#organization",
+     "name": "Renton Technologies",
+     "url": "https://www.renton.org.in",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.renton.org.in/#logo",
+      "url": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "contentUrl": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "caption": "Renton Technologies",
+      "inLanguage": "en-US",
+      "width": "312",
+      "height": "265"
+     },
+     "openingHours": [
+      "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+     ],
+     "image": {
+      "@id": "https://www.renton.org.in/#logo"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.renton.org.in/#website",
+     "url": "https://www.renton.org.in",
+     "name": "Renton Technologies",
+     "alternateName": "Renton",
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.renton.org.in/wp-content/uploads/2025/12/pexels-photo-8112160-1024x684.jpeg",
+     "url": "https://www.renton.org.in/wp-content/uploads/2025/12/pexels-photo-8112160-1024x684.jpeg",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.renton.org.in/contact/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.renton.org.in",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.renton.org.in/contact/",
+        "name": "Contact"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.renton.org.in/contact/#webpage",
+     "url": "https://www.renton.org.in/contact/",
+     "name": "Contact - Renton Technologies",
+     "datePublished": "2025-12-06T06:08:36+05:30",
+     "dateModified": "2026-10-28T17:47:17+05:30",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2025/12/pexels-photo-8112160-1024x684.jpeg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.renton.org.in/contact/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+     "name": "Renton Technology",
+     "url": "https://www.renton.org.in/author/724137pwpadmin/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "caption": "Renton Technology",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://renton.org.in"
+     ],
+     "worksFor": {
+      "@id": "https://www.renton.org.in/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Contact - Renton Technologies",
+     "datePublished": "2025-12-06T06:08:36+05:30",
+     "dateModified": "2026-10-28T17:47:17+05:30",
+     "author": {
+      "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+      "name": "Renton Technology"
+     },
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "description": "Reach out for quotes, consultations, or support on secure data erasure, IT asset management, and compliance. Our team is ready to provide prompt, professional assistance for all your technology needs.",
+     "name": "Contact - Renton Technologies",
+     "@id": "https://www.renton.org.in/contact/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/contact/#webpage"
+     },
+     "image": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2025/12/pexels-photo-8112160-1024x684.jpeg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.renton.org.in/contact/#webpage"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Take the Next Step Toward Secure Data Management",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Partner with Renton to safeguard your data, ensure compliance, and streamline IT asset management. Our experts are ready to provide tailored solutions for your unique needs. Connect with us today to experience secure, automated data erasure and IT services you can trust.</p>"
+     }
+    }
+   ]
+  }
+ ],
+ "h1": [
+  "Contact",
+  "Connect Renton for tailored IT Solutions"
+ ],
+ "headings": [
+  "h1: Contact",
+  "h2: Connect with Expert Sales Team",
+  "h2: Contact for Premium Business Services",
+  "h2: We'd Love to Hear from You",
+  "h1: Connect Renton for tailored IT Solutions",
+  "h2: Frequently Asked Question!"
+ ],
+ "body_class": "wp-singular page-template page-template-elementor_header_footer page page-id-25 wp-custom-logo wp-theme-phlox latepoint ehf-header ehf-footer ehf-template-phlox ehf-stylesheet-phlox ally-default elementor-default elementor-template-full-width elementor-kit-1399 elementor-page elementor-page-25 phlox aux-dom-unready aux-full-width aux-resp aux-s-fhd aux-top-sticky aux-page-animation-off",
+ "sections": [
+  {
+   "id": "296b94c",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": []
+  },
+  {
+   "id": "tss4ct2",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Connect with Expert Sales Team"
+     ],
+     "text": "Connect with Expert Sales Team"
+    },
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Contact for Premium Business Services"
+     ],
+     "text": "Contact for Premium Business Services"
+    },
+    {
+     "type": "text-editor",
+     "text": "Reach out for quotes, consultations, or support on secure data erasure, IT asset management, and compliance. Our team is ready to provide prompt, professional assistance for all your technology needs."
+    }
+   ]
+  },
+  {
+   "id": "01e1306",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: We'd Love to Hear from You"
+     ],
+     "text": "We'd Love to Hear from You"
+    },
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2025/12/pexels-photo-8112160-1024x684.jpeg",
+       "alt": "pexels photo 8112160.jpeg",
+       "w": "1024",
+       "h": "684"
+      }
+     ]
+    },
+    {
+     "type": "eael-wpforms",
+     "text": "Please enable JavaScript in your browser to complete this form. Name * Email * Requirements Leave Your Mob Numbers * Products Server Rental Printers Laptop / Workstation Rental IT Repair & AMC Services Sales of New/Used Equipments Leave Your Requirements Terms of Service * I agree to the Terms & Conditions. Submit",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg",
+       "alt": "Loading",
+       "w": "26",
+       "h": "26"
+      }
+     ],
+     "forms": [
+      {
+       "id": "wpforms-form-9362",
+       "class": "wpforms-validate wpforms-form wpforms-ajax-form",
+       "action": "/contact/",
+       "fields": [
+        {
+         "tag": "input",
+         "type": "text",
+         "name": "wpforms[fields][1]",
+         "label": "Name *",
+         "placeholder": null,
+         "required": true,
+         "options": null
+        },
+        {
+         "tag": "input",
+         "type": "email",
+         "name": "wpforms[fields][8]",
+         "label": "Email *",
+         "placeholder": null,
+         "required": true,
+         "options": null
+        },
+        {
+         "tag": "input",
+         "type": "text",
+         "name": "wpforms[fields][2]",
+         "label": "Requirements Leave Your",
+         "placeholder": null,
+         "required": false,
+         "options": null
+        },
+        {
+         "tag": "input",
+         "type": "number",
+         "name": "wpforms[fields][9]",
+         "label": "Mob Numbers *",
+         "placeholder": null,
+         "required": true,
+         "options": null
+        },
+        {
+         "tag": "select",
+         "type": null,
+         "name": "wpforms[fields][6]",
+         "label": "Products",
+         "placeholder": null,
+         "required": false,
+         "options": [
+          "Server Rental",
+          "Printers",
+          "Laptop / Workstation Rental",
+          "IT Repair & AMC Services",
+          "Sales of New/Used Equipments"
+         ]
+        },
+        {
+         "tag": "textarea",
+         "type": null,
+         "name": "wpforms[fields][7]",
+         "label": "Leave Your Requirements",
+         "placeholder": null,
+         "required": false,
+         "options": null
+        },
+        {
+         "tag": "input",
+         "type": "checkbox",
+         "name": "wpforms[fields][10][]",
+         "label": "I agree to the Terms & Conditions.",
+         "placeholder": null,
+         "required": true,
+         "options": null
+        }
+       ],
+       "submit": "Submit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "02d17a0",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h1: Connect Renton for tailored IT Solutions"
+     ],
+     "text": "Connect Renton for tailored IT Solutions"
+    }
+   ]
+  },
+  {
+   "id": "7e3bc40",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "icon"
+    },
+    {
+     "type": "text-editor",
+     "text": "+91 8050281515"
+    },
+    {
+     "type": "icon"
+    },
+    {
+     "type": "text-editor",
+     "text": "contact@renton.org.in"
+    },
+    {
+     "type": "icon-list",
+     "links": [
+      {
+       "text": "",
+       "href": "https://www.facebook.com/rentontechnologies"
+      },
+      {
+       "text": "",
+       "href": "https://www.instagram.com/renton.technologies/"
+      },
+      {
+       "text": "",
+       "href": "https://x.com/RentonT35572"
+      },
+      {
+       "text": "",
+       "href": "https://www.linkedin.com/in/renton-technologies/"
+      },
+      {
+       "text": "",
+       "href": "https://www.youtube.com/@RentonTechnologies"
+      }
+     ]
+    },
+    {
+     "type": "icon"
+    },
+    {
+     "type": "text-editor",
+     "text": "Renton Technologies LLP No. 6/2, First Floor, Lava Kusha Building, Beratena Agrahara, Electronic City, Bengaluru – 560100"
+    }
+   ]
+  },
+  {
+   "id": "c911d57",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Frequently Asked Question!"
+     ],
+     "text": "Frequently Asked Question!"
+    },
+    {
+     "type": "toggle",
+     "text": "Take the Next Step Toward Secure Data Management Partner with Renton to safeguard your data, ensure compliance, and streamline IT asset management. Our experts are ready to provide tailored solutions for your unique needs. Connect with us today to experience secure, automated data erasure and IT services you can trust."
+    }
+   ]
+  },
+  {
+   "id": "e796253",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "google_maps"
+    }
+   ]
+  }
+ ],
+ "post_body_html": null
+}

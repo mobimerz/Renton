@@ -1,0 +1,508 @@
+{
+ "url": "https://www.renton.org.in/products/",
+ "slug": "products",
+ "file": "products",
+ "title": "Products - Renton Technologies",
+ "description": null,
+ "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "canonical": "https://www.renton.org.in/products/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Products - Renton Technologies",
+  "og:description": "Amazing Feature For Explore Trusted IT Solutions Browse Renton’s comprehensive catalog of secure IT rental and automated data erasure software. Enhance compliance, reduce risk, and optimize your asset lifecycle with industry-leading security. Rent Now Get a Quote Secure IT Rental & Data Protection Solutions IT Hardware Rental Flexible rental of desktops, laptops, servers, and networking equipment to ensure business continuity and cost-effective scaling. Secure Data Erasure Software Certified software solutions for automated, compliant data destruction and end-of-life device management. IT Asset Management Tools Track, audit, and optimize your IT assets with advanced management tools that enhance security and efficiency. Comprehensive IT Solutions A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise Automated Data Erasure Ensure every device is wiped to the highest standards with fully automated data erasure workflows, minimizing manual intervention and human error. Regulatory Compliance Assurance Meet global data protection laws and industry standards with built-in compliance reporting and audit trails for every asset processed. Secure IT Asset Disposal Safely dispose of outdated devices with secure logistics and environmentally responsible processes, supporting circular economy initiatives. Our Special Features A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise Organised Code A mobile app landing page is the important and essentials amount product. Super Performence A mobile app landing page is the important and essentials amount product. 100% Response Time A mobile app landing page is the important and essentials amount product. Maintaining Milestones A mobile app landing page is the important and essentials amount product. Search Optimization A mobile app landing page is the important and essentials amount product. Customer Support A mobile app landing page is the important and essentials amount product. Frequently Asked Questions A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise How to Change my Photo from Admin Dashboard? Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast How to Change my Password easily? Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast How to Change my Subscription Plan using PayPal Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+  "og:url": "https://www.renton.org.in/products/",
+  "og:site_name": "Renton Technologies",
+  "og:updated_time": "2025-12-31T07:27:28+05:30",
+  "og:image": "https://www.renton.org.in/wp-content/uploads/2025/12/all-in-one-pc.jpg",
+  "og:image:secure_url": "https://www.renton.org.in/wp-content/uploads/2025/12/all-in-one-pc.jpg",
+  "og:image:width": "1280",
+  "og:image:height": "761",
+  "og:image:alt": "all in one pc",
+  "og:image:type": "image/jpeg",
+  "article:published_time": "2025-12-06T11:26:04+05:30",
+  "article:modified_time": "2025-12-31T07:27:28+05:30"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Products - Renton Technologies",
+  "twitter:description": "Amazing Feature For Explore Trusted IT Solutions Browse Renton’s comprehensive catalog of secure IT rental and automated data erasure software. Enhance compliance, reduce risk, and optimize your asset lifecycle with industry-leading security. Rent Now Get a Quote Secure IT Rental & Data Protection Solutions IT Hardware Rental Flexible rental of desktops, laptops, servers, and networking equipment to ensure business continuity and cost-effective scaling. Secure Data Erasure Software Certified software solutions for automated, compliant data destruction and end-of-life device management. IT Asset Management Tools Track, audit, and optimize your IT assets with advanced management tools that enhance security and efficiency. Comprehensive IT Solutions A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise Automated Data Erasure Ensure every device is wiped to the highest standards with fully automated data erasure workflows, minimizing manual intervention and human error. Regulatory Compliance Assurance Meet global data protection laws and industry standards with built-in compliance reporting and audit trails for every asset processed. Secure IT Asset Disposal Safely dispose of outdated devices with secure logistics and environmentally responsible processes, supporting circular economy initiatives. Our Special Features A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise Organised Code A mobile app landing page is the important and essentials amount product. Super Performence A mobile app landing page is the important and essentials amount product. 100% Response Time A mobile app landing page is the important and essentials amount product. Maintaining Milestones A mobile app landing page is the important and essentials amount product. Search Optimization A mobile app landing page is the important and essentials amount product. Customer Support A mobile app landing page is the important and essentials amount product. Frequently Asked Questions A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise How to Change my Photo from Admin Dashboard? Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast How to Change my Password easily? Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast How to Change my Subscription Plan using PayPal Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+  "twitter:image": "https://www.renton.org.in/wp-content/uploads/2025/12/all-in-one-pc.jpg",
+  "twitter:label1": "Time to read",
+  "twitter:data1": "2 minutes"
+ },
+ "jsonld_types": [
+  "ComputerStore/Organization",
+  "WebSite",
+  "ImageObject",
+  "BreadcrumbList",
+  "WebPage",
+  "Person",
+  "BlogPosting"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "ComputerStore",
+      "Organization"
+     ],
+     "@id": "https://www.renton.org.in/#organization",
+     "name": "Renton Technologies",
+     "url": "https://www.renton.org.in",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.renton.org.in/#logo",
+      "url": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "contentUrl": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "caption": "Renton Technologies",
+      "inLanguage": "en-US",
+      "width": "312",
+      "height": "265"
+     },
+     "openingHours": [
+      "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+     ],
+     "image": {
+      "@id": "https://www.renton.org.in/#logo"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.renton.org.in/#website",
+     "url": "https://www.renton.org.in",
+     "name": "Renton Technologies",
+     "alternateName": "Renton",
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.renton.org.in/wp-content/uploads/2025/12/all-in-one-pc.jpg",
+     "url": "https://www.renton.org.in/wp-content/uploads/2025/12/all-in-one-pc.jpg",
+     "width": "1280",
+     "height": "761",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.renton.org.in/products/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.renton.org.in",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.renton.org.in/products/",
+        "name": "Products"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.renton.org.in/products/#webpage",
+     "url": "https://www.renton.org.in/products/",
+     "name": "Products - Renton Technologies",
+     "datePublished": "2025-12-06T11:26:04+05:30",
+     "dateModified": "2025-12-31T07:27:28+05:30",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2025/12/all-in-one-pc.jpg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.renton.org.in/products/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+     "name": "Renton Technology",
+     "url": "https://www.renton.org.in/author/724137pwpadmin/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "caption": "Renton Technology",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://renton.org.in"
+     ],
+     "worksFor": {
+      "@id": "https://www.renton.org.in/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Products - Renton Technologies",
+     "datePublished": "2025-12-06T11:26:04+05:30",
+     "dateModified": "2025-12-31T07:27:28+05:30",
+     "author": {
+      "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+      "name": "Renton Technology"
+     },
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "description": "Browse Renton’s comprehensive catalog of secure IT rental and automated data erasure software. Enhance compliance, reduce risk, and optimize your asset lifecycle with industry-leading security.",
+     "name": "Products - Renton Technologies",
+     "@id": "https://www.renton.org.in/products/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/products/#webpage"
+     },
+     "image": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2025/12/all-in-one-pc.jpg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.renton.org.in/products/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "h1": [
+  "Products"
+ ],
+ "headings": [
+  "h1: Products",
+  "h3: Amazing Feature For",
+  "h2: Explore Trusted IT Solutions",
+  "h2: Secure IT Rental & Data Protection Solutions",
+  "h3: IT Hardware Rental",
+  "h3: Secure Data Erasure Software",
+  "h3: IT Asset Management Tools",
+  "h2: Comprehensive IT Solutions",
+  "h3: Automated Data Erasure",
+  "h3: Regulatory Compliance Assurance",
+  "h3: Secure IT Asset Disposal",
+  "h2: Our Special Features",
+  "h3: Organised Code",
+  "h3: Super Performence",
+  "h3: 100% Response Time",
+  "h3: Maintaining Milestones",
+  "h3: Search Optimization",
+  "h3: Customer Support",
+  "h2: Frequently Asked Questions"
+ ],
+ "body_class": "wp-singular page-template-default page page-id-9065 wp-custom-logo wp-theme-phlox latepoint ehf-header ehf-footer ehf-template-phlox ehf-stylesheet-phlox ally-default elementor-default elementor-kit-1399 elementor-page elementor-page-9065 phlox aux-dom-unready aux-full-width aux-resp aux-s-fhd aux-top-sticky aux-page-animation-off",
+ "sections": [
+  {
+   "id": "198a0e23",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "headings": [
+      "h3: Amazing Feature For",
+      "h2: Explore Trusted IT Solutions"
+     ],
+     "text": "Amazing Feature For Explore Trusted IT Solutions Browse Renton’s comprehensive catalog of secure IT rental and automated data erasure software. Enhance compliance, reduce risk, and optimize your asset lifecycle with industry-leading security."
+    },
+    {
+     "type": "elementskit-button",
+     "text": "Rent Now",
+     "links": [
+      {
+       "text": "Rent Now",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-button",
+     "text": "Get a Quote",
+     "links": [
+      {
+       "text": "Get a Quote",
+       "href": "https://www.renton.org.in/contact/"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2025/12/all-in-one-pc.jpg",
+       "alt": "all in one pc",
+       "w": "1280",
+       "h": "761"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7c796f01",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "headings": [
+      "h2: Secure IT Rental & Data Protection Solutions"
+     ],
+     "text": "Secure IT Rental & Data Protection Solutions"
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: IT Hardware Rental"
+     ],
+     "text": "IT Hardware Rental Flexible rental of desktops, laptops, servers, and networking equipment to ensure business continuity and cost-effective scaling.",
+     "links": [
+      {
+       "text": "IT Hardware Rental Flexible rental of desktops, laptops, servers, and networking equipment to ensure business continuity and cost-effective scaling.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: Secure Data Erasure Software"
+     ],
+     "text": "Secure Data Erasure Software Certified software solutions for automated, compliant data destruction and end-of-life device management.",
+     "links": [
+      {
+       "text": "Secure Data Erasure Software Certified software solutions for automated, compliant data destruction and end-of-life device management.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: IT Asset Management Tools"
+     ],
+     "text": "IT Asset Management Tools Track, audit, and optimize your IT assets with advanced management tools that enhance security and efficiency.",
+     "links": [
+      {
+       "text": "IT Asset Management Tools Track, audit, and optimize your IT assets with advanced management tools that enhance security and efficiency.",
+       "href": "#"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4c6c6a19",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "headings": [
+      "h2: Comprehensive IT Solutions"
+     ],
+     "text": "Comprehensive IT Solutions A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise"
+    },
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2025/12/pexels-photo-1181354-1181354-scaled.jpg",
+       "alt": "A female engineer using a laptop while monitoring data servers in a modern server room.",
+       "w": "2560",
+       "h": "1709"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: Automated Data Erasure"
+     ],
+     "text": "Automated Data Erasure Ensure every device is wiped to the highest standards with fully automated data erasure workflows, minimizing manual intervention and human error.",
+     "links": [
+      {
+       "text": "Automated Data Erasure Ensure every device is wiped to the highest standards with fully automated data erasure workflows, minimizing manual intervention and human error.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: Regulatory Compliance Assurance"
+     ],
+     "text": "Regulatory Compliance Assurance Meet global data protection laws and industry standards with built-in compliance reporting and audit trails for every asset processed.",
+     "links": [
+      {
+       "text": "Regulatory Compliance Assurance Meet global data protection laws and industry standards with built-in compliance reporting and audit trails for every asset processed.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: Secure IT Asset Disposal"
+     ],
+     "text": "Secure IT Asset Disposal Safely dispose of outdated devices with secure logistics and environmentally responsible processes, supporting circular economy initiatives.",
+     "links": [
+      {
+       "text": "Secure IT Asset Disposal Safely dispose of outdated devices with secure logistics and environmentally responsible processes, supporting circular economy initiatives.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "divider"
+    }
+   ]
+  },
+  {
+   "id": "40c53636",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "headings": [
+      "h2: Our Special Features"
+     ],
+     "text": "Our Special Features A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise"
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: Organised Code"
+     ],
+     "text": "Organised Code A mobile app landing page is the important and essentials amount product.",
+     "links": [
+      {
+       "text": "Organised Code A mobile app landing page is the important and essentials amount product.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: Super Performence"
+     ],
+     "text": "Super Performence A mobile app landing page is the important and essentials amount product.",
+     "links": [
+      {
+       "text": "Super Performence A mobile app landing page is the important and essentials amount product.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: 100% Response Time"
+     ],
+     "text": "100% Response Time A mobile app landing page is the important and essentials amount product.",
+     "links": [
+      {
+       "text": "100% Response Time A mobile app landing page is the important and essentials amount product.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: Maintaining Milestones"
+     ],
+     "text": "Maintaining Milestones A mobile app landing page is the important and essentials amount product.",
+     "links": [
+      {
+       "text": "Maintaining Milestones A mobile app landing page is the important and essentials amount product.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: Search Optimization"
+     ],
+     "text": "Search Optimization A mobile app landing page is the important and essentials amount product.",
+     "links": [
+      {
+       "text": "Search Optimization A mobile app landing page is the important and essentials amount product.",
+       "href": "#"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-icon-box",
+     "headings": [
+      "h3: Customer Support"
+     ],
+     "text": "Customer Support A mobile app landing page is the important and essentials amount product.",
+     "links": [
+      {
+       "text": "Customer Support A mobile app landing page is the important and essentials amount product.",
+       "href": "#"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "57d48eb1",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "headings": [
+      "h2: Frequently Asked Questions"
+     ],
+     "text": "Frequently Asked Questions A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise"
+    },
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2025/12/server.jpg",
+       "alt": "server",
+       "w": "1280",
+       "h": "761"
+      }
+     ]
+    },
+    {
+     "type": "elementskit-accordion",
+     "text": "How to Change my Photo from Admin Dashboard? Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast How to Change my Password easily? Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast How to Change my Subscription Plan using PayPal Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast",
+     "links": [
+      {
+       "text": "How to Change my Photo from Admin Dashboard?",
+       "href": "#collapse-21995946afc1ada6326e"
+      },
+      {
+       "text": "How to Change my Password easily?",
+       "href": "#collapse-ae2191d6afc1ada6326e"
+      },
+      {
+       "text": "How to Change my Subscription Plan using PayPal",
+       "href": "#collapse-18730b26afc1ada6326e"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "post_body_html": null
+}

@@ -1,0 +1,483 @@
+{
+ "url": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/",
+ "slug": "computer-maintenance-and-service-electronic-city",
+ "file": "computer-maintenance-and-service-electronic-city",
+ "title": "Computer Maintenance and Service in Electronic City",
+ "description": "Get reliable computer maintenance and service in Electronic City. Boost PC performance, reduce downtime, and secure systems with expert business IT support.",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "canonical": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Computer Maintenance and Service in Electronic City",
+  "og:description": "Get reliable computer maintenance and service in Electronic City. Boost PC performance, reduce downtime, and secure systems with expert business IT support.",
+  "og:url": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/",
+  "og:site_name": "Renton Technologies",
+  "article:tag": "IT Support in Electronic City",
+  "article:section": "Blog",
+  "og:updated_time": "2026-09-02T13:21:18+05:30",
+  "og:image": "https://www.renton.org.in/wp-content/uploads/2026/08/Hard-disk.jpeg",
+  "og:image:secure_url": "https://www.renton.org.in/wp-content/uploads/2026/08/Hard-disk.jpeg",
+  "og:image:width": "1280",
+  "og:image:height": "963",
+  "og:image:alt": "computer maintenance and service in Electronic City",
+  "og:image:type": "image/jpeg",
+  "article:published_time": "2026-08-11T15:34:09+05:30",
+  "article:modified_time": "2026-09-02T13:21:18+05:30"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Computer Maintenance and Service in Electronic City",
+  "twitter:description": "Get reliable computer maintenance and service in Electronic City. Boost PC performance, reduce downtime, and secure systems with expert business IT support.",
+  "twitter:image": "https://www.renton.org.in/wp-content/uploads/2026/08/Hard-disk.jpeg",
+  "twitter:label1": "Written by",
+  "twitter:data1": "Renton Technology",
+  "twitter:label2": "Time to read",
+  "twitter:data2": "8 minutes"
+ },
+ "jsonld_types": [
+  "ComputerStore/Organization",
+  "WebSite",
+  "ImageObject",
+  "BreadcrumbList",
+  "WebPage",
+  "Person",
+  "BlogPosting"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "ComputerStore",
+      "Organization"
+     ],
+     "@id": "https://www.renton.org.in/#organization",
+     "name": "Renton Technologies",
+     "url": "https://www.renton.org.in",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.renton.org.in/#logo",
+      "url": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "contentUrl": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "caption": "Renton Technologies",
+      "inLanguage": "en-US",
+      "width": "312",
+      "height": "265"
+     },
+     "openingHours": [
+      "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+     ],
+     "image": {
+      "@id": "https://www.renton.org.in/#logo"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.renton.org.in/#website",
+     "url": "https://www.renton.org.in",
+     "name": "Renton Technologies",
+     "alternateName": "Renton",
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.renton.org.in/wp-content/uploads/2026/08/Hard-disk.jpeg",
+     "url": "https://www.renton.org.in/wp-content/uploads/2026/08/Hard-disk.jpeg",
+     "width": "1280",
+     "height": "963",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.renton.org.in",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/",
+        "name": "Computer Maintenance and Service in Electronic City: Keep Your Business Systems Running Smoothly"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/#webpage",
+     "url": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/",
+     "name": "Computer Maintenance and Service in Electronic City",
+     "datePublished": "2026-08-11T15:34:09+05:30",
+     "dateModified": "2026-09-02T13:21:18+05:30",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/08/Hard-disk.jpeg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+     "name": "Renton Technology",
+     "url": "https://www.renton.org.in/author/724137pwpadmin/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "caption": "Renton Technology",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://renton.org.in"
+     ],
+     "worksFor": {
+      "@id": "https://www.renton.org.in/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Computer Maintenance and Service in Electronic City",
+     "keywords": "Computer Maintenance and Service in Electronic City,Computer Repair Services in Electronic City,IT Support in Electronic City,Desktop Repair and Maintenance,Computer AMC Services in Bangalore",
+     "datePublished": "2026-08-11T15:34:09+05:30",
+     "dateModified": "2026-09-02T13:21:18+05:30",
+     "author": {
+      "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+      "name": "Renton Technology"
+     },
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "description": "Get reliable computer maintenance and service in Electronic City. Boost PC performance, reduce downtime, and secure systems with expert business IT support.",
+     "name": "Computer Maintenance and Service in Electronic City",
+     "@id": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/#webpage"
+     },
+     "image": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/08/Hard-disk.jpeg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.renton.org.in/computer-maintenance-and-service-electronic-city/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "h1": [
+  "Computer Maintenance and Service in Electronic City: Keep Your Business Systems Running Smoothly"
+ ],
+ "headings": [
+  "h1: Computer Maintenance and Service in Electronic City: Keep Your Business Systems Running Smoothly",
+  "h2: Why Is Computer Maintenance and Service in Electronic City Important?",
+  "h2: Common Problems Addressed by Computer Maintenance and Service in Electronic City",
+  "h2: Benefits of Computer Maintenance and Service in Electronic City for Businesses",
+  "h2: Computer Repair Services in Electronic City for Existing Problems",
+  "h2: IT Support in Electronic City for Growing Businesses",
+  "h2: Desktop Repair and Maintenance for Office Computers",
+  "h2: Computer AMC Services in Bangalore for Regular Maintenance",
+  "h2: What Does Computer Maintenance and Service in Electronic City Include?",
+  "h2: When Should You Choose Computer Maintenance and Service in Electronic City?",
+  "h2: How to Choose the Right Computer Maintenance Provider in Electronic City",
+  "h2: Why Choose Renton Technologies for Computer Maintenance and Service in Electronic City?",
+  "h2: Final Thoughts on Computer Maintenance and Service in Electronic City",
+  "h2: Company Contact Information:",
+  "h4: Rent Business Laptops in Electronic City Without Long-Term Investment",
+  "h4: IT Asset Disposal in Electronic City: Secure Data Erasure for Businesses"
+ ],
+ "body_class": "wp-singular post-template-default single single-post postid-11253 single-format-standard wp-custom-logo wp-theme-phlox latepoint ehf-header ehf-footer ehf-template-phlox ehf-stylesheet-phlox ally-default elementor-default elementor-kit-1399 elementor-page elementor-page-11253 phlox aux-dom-unready aux-full-width aux-resp aux-s-fhd aux-top-sticky aux-page-animation-off",
+ "sections": [
+  {
+   "id": "e5jslr7",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2026/08/Hard-disk.jpeg",
+       "alt": "computer maintenance and service in Electronic City",
+       "w": "1280",
+       "h": "963"
+      }
+     ]
+    },
+    {
+     "type": "text-editor",
+     "text": "Computers are an essential part of almost every modern business. From accounting and communication to customer management, documentation, design, and daily operations, businesses depend on reliable computer systems. When computers become slow, overheat, crash, or stop working, even a small technical issue can affect employee productivity and business operations. This is why regular Computer Maintenance and Service in Electronic City is important for companies that rely on IT equipment every day. Professional maintenance is not limited to repairing a computer after it breaks down. It includes preventive checks, hardware inspection, software troubleshooting, performance optimization, cleaning, security updates, and timely upgrades. For businesses operating in and around Electronic City, a structured maintenance approach can help reduce unexpected downtime and keep computer systems performing efficiently.",
+     "links": [
+      {
+       "text": "Computer Maintenance and Service in Electronic City",
+       "href": "http://www.renton.org.in"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dal937g",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Why Is Computer Maintenance and Service in Electronic City Important?"
+     ],
+     "text": "Why Is Computer Maintenance and Service in Electronic City Important?"
+    },
+    {
+     "type": "text-editor",
+     "text": "Regular computer maintenance helps businesses identify potential problems before they turn into major failures. Waiting until a computer completely stops working can result in productivity loss, delays, and unexpected repair costs. Professional Computer Maintenance and Service in Electronic City can help businesses: Improve computer performance Reduce unexpected system failures Minimize business downtime Extend hardware lifespan Improve system reliability Identify hardware issues early Resolve software problems Maintain updated systems Improve employee productivity Businesses with multiple computers may also require ongoing technical assistance. In such situations, professional IT Support in Electronic City can make it easier to manage recurring hardware and software problems."
+    }
+   ]
+  },
+  {
+   "id": "be344f3",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Common Problems Addressed by Computer Maintenance and Service in Electronic City"
+     ],
+     "text": "Common Problems Addressed by Computer Maintenance and Service in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Business computers can develop different hardware and software issues over time. Regular maintenance allows technicians to identify these problems and recommend suitable solutions. Slow Computer Performance: A computer may become slow because of insufficient storage, outdated software, unnecessary applications, excessive startup programs, or aging hardware. A professional technician can inspect the system and determine the cause of the performance issue. Depending on the condition of the computer, solutions may include software optimization, RAM upgrades, SSD upgrades, or hardware replacement. Computer Overheating: Dust accumulation can restrict airflow inside desktops and other computer systems. Poor ventilation can cause overheating and may affect system performance. Regular cleaning and inspection of cooling components can help maintain proper airflow and reduce heat-related problems. Frequent System Crashes: Unexpected shutdowns, application crashes, system freezes, and blue-screen errors can be caused by hardware or software issues. Professional troubleshooting can help identify the underlying cause instead of repeatedly restarting or reinstalling applications without addressing the actual problem. Hardware Failures: RAM, hard drives, SSDs, power supplies, cooling fans, and other components can eventually develop faults. Regular inspection can help identify failing components early. Businesses can then decide whether a component should be repaired, replaced, or upgraded."
+    }
+   ]
+  },
+  {
+   "id": "74dce86",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Benefits of Computer Maintenance and Service in Electronic City for Businesses"
+     ],
+     "text": "Benefits of Computer Maintenance and Service in Electronic City for Businesses"
+    },
+    {
+     "type": "text-editor",
+     "text": "Regular maintenance provides several practical benefits for businesses. Improve Employee Productivity: Employees depend on computers to complete their daily responsibilities. Slow systems, software errors, and repeated crashes can waste valuable working hours. Well-maintained computers provide employees with a more reliable working environment and reduce unnecessary interruptions. Reduce Unexpected Downtime: Computer failures can interrupt business operations, especially when employees cannot access important applications or files. Preventive maintenance can help identify potential failures before they become serious, reducing the chances of unexpected downtime. Extend the Life of IT Equipment: Replacing computers frequently can increase business expenses. Proper maintenance can help extend the useful life of existing equipment. Cleaning, monitoring system performance, maintaining storage, and replacing failing components at the right time can help businesses get more value from their IT investments. Improve System Reliability: Regular checks can identify problems that may not yet be visible to employees. Addressing these issues early can improve overall system reliability."
+    }
+   ]
+  },
+  {
+   "id": "2717dd3",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Computer Repair Services in Electronic City for Existing Problems"
+     ],
+     "text": "Computer Repair Services in Electronic City for Existing Problems"
+    },
+    {
+     "type": "text-editor",
+     "text": "Preventive maintenance can reduce the possibility of major failures, but computers can still develop unexpected problems. This is where Computer Repair Services in Electronic City can be useful. Professional repair support can help businesses troubleshoot and resolve hardware and software issues. Common computer repair requirements may include: Operating system problems Computer not switching on Hard drive or SSD issues RAM-related problems Power supply problems Overheating Software errors Driver problems Slow computer performance Hardware replacement Peripheral connectivity issues Businesses should ideally choose a service provider that can diagnose the problem before recommending a repair or replacement. Proper diagnosis helps avoid unnecessary expenses and ensures the appropriate solution is selected."
+    }
+   ]
+  },
+  {
+   "id": "d4b29b0",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: IT Support in Electronic City for Growing Businesses"
+     ],
+     "text": "IT Support in Electronic City for Growing Businesses"
+    },
+    {
+     "type": "text-editor",
+     "text": "As a business grows, its dependence on technology also increases. A company may have desktops, laptops, printers, networking equipment, servers, and other IT devices. Managing these systems without technical assistance can become difficult for internal teams. Reliable IT Support in Electronic City can help businesses handle common technical requirements and maintain their IT infrastructure more effectively. IT support may include: Computer troubleshooting Hardware diagnostics Software assistance System configuration Performance checks Hardware upgrades Network-related assistance Technical consultation Preventive maintenance For startups and small businesses without a dedicated IT department, having access to professional technical support can be particularly useful."
+    }
+   ]
+  },
+  {
+   "id": "741f2c5",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Desktop Repair and Maintenance for Office Computers"
+     ],
+     "text": "Desktop Repair and Maintenance for Office Computers"
+    },
+    {
+     "type": "text-editor",
+     "text": "Desktops remain widely used in offices because they can provide reliable performance for everyday business tasks. However, like any electronic equipment, desktops require proper maintenance. Desktop Repair and Maintenance can include hardware inspection, internal cleaning, performance optimization, component testing, software troubleshooting, and hardware upgrades. Common desktop maintenance tasks include: Cleaning internal components Checking cooling fans Inspecting RAM Testing storage drives Checking power supply Removing unnecessary software Updating drivers Optimizing system performance Identifying failing components Businesses with several desktop computers can benefit from scheduled maintenance rather than waiting for individual systems to fail."
+    }
+   ]
+  },
+  {
+   "id": "d9260d0",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Computer AMC Services in Bangalore for Regular Maintenance"
+     ],
+     "text": "Computer AMC Services in Bangalore for Regular Maintenance"
+    },
+    {
+     "type": "text-editor",
+     "text": "Businesses that manage multiple computers may consider an annual maintenance arrangement. Computer AMC Services in Bangalore can provide a structured approach to maintaining business computers throughout the year. AMC stands for Annual Maintenance Contract. Depending on the service agreement, an AMC may include scheduled inspections, preventive maintenance, troubleshooting, technical support, and hardware diagnostics. Computer AMC services can be useful for: Corporate offices Startups Training institutes BPOs Educational institutions Small businesses Event companies Growing enterprises The exact services included in an AMC depend on the provider and the agreement. Businesses should understand the service scope, response process, maintenance schedule, and support terms before selecting an AMC plan."
+    }
+   ]
+  },
+  {
+   "id": "196107e",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: What Does Computer Maintenance and Service in Electronic City Include?"
+     ],
+     "text": "What Does Computer Maintenance and Service in Electronic City Include?"
+    },
+    {
+     "type": "text-editor",
+     "text": "A professional maintenance program can cover several aspects of computer care. Hardware Inspection: Technicians can inspect RAM, SSDs, hard drives, power supplies, cooling fans, motherboards, and other components. Internal Cleaning: Dust can affect cooling and airflow. Regular cleaning can help maintain better operating conditions. Software Troubleshooting: Operating system errors, application problems, driver issues, and software conflicts can be diagnosed and resolved. Performance Optimization: Technicians can identify unnecessary applications, startup programs, storage issues, and other factors affecting system performance. Hardware Upgrades: Some older computers can continue to provide useful performance after suitable upgrades. RAM and SSD upgrades are common examples, depending on system compatibility. Preventive Checks: Regular inspections can help identify potential problems before they lead to major system failures."
+    }
+   ]
+  },
+  {
+   "id": "c182ac1",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: When Should You Choose Computer Maintenance and Service in Electronic City?"
+     ],
+     "text": "When Should You Choose Computer Maintenance and Service in Electronic City?"
+    },
+    {
+     "type": "text-editor",
+     "text": "Businesses should consider maintenance before a major computer failure occurs. Some signs that your systems may require professional attention include: Computers becoming increasingly slow Frequent crashes Overheating Unexpected shutdowns Slow startup Unusual fan noise Storage problems Repeated software errors Hardware failures Frequent technical complaints from employees If several employees experience similar issues, it may also indicate a wider IT infrastructure problem that requires professional evaluation."
+    }
+   ]
+  },
+  {
+   "id": "4ca4a53",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: How to Choose the Right Computer Maintenance Provider in Electronic City"
+     ],
+     "text": "How to Choose the Right Computer Maintenance Provider in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Choosing the right service provider is important because businesses depend on their IT systems for daily operations. Consider the following factors: Technical Expertise: Choose a provider with experience handling business computers and IT hardware. Service Availability: Check how quickly technical support is available when an issue occurs. Range of Services: A provider offering maintenance, repair, upgrades, and IT support can be more convenient. Transparent Pricing: Understand the service charges and what is included before proceeding. Business Requirements: The maintenance approach should match the number of systems and type of work your business performs. Preventive Approach: Look for a provider that focuses not only on repairs but also on preventing recurring problems."
+    }
+   ]
+  },
+  {
+   "id": "3b1dd5e",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Why Choose Renton Technologies for Computer Maintenance and Service in Electronic City?"
+     ],
+     "text": "Why Choose Renton Technologies for Computer Maintenance and Service in Electronic City?"
+    },
+    {
+     "type": "text-editor",
+     "text": "Renton Technologies provides IT hardware solutions for businesses in Bangalore, including Electronic City. The company supports businesses with IT hardware requirements and rental solutions for laptops, desktops, servers, workstations, and other equipment. Businesses may require computer equipment for employee onboarding, temporary projects, training programs, corporate requirements, events, or changing workforce needs. Combining reliable IT hardware with appropriate maintenance and technical support can help businesses create a more dependable technology environment."
+    }
+   ]
+  },
+  {
+   "id": "eaec971",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Final Thoughts on Computer Maintenance and Service in Electronic City"
+     ],
+     "text": "Final Thoughts on Computer Maintenance and Service in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Reliable computers are essential for maintaining smooth business operations. Regular Computer Maintenance and Service in Electronic City can help businesses improve system performance, reduce downtime, identify hardware problems early, and extend the useful life of their equipment. When a system develops an immediate problem, Computer Repair Services in Electronic City can help diagnose and resolve the issue. For businesses that need ongoing technical assistance, IT Support in Electronic City can provide a more convenient way to manage recurring IT requirements. Regular Desktop Repair and Maintenance can also help office computers remain reliable, while Computer AMC Services in Bangalore can provide businesses with a structured approach to preventive maintenance and technical support. Instead of waiting for computers to fail, businesses can take a proactive approach by scheduling regular maintenance, monitoring system performance, addressing hardware issues early, and upgrading equipment when required. For businesses in Electronic City, investing in professional Computer Maintenance and Service in Electronic City can be a practical step toward maintaining reliable IT systems and keeping everyday operations running smoothly.",
+     "links": [
+      {
+       "text": "Computer Repair Services in Electronic City",
+       "href": "https://www.renton.org.in/contact/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f5ed961",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Company Contact Information:"
+     ],
+     "text": "Company Contact Information:"
+    },
+    {
+     "type": "text-editor",
+     "text": "Email Id: contact@renton.org.in Mobile No: +91-8050281515 Address: Renton Technologies LLP, First Floor, Lava Kusha Building, No. 6/2, Beratena Agrahara, Electronic City, Bengaluru, Karnataka 560100. Land Mark: Near Damro Furniture Map Link: https://www.google.com/maps/place/Renton+Technologies+LLP/@12.8646504,77.6578691,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6d5de476e795:0x6425e00f67ca91d7!8m2!3d12.8646504!4d77.6578691!16s%2Fg%2F11xrgvxx7z?hl=en&entry=ttu&g_ep=EgoyMDI2MDcyMS4wIKXMDSoASAFQAw%3D%3D",
+     "links": [
+      {
+       "text": "https://www.google.com/maps/place/Renton+Technologies+LLP/@12.8646504,77.6578691,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6d5de476e795:0x6425e00f67ca91d7!8m2!3d12.8646504!4d77.6578691!16s%2Fg%2F11xrgvxx7z?hl=en&entry=ttu&g_ep=EgoyMDI2MDcyMS4wIKXMDSoASAFQAw%3D%3D",
+       "href": "https://www.google.com/maps/place/Renton+Technologies+LLP/@12.8646504,77.6578691,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6d5de476e795:0x6425e00f67ca91d7!8m2!3d12.8646504!4d77.6578691!16s%2Fg%2F11xrgvxx7z?hl=en&entry=ttu&g_ep=EgoyMDI2MDcyMS4wIKXMDSoASAFQAw%3D%3D"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "post_body_html": null
+}

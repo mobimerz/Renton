@@ -1,0 +1,487 @@
+{
+ "url": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/",
+ "slug": "office-equipment-rental-in-electronic-city",
+ "file": "office-equipment-rental-in-electronic-city",
+ "title": "Office Equipment Rental in Electronic City for Startups",
+ "description": "Looking for office equipment rental in Electronic City? Discover how startups can rent laptops, desktops, printers, monitors and other IT equipment flexibly.",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "canonical": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Office Equipment Rental in Electronic City for Startups",
+  "og:description": "Looking for office equipment rental in Electronic City? Discover how startups can rent laptops, desktops, printers, monitors and other IT equipment flexibly.",
+  "og:url": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/",
+  "og:site_name": "Renton Technologies",
+  "article:tag": "Workstation Rental in Electronic City",
+  "article:section": "Blog",
+  "og:updated_time": "2026-09-28T16:49:37+05:30",
+  "og:image": "https://www.renton.org.in/wp-content/uploads/2026/09/Office-equipment-image_28-09-2026.jpeg",
+  "og:image:secure_url": "https://www.renton.org.in/wp-content/uploads/2026/09/Office-equipment-image_28-09-2026.jpeg",
+  "og:image:width": "1536",
+  "og:image:height": "936",
+  "og:image:alt": "Office Equipment Rental in Electronic City",
+  "og:image:type": "image/jpeg",
+  "article:published_time": "2026-09-28T16:49:14+05:30",
+  "article:modified_time": "2026-09-28T16:49:37+05:30"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Office Equipment Rental in Electronic City for Startups",
+  "twitter:description": "Looking for office equipment rental in Electronic City? Discover how startups can rent laptops, desktops, printers, monitors and other IT equipment flexibly.",
+  "twitter:image": "https://www.renton.org.in/wp-content/uploads/2026/09/Office-equipment-image_28-09-2026.jpeg",
+  "twitter:label1": "Written by",
+  "twitter:data1": "Renton Technology",
+  "twitter:label2": "Time to read",
+  "twitter:data2": "9 minutes"
+ },
+ "jsonld_types": [
+  "ComputerStore/Organization",
+  "WebSite",
+  "ImageObject",
+  "BreadcrumbList",
+  "WebPage",
+  "Person",
+  "BlogPosting"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "ComputerStore",
+      "Organization"
+     ],
+     "@id": "https://www.renton.org.in/#organization",
+     "name": "Renton Technologies",
+     "url": "https://www.renton.org.in",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.renton.org.in/#logo",
+      "url": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "contentUrl": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "caption": "Renton Technologies",
+      "inLanguage": "en-US",
+      "width": "312",
+      "height": "265"
+     },
+     "openingHours": [
+      "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+     ],
+     "image": {
+      "@id": "https://www.renton.org.in/#logo"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.renton.org.in/#website",
+     "url": "https://www.renton.org.in",
+     "name": "Renton Technologies",
+     "alternateName": "Renton",
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.renton.org.in/wp-content/uploads/2026/09/Office-equipment-image_28-09-2026.jpeg",
+     "url": "https://www.renton.org.in/wp-content/uploads/2026/09/Office-equipment-image_28-09-2026.jpeg",
+     "width": "1536",
+     "height": "936",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.renton.org.in",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/",
+        "name": "Office Equipment Rental in Electronic City: A Practical Guide for Startups"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/#webpage",
+     "url": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/",
+     "name": "Office Equipment Rental in Electronic City for Startups",
+     "datePublished": "2026-09-28T16:49:14+05:30",
+     "dateModified": "2026-09-28T16:49:37+05:30",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/09/Office-equipment-image_28-09-2026.jpeg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+     "name": "Renton Technology",
+     "url": "https://www.renton.org.in/author/724137pwpadmin/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "caption": "Renton Technology",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://renton.org.in"
+     ],
+     "worksFor": {
+      "@id": "https://www.renton.org.in/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Office Equipment Rental in Electronic City for Startups",
+     "keywords": "Office Equipment Rental in Electronic City,Laptop rental in Electronic City,Printer rental in Electronic City,IT equipment rental in Electronic City,Workstation rental in Electronic City",
+     "datePublished": "2026-09-28T16:49:14+05:30",
+     "dateModified": "2026-09-28T16:49:37+05:30",
+     "author": {
+      "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+      "name": "Renton Technology"
+     },
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "description": "Looking for office equipment rental in Electronic City? Discover how startups can rent laptops, desktops, printers, monitors and other IT equipment flexibly.",
+     "name": "Office Equipment Rental in Electronic City for Startups",
+     "@id": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/#webpage"
+     },
+     "image": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/09/Office-equipment-image_28-09-2026.jpeg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.renton.org.in/office-equipment-rental-in-electronic-city/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "h1": [
+  "Office Equipment Rental in Electronic City: A Practical Guide for Startups"
+ ],
+ "headings": [
+  "h1: Office Equipment Rental in Electronic City: A Practical Guide for Startups",
+  "h2: Why Office Equipment Rental in Electronic City Makes Sense for Startups",
+  "h2: Flexible Investment with Office Equipment Rental in Electronic City",
+  "h2: Office Equipment Rental in Electronic City for Growing Teams",
+  "h2: What Can Startups Get Through Office Equipment Rental in Electronic City?",
+  "h2: How Office Equipment Rental in Electronic City Can Help Control Business Costs",
+  "h2: Office Equipment Rental in Electronic City for Short-Term Projects",
+  "h2: Choosing the Right Office Equipment Rental in Electronic City",
+  "h2: Why Local Office Equipment Rental in Electronic City Can Be Convenient",
+  "h2: Office Equipment Rental in Electronic City for Different Startup Needs",
+  "h2: Why IT Equipment Rental in Electronic City Can Support Startup Growth",
+  "h2: How to Get Started with Office Equipment Rental in Electronic City",
+  "h2: Conclusion: Is Office Equipment Rental in Electronic City Right for Your Startup?",
+  "h2: Frequently Asked Questions",
+  "h4: 7 Best Laptop Maintenance Services in Electronic City for Reliable Performance",
+  "h4: Bulk Laptop Rental in Bangalore: Need 50 Laptops Fast?"
+ ],
+ "body_class": "wp-singular post-template-default single single-post postid-12847 single-format-standard wp-custom-logo wp-theme-phlox latepoint ehf-header ehf-footer ehf-template-phlox ehf-stylesheet-phlox ally-default elementor-default elementor-kit-1399 elementor-page elementor-page-12847 phlox aux-dom-unready aux-full-width aux-resp aux-s-fhd aux-top-sticky aux-page-animation-off",
+ "sections": [
+  {
+   "id": "0ad8pvs",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "text-editor",
+     "text": "Starting a business in Electronic City, Bangalore, comes with exciting opportunities—but it also comes with practical challenges. One of the first things a startup needs is a reliable technology setup. Laptops, desktops, monitors, printers and other office equipment are essential for daily operations, but purchasing everything upfront can put pressure on a young company’s budget. This is where office equipment rental in Electronic City can offer a flexible solution. Instead of investing heavily in IT hardware from the beginning, startups can rent the equipment they need for a specific period. This approach can be especially useful when a company is hiring rapidly, setting up a new office, handling a temporary project or simply testing its business model. For startups operating in Electronic City, having access to reliable IT equipment without a large initial investment can make it easier to focus on building the business.",
+     "links": [
+      {
+       "text": "office equipment rental in Electronic City",
+       "href": "http://www.renton.org.in"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2026/09/Office-equipment-image_28-09-2026.jpeg",
+       "alt": "Office Equipment Rental in Electronic City",
+       "w": "1536",
+       "h": "936"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tugtrut",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Why Office Equipment Rental in Electronic City Makes Sense for Startups"
+     ],
+     "text": "Why Office Equipment Rental in Electronic City Makes Sense for Startups"
+    },
+    {
+     "type": "text-editor",
+     "text": "Startups rarely have completely predictable technology requirements. A company may begin with five employees and expand to twenty within a few months. Another startup may need additional computers for a short-term project and no longer require them after the project ends. Buying equipment for every temporary requirement can result in unused assets and additional maintenance responsibilities. With office equipment rental in Electronic City, startups can acquire the equipment they need according to their current business requirements."
+    }
+   ]
+  },
+  {
+   "id": "9d65b02",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Flexible Investment with Office Equipment Rental in Electronic City"
+     ],
+     "text": "Flexible Investment with Office Equipment Rental in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "One of the biggest advantages of renting office equipment is flexibility. When a startup purchases ten or twenty laptops, a considerable amount of capital is committed immediately. Rental allows the business to spread its equipment expenses over the rental period instead of making a large upfront investment. This can be particularly useful for startups that want to keep cash available for: Employee hiring Marketing and customer acquisition Software subscriptions Office infrastructure Product development Business expansion The right decision depends on the company’s expected usage period and overall financial situation, but rental provides another option for managing technology requirements."
+    }
+   ]
+  },
+  {
+   "id": "3570fac",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Office Equipment Rental in Electronic City for Growing Teams"
+     ],
+     "text": "Office Equipment Rental in Electronic City for Growing Teams"
+    },
+    {
+     "type": "text-editor",
+     "text": "Hiring is often unpredictable during the early stages of a startup. A company may suddenly onboard several employees because of a new project or customer contract. Providing every employee with a suitable computer can then become an urgent requirement. Laptop rental in Electronic City can help startups arrange devices for new employees without immediately purchasing a permanent fleet. As the company grows, it can also adjust its equipment requirements according to its workforce."
+    }
+   ]
+  },
+  {
+   "id": "107db84",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: What Can Startups Get Through Office Equipment Rental in Electronic City?"
+     ],
+     "text": "What Can Startups Get Through Office Equipment Rental in Electronic City?"
+    },
+    {
+     "type": "text-editor",
+     "text": "Office equipment requirements differ depending on the type of startup, number of employees and applications being used. A professional rental provider may offer several categories of business equipment. Laptops: Laptops are suitable for employees who need mobility or work in hybrid environments. Depending on the role, a startup may require standard business laptops for email, documentation and web-based applications, while developers, designers and technical employees may need higher configurations. When comparing rental laptops, consider the processor generation, RAM, SSD capacity, operating system, display and overall condition. Desktops: Desktops can be suitable for fixed workstations, reception areas, back-office operations and training environments. They can also be useful when employees do not require mobility and the company wants a dedicated workstation setup. Monitors: Additional monitors can improve productivity for employees who regularly work with multiple applications or large amounts of information. Startups may also require extra monitors when setting up temporary teams or expanding an existing office. Printers: Even businesses that primarily operate digitally may occasionally need printed documents, invoices, forms or internal paperwork. Printer rental in Electronic City can be considered when a startup needs printing facilities without purchasing a printer immediately. Workstations: Certain startups require more computing power than a standard business laptop can provide. Engineering, architecture, 3D modelling, video production, animation and other demanding applications may require high-performance systems. Workstation rental in Electronic City can help businesses access specialised hardware for project-based requirements.",
+     "links": [
+      {
+       "text": "Workstation rental in Electronic City",
+       "href": "https://www.renton.org.in/workstation-rental-in-bangalore/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a035a19",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: How Office Equipment Rental in Electronic City Can Help Control Business Costs"
+     ],
+     "text": "How Office Equipment Rental in Electronic City Can Help Control Business Costs"
+    },
+    {
+     "type": "text-editor",
+     "text": "Cost management is critical for startups. However, looking only at the monthly rental price can give an incomplete picture. Businesses should consider the total cost of ownership and operational responsibilities associated with purchasing equipment. When buying hardware, a business may have to consider: Initial purchase cost Maintenance Repairs Hardware upgrades Replacement costs Asset management Depreciation Disposal or resale With office equipment rental in Electronic City, some of these responsibilities may be covered according to the rental agreement. This does not automatically make rental cheaper in every situation. Instead, it provides startups with flexibility and allows them to choose a model that matches their business requirements."
+    }
+   ]
+  },
+  {
+   "id": "b0765cf",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Office Equipment Rental in Electronic City for Short-Term Projects"
+     ],
+     "text": "Office Equipment Rental in Electronic City for Short-Term Projects"
+    },
+    {
+     "type": "text-editor",
+     "text": "Not every business requirement is permanent. For example, a startup may receive a six-month project that requires fifteen additional employees. Purchasing fifteen laptops for a project that may end within six months may not be the most practical approach. Similarly, startups may need additional equipment for: Training programmes Product demonstrations Temporary employees Corporate events Conferences New office launches Software testing Short-term development projects In such situations, rental can provide access to the required hardware for the duration of the project."
+    }
+   ]
+  },
+  {
+   "id": "0b6a216",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Choosing the Right Office Equipment Rental in Electronic City"
+     ],
+     "text": "Choosing the Right Office Equipment Rental in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Selecting the right rental company is just as important as selecting the equipment. Startups should evaluate more than just the quoted rental price. Check Hardware Specifications: Make sure the equipment matches the actual workload. For example, a laptop used for basic office applications may not need the same configuration as a system used for software development or graphic design. Discuss your software and performance requirements with the rental provider before finalising the configuration. Ask About Equipment Condition: If you are renting refurbished or previously used equipment, ask about testing and quality checks. A reliable provider should clearly communicate the condition and specifications of the equipment being supplied. Understand Maintenance and Support: Technical problems can interrupt business operations. Before renting, clarify: What happens if a laptop stops working? Is technical support included? Is replacement equipment available? Are repair charges included? What is the expected response time? A clear support process can reduce disruption when equipment problems occur. Check Rental Duration and Terms: Different startups have different timelines. Some may need equipment for a month, while others may require it for one or two years. Understand the minimum rental period, renewal terms, security deposit, notice period and other commercial conditions before signing an agreement."
+    }
+   ]
+  },
+  {
+   "id": "813b2bc",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Why Local Office Equipment Rental in Electronic City Can Be Convenient"
+     ],
+     "text": "Why Local Office Equipment Rental in Electronic City Can Be Convenient"
+    },
+    {
+     "type": "text-editor",
+     "text": "For a startup operating in Electronic City, working with a local rental provider can simplify logistics. Delivery, equipment collection, replacement and support can become easier to coordinate when the provider understands the local business environment. Electronic City has numerous offices, startups, technology companies and training organisations, creating a wide range of IT hardware requirements. A local provider can also be useful when equipment is required quickly for a new employee, urgent project or office setup."
+    }
+   ]
+  },
+  {
+   "id": "c1504a3",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Office Equipment Rental in Electronic City for Different Startup Needs"
+     ],
+     "text": "Office Equipment Rental in Electronic City for Different Startup Needs"
+    },
+    {
+     "type": "text-editor",
+     "text": "Different startup teams may have different hardware requirements. Technology Startups: Software companies may require laptops for developers, testers, project managers and support teams. Design and Creative Startups: Creative teams may need high-performance workstations, additional monitors and systems capable of handling demanding applications. Training Startups: Training companies may need multiple laptops or desktops for temporary batches and programmes. Event-Based Businesses: Businesses organising conferences, workshops or corporate events may require multiple computers and printers for a limited period. Growing Small Businesses: Small businesses transitioning into larger offices can use rental equipment while their permanent IT infrastructure is being planned."
+    }
+   ]
+  },
+  {
+   "id": "2f5f8d5",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Why IT Equipment Rental in Electronic City Can Support Startup Growth"
+     ],
+     "text": "Why IT Equipment Rental in Electronic City Can Support Startup Growth"
+    },
+    {
+     "type": "text-editor",
+     "text": "IT equipment rental in Electronic City can give startups an alternative to purchasing every piece of technology immediately. Instead of treating hardware as a permanent investment from day one, companies can align equipment requirements with business growth. For example, a startup can begin with ten laptops, add more devices when the team grows, and adjust its requirement when a temporary project ends. This flexibility can be particularly useful during periods of rapid growth or changing business conditions."
+    }
+   ]
+  },
+  {
+   "id": "7582758",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: How to Get Started with Office Equipment Rental in Electronic City"
+     ],
+     "text": "How to Get Started with Office Equipment Rental in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "The process can be straightforward if your requirements are clearly defined. Step 1: List Your Equipment Requirements Determine how many laptops, desktops, monitors, printers or workstations you need. Step 2: Define the Configuration Identify the processor, RAM, storage, operating system and other specifications required for each type of employee. Step 3: Decide the Rental Period Estimate how long the equipment will be required. Step 4: Compare Rental Terms Compare pricing, maintenance, replacement policies, delivery and support—not just the monthly rental amount. Step 5: Arrange Delivery and Deployment Once the equipment and terms are confirmed, schedule delivery and ensure that devices are ready for employees to use."
+    }
+   ]
+  },
+  {
+   "id": "3308655",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Conclusion: Is Office Equipment Rental in Electronic City Right for Your Startup?"
+     ],
+     "text": "Conclusion: Is Office Equipment Rental in Electronic City Right for Your Startup?"
+    },
+    {
+     "type": "text-editor",
+     "text": "Technology is an essential part of almost every modern startup, but purchasing every piece of hardware immediately may not always fit the company’s stage of growth. Office equipment rental in Electronic City gives startups the flexibility to access laptops, desktops, printers, monitors and specialised workstations according to their requirements. The key is to choose equipment based on actual workload, understand the rental agreement and work with a provider that offers clear support and service terms. For startups in Electronic City, the right rental strategy can make it easier to set up teams, support temporary projects and adapt to changing business requirements without unnecessarily tying up capital in hardware. Looking for Office Equipment Rental in Electronic City? Renton Technologies provides IT hardware rental solutions for businesses, startups, training organisations and project teams in Electronic City and Bangalore. Whether you need a single laptop or multiple devices for a growing team, you can discuss your requirement and configuration with the Renton Technologies team. Call: 8050281515 Rent the equipment you need. Scale your business with flexibility"
+    }
+   ]
+  },
+  {
+   "id": "s93hzd7",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Frequently Asked Questions"
+     ],
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "type": "accordion",
+     "text": "Is office equipment rental suitable for startups? Yes. Startups with changing workforce requirements, temporary projects or limited initial capital can consider rental as one way to obtain the hardware they need. What office equipment can startups rent? Depending on availability, startups may rent laptops, desktops, monitors, printers, servers and high-performance workstations. Can I rent laptops for new employees? Yes. Laptop rental in Electronic City can be useful when a startup needs additional devices during hiring or expansion. Is printer rental available for offices? Businesses can enquire about printer rental in Electronic City for offices, events, training programmes and other requirements. How long can office equipment be rented? Rental periods depend on the provider and agreement. Businesses may find short-term and longer-term rental options depending on their requirements. What should I check before renting office equipment? Check the equipment specifications, physical condition, rental duration, maintenance terms, replacement policy, security deposit, delivery arrangements and technical support."
+    }
+   ]
+  },
+  {
+   "id": "045056a",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "google_maps"
+    }
+   ]
+  }
+ ],
+ "post_body_html": null
+}

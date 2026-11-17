@@ -1,0 +1,175 @@
+{
+ "slug": "contact",
+ "sections": [
+  {
+   "id": "296b94c",
+   "hidden": [],
+   "widgets": []
+  },
+  {
+   "id": "tss4ct2",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "f8e2218",
+     "tag": "h2",
+     "text": "Connect with Expert Sales Team"
+    },
+    {
+     "type": "heading",
+     "id": "867565c",
+     "tag": "h2",
+     "text": "Contact for Premium Business Services"
+    },
+    {
+     "type": "text-editor",
+     "id": "14524f7",
+     "html": "<p>Reach out for quotes, consultations, or support on secure data erasure, IT asset management, and compliance. Our team is ready to provide prompt, professional assistance for all your technology needs.</p>"
+    }
+   ]
+  },
+  {
+   "id": "01e1306",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "3855956",
+     "tag": "h2",
+     "text": "We'd Love to Hear from You"
+    },
+    {
+     "type": "image",
+     "id": "814b76c",
+     "src": "/images/pexels-photo-8112160.jpeg",
+     "alt": "pexels photo 8112160.jpeg",
+     "width": "1024",
+     "height": "684"
+    },
+    {
+     "type": "eael-wpforms",
+     "id": "3b5545f",
+     "html": ""
+    }
+   ]
+  },
+  {
+   "id": "02d17a0",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "9468a52",
+     "tag": "h1",
+     "text": "Connect Renton for tailored IT Solutions"
+    }
+   ]
+  },
+  {
+   "id": "7e3bc40",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "icon",
+     "id": "0392b4a",
+     "icon": "fas fa-phone",
+     "href": null
+    },
+    {
+     "type": "text-editor",
+     "id": "36eed16",
+     "html": "<p>+91 8050281515</p>"
+    },
+    {
+     "type": "icon",
+     "id": "77243cc",
+     "icon": "far fa-envelope",
+     "href": null
+    },
+    {
+     "type": "text-editor",
+     "id": "c923f73",
+     "html": "<p><a>contact@renton.org.in</a></p>"
+    },
+    {
+     "type": "icon-list",
+     "id": "3f539f0",
+     "html": "<ul>\n<li>\n<a href=\"https://www.facebook.com/rentontechnologies\" rel=\"noopener noreferrer\" target=\"_blank\">\n<i></i>\n</a>\n</li>\n<li>\n<a href=\"https://www.instagram.com/renton.technologies/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<i></i>\n</a>\n</li>\n<li>\n<a href=\"https://x.com/RentonT35572\">\n<i></i>\n</a>\n</li>\n<li>\n<a href=\"https://www.linkedin.com/in/renton-technologies/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<i></i>\n</a>\n</li>\n<li>\n<a href=\"https://www.youtube.com/@RentonTechnologies\" rel=\"noopener noreferrer\" target=\"_blank\">\n<i></i>\n</a>\n</li>\n</ul>",
+     "items": [
+      {
+       "text": "",
+       "href": "https://www.facebook.com/rentontechnologies",
+       "icon": "fab fa-facebook"
+      },
+      {
+       "text": "",
+       "href": "https://www.instagram.com/renton.technologies/",
+       "icon": "fab fa-instagram"
+      },
+      {
+       "text": "",
+       "href": "https://x.com/RentonT35572",
+       "icon": "fab fa-twitter"
+      },
+      {
+       "text": "",
+       "href": "https://www.linkedin.com/in/renton-technologies/",
+       "icon": "fab fa-linkedin"
+      },
+      {
+       "text": "",
+       "href": "https://www.youtube.com/@RentonTechnologies",
+       "icon": "fab fa-youtube"
+      }
+     ]
+    },
+    {
+     "type": "icon",
+     "id": "a326b5f",
+     "icon": "fas fa-map-marker-alt",
+     "href": null
+    },
+    {
+     "type": "text-editor",
+     "id": "6ba1315",
+     "html": "<p><strong>Renton Technologies LLP</strong></p><p>No. 6/2, First Floor, Lava Kusha Building, Beratena Agrahara, Electronic City, Bengaluru – 560100</p>"
+    }
+   ]
+  },
+  {
+   "id": "c911d57",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "b4cc9c9",
+     "tag": "h2",
+     "text": "Frequently Asked Question!"
+    },
+    {
+     "type": "toggle",
+     "id": "45e1f60",
+     "items": [
+      {
+       "q": "Take the Next Step Toward Secure Data Management",
+       "a": "<p>Partner with Renton to safeguard your data, ensure compliance, and streamline IT asset management. Our experts are ready to provide tailored solutions for your unique needs. Connect with us today to experience secure, automated data erasure and IT services you can trust.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e796253",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "google_maps",
+     "id": "4cff034",
+     "src": "https://maps.google.com/maps?q=Renton%20Technologies%20LLP%2C%20First%20Floor%2C%20Lava%20Kusha%20Building%2C%20No.%206%2F2%2C%20Beratena%20Agrahara%2C%20Electronic%20City%2C%20Bengaluru%2C%20Karnataka%20560100&t=m&z=20&output=embed&iwloc=near",
+     "title": "Renton Technologies LLP, First Floor, Lava Kusha Building, No. 6/2, Beratena Agrahara, Electronic City, Bengaluru, Karnataka 560100"
+    }
+   ]
+  }
+ ]
+}

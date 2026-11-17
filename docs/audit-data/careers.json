@@ -1,0 +1,273 @@
+{
+ "url": "https://www.renton.org.in/careers/",
+ "slug": "careers",
+ "file": "careers",
+ "title": "Careers - Renton Technologies",
+ "description": null,
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "canonical": "https://www.renton.org.in/careers/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Careers - Renton Technologies",
+  "og:description": "Job Openings Career Opportunities We’re Hire to Grow.​ Digital Marketing Apply Now Students Internship Apply Now Jan – March Batch – Closed April – June Batch – Opening Soon Launch Your Career: 90-Day Digital Growth & Marketing Internship Are you ready to bridge the gap between academic theory and real-world business impact? Renton is now accepting applications for our Q2 2026 Student Internship Program (starting from April 2026). This intensive 90-day program is designed for ambitious students looking to master the high-demand skills required to drive digital growth in today’s competitive landscape. The Curriculum: Master the Full Growth Stack Throughout the program, you will gain hands-on experience and mentorship across eight core pillars of modern business: Data Analytics: Turn raw data into actionable business insights. Market & Competitor Analysis: Decode industry trends and stay ahead of the curve. Search Engine Optimization (SEO): Master the art of organic visibility. Strategic Planning: Learn how to build long-term growth roadmaps. Business Communication: Professionalize your verbal and written impact. Customer Cold Outreach: Perfect the “art of the pitch” and lead generation. Paid Advertising: Understand the mechanics of ROI-driven ad campaigns. Business Development: Learn the fundamentals of scaling a brand. Program Details & Eligibility Timeline: 90 Days (Quarter 2, April 2026) Eligibility: Open to all students currently pursuing an Undergraduate (UG) or Postgraduate (PG) degree. Location: [Remote & Hybrid] Status: Admissions Now Open Why Renton? We don’t just assign tasks; we build experts. You will work on live projects, receive direct feedback from industry leaders, and leave with a portfolio that stands out. How to Apply Don’t wait for your career to start after graduation—start it now. Slots for the Q2 cohort are limited. [Apply Now – Button/Link] Form fields: Student’s first and Last name: Contact number Email ID College name Department Semester Your expectation from this internship program?",
+  "og:url": "https://www.renton.org.in/careers/",
+  "og:site_name": "Renton Technologies",
+  "og:updated_time": "2026-01-05T10:05:28+05:30",
+  "og:image": "https://www.renton.org.in/wp-content/uploads/2026/01/Openings-1024x683.jpeg",
+  "og:image:secure_url": "https://www.renton.org.in/wp-content/uploads/2026/01/Openings-1024x683.jpeg",
+  "og:image:alt": "Careers",
+  "article:published_time": "2026-01-05T07:47:27+05:30",
+  "article:modified_time": "2026-01-05T10:05:28+05:30"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Careers - Renton Technologies",
+  "twitter:description": "Job Openings Career Opportunities We’re Hire to Grow.​ Digital Marketing Apply Now Students Internship Apply Now Jan – March Batch – Closed April – June Batch – Opening Soon Launch Your Career: 90-Day Digital Growth & Marketing Internship Are you ready to bridge the gap between academic theory and real-world business impact? Renton is now accepting applications for our Q2 2026 Student Internship Program (starting from April 2026). This intensive 90-day program is designed for ambitious students looking to master the high-demand skills required to drive digital growth in today’s competitive landscape. The Curriculum: Master the Full Growth Stack Throughout the program, you will gain hands-on experience and mentorship across eight core pillars of modern business: Data Analytics: Turn raw data into actionable business insights. Market & Competitor Analysis: Decode industry trends and stay ahead of the curve. Search Engine Optimization (SEO): Master the art of organic visibility. Strategic Planning: Learn how to build long-term growth roadmaps. Business Communication: Professionalize your verbal and written impact. Customer Cold Outreach: Perfect the “art of the pitch” and lead generation. Paid Advertising: Understand the mechanics of ROI-driven ad campaigns. Business Development: Learn the fundamentals of scaling a brand. Program Details & Eligibility Timeline: 90 Days (Quarter 2, April 2026) Eligibility: Open to all students currently pursuing an Undergraduate (UG) or Postgraduate (PG) degree. Location: [Remote & Hybrid] Status: Admissions Now Open Why Renton? We don’t just assign tasks; we build experts. You will work on live projects, receive direct feedback from industry leaders, and leave with a portfolio that stands out. How to Apply Don’t wait for your career to start after graduation—start it now. Slots for the Q2 cohort are limited. [Apply Now – Button/Link] Form fields: Student’s first and Last name: Contact number Email ID College name Department Semester Your expectation from this internship program?",
+  "twitter:image": "https://www.renton.org.in/wp-content/uploads/2026/01/Openings-1024x683.jpeg",
+  "twitter:label1": "Time to read",
+  "twitter:data1": "1 minute"
+ },
+ "jsonld_types": [
+  "ComputerStore/Organization",
+  "WebSite",
+  "ImageObject",
+  "BreadcrumbList",
+  "WebPage",
+  "Person",
+  "BlogPosting"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "ComputerStore",
+      "Organization"
+     ],
+     "@id": "https://www.renton.org.in/#organization",
+     "name": "Renton Technologies",
+     "url": "https://www.renton.org.in",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.renton.org.in/#logo",
+      "url": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "contentUrl": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "caption": "Renton Technologies",
+      "inLanguage": "en-US",
+      "width": "312",
+      "height": "265"
+     },
+     "openingHours": [
+      "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+     ],
+     "image": {
+      "@id": "https://www.renton.org.in/#logo"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.renton.org.in/#website",
+     "url": "https://www.renton.org.in",
+     "name": "Renton Technologies",
+     "alternateName": "Renton",
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.renton.org.in/wp-content/uploads/2026/01/Openings-1024x683.jpeg",
+     "url": "https://www.renton.org.in/wp-content/uploads/2026/01/Openings-1024x683.jpeg",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.renton.org.in/careers/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.renton.org.in",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.renton.org.in/careers/",
+        "name": "Careers"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.renton.org.in/careers/#webpage",
+     "url": "https://www.renton.org.in/careers/",
+     "name": "Careers - Renton Technologies",
+     "datePublished": "2026-01-05T07:47:27+05:30",
+     "dateModified": "2026-01-05T10:05:28+05:30",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/01/Openings-1024x683.jpeg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.renton.org.in/careers/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+     "name": "Renton Technology",
+     "url": "https://www.renton.org.in/author/724137pwpadmin/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "caption": "Renton Technology",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://renton.org.in"
+     ],
+     "worksFor": {
+      "@id": "https://www.renton.org.in/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Careers - Renton Technologies",
+     "datePublished": "2026-01-05T07:47:27+05:30",
+     "dateModified": "2026-01-05T10:05:28+05:30",
+     "author": {
+      "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+      "name": "Renton Technology"
+     },
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "description": "Launch Your Career: 90-Day Digital Growth &amp; Marketing Internship",
+     "name": "Careers - Renton Technologies",
+     "@id": "https://www.renton.org.in/careers/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/careers/#webpage"
+     },
+     "image": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/01/Openings-1024x683.jpeg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.renton.org.in/careers/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "h1": [
+  "Careers",
+  "Job Openings"
+ ],
+ "headings": [
+  "h1: Careers",
+  "h1: Job Openings",
+  "h5: Career Opportunities",
+  "h2: We're Hire to Grow.​",
+  "h3: Digital Marketing",
+  "h3: Students Internship"
+ ],
+ "body_class": "wp-singular page-template-default page page-id-9798 wp-custom-logo wp-theme-phlox latepoint ehf-header ehf-footer ehf-template-phlox ehf-stylesheet-phlox ally-default elementor-default elementor-kit-1399 elementor-page elementor-page-9798 phlox aux-dom-unready aux-full-width aux-resp aux-s-fhd aux-top-sticky aux-page-animation-off",
+ "sections": [
+  {
+   "id": "6a0gn0l",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h1: Job Openings"
+     ],
+     "text": "Job Openings"
+    }
+   ]
+  },
+  {
+   "id": "xrjl4m4",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h5: Career Opportunities"
+     ],
+     "text": "Career Opportunities"
+    },
+    {
+     "type": "heading",
+     "headings": [
+      "h2: We're Hire to Grow.​"
+     ],
+     "text": "We're Hire to Grow.​"
+    },
+    {
+     "type": "divider"
+    },
+    {
+     "type": "hfe-infocard",
+     "headings": [
+      "h3: Digital Marketing"
+     ],
+     "text": "Digital Marketing Apply Now",
+     "links": [
+      {
+       "text": "Apply Now",
+       "href": "https://wa.me/918050281515"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2026/01/Openings-1024x683.jpeg",
+       "alt": "openings",
+       "w": "1024",
+       "h": "683"
+      }
+     ]
+    },
+    {
+     "type": "hfe-infocard",
+     "headings": [
+      "h3: Students Internship"
+     ],
+     "text": "Students Internship Apply Now",
+     "links": [
+      {
+       "text": "Apply Now",
+       "href": "https://wa.me/918050281515"
+      }
+     ]
+    },
+    {
+     "type": "icon-list",
+     "text": "Jan - March Batch - Closed April - June Batch - Opening Soon"
+    },
+    {
+     "type": "text-editor",
+     "text": "Launch Your Career: 90-Day Digital Growth & Marketing Internship Are you ready to bridge the gap between academic theory and real-world business impact? Renton is now accepting applications for our Q2 2026 Student Internship Program (starting from April 2026) . This intensive 90-day program is designed for ambitious students looking to master the high-demand skills required to drive digital growth in today’s competitive landscape. The Curriculum: Master the Full Growth Stack Throughout the program, you will gain hands-on experience and mentorship across eight core pillars of modern business: Data Analytics: Turn raw data into actionable business insights. Market & Competitor Analysis: Decode industry trends and stay ahead of the curve. Search Engine Optimization (SEO): Master the art of organic visibility. Strategic Planning: Learn how to build long-term growth roadmaps. Business Communication: Professionalize your verbal and written impact. Customer Cold Outreach: Perfect the “art of the pitch” and lead generation. Paid Advertising: Understand the mechanics of ROI-driven ad campaigns. Business Development: Learn the fundamentals of scaling a brand. Program Details & Eligibility Timeline: 90 Days (Quarter 2, April 2026) Eligibility: Open to all students currently pursuing an Undergraduate (UG) or Postgraduate (PG) degree. Location: [Remote & Hybrid] Status: Admissions Now Open Why Renton? We don’t just assign tasks; we build experts. You will work on live projects, receive direct feedback from industry leaders, and leave with a portfolio that stands out. How to Apply Don’t wait for your career to start after graduation—start it now. Slots for the Q2 cohort are limited. [Apply Now – Button/Link] Form fields: Student’s first and Last name: Contact number Email ID College name Department Semester Your expectation from this internship program?"
+    }
+   ]
+  }
+ ],
+ "post_body_html": null
+}

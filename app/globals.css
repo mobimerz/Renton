@@ -1,26 +1,139 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Imported WordPress content uses class names (e.g. "size-full") that must not become Tailwind utilities */
+@source not "../content";
+@source not "../docs";
+@source not "../public";
+
+/* Design tokens measured from the live WordPress (Phlox + Elementor) site */
+@theme {
+  /* Theme font (Raleway on every page — intentional fix, see docs/site-audit.md §10) */
+  --font-raleway: var(--nf-raleway), arial, sans-serif;
+  --font-poppins: var(--nf-poppins), sans-serif;
+  --font-michroma: var(--nf-michroma), sans-serif;
+  --font-open-sans: var(--nf-open-sans), sans-serif;
+  --font-inter: var(--nf-inter), sans-serif;
+  --font-lato: var(--nf-lato), sans-serif;
+  --font-roboto: var(--nf-roboto), sans-serif;
+
+  --color-body: #444444;
+  --color-ink: #111111;
+  --color-topbar: #0a2b9b;
+  --color-navbar: #e2e2e2;
+  --color-gold: #c69e63;
+  --color-violet: #605be5;
+  --color-footer: #000000;
+  --color-footer-heading: #28a0e9;
+  --color-copyright: #2c3662;
+  --color-copyright-text: #b7b8b9;
+  --color-hero: #1f1f1f;
+  --color-cta: #0479ff;
+  --color-cta-border: #5bb286;
+  --color-navy: #142344;
+  --color-muted: #546f7a;
+  --color-accent-green: #28e98c;
+  --color-card-dark: #2d2d2d;
+  --color-whatsapp: #2db742;
+
+  /* Elementor breakpoints: mobile <=767, tablet <=1024 */
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1025px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@layer base {
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: var(--color-body);
+  font-family: var(--font-raleway);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+}
+
+/* Elementor boxed container: max 1600px, columns have 10px gutters */
+.e-container {
+  max-width: 1600px;
+  margin-inline: auto;
+}
+
+@layer components {
+/* Rich text copied from WordPress text-editor widgets */
+.rich p {
+  margin: 0 0 14px;
+}
+.rich ul,
+.rich ol {
+  margin: 0 0 1em;
+  padding-left: 2em;
+}
+.rich ul {
+  list-style: disc;
+}
+.rich ol {
+  list-style: decimal;
+}
+.rich a {
+  color: #1bb0ce;
+}
+.rich strong,
+.rich b {
+  font-weight: 700;
+}
+.rich em,
+.rich i {
+  font-style: italic;
+}
+.rich table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 1em;
+}
+.rich th,
+.rich td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+}
+
+/* wp-emoji images (same rules WordPress prints) */
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+/* Elementor entrance animation (fadeIn) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-fade-in {
+  animation: fadeIn 1.25s both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in {
+    animation: none;
+  }
 }

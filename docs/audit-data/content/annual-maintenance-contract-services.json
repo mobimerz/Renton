@@ -1,0 +1,436 @@
+{
+ "slug": "annual-maintenance-contract-services",
+ "sections": [
+  {
+   "id": "8f3ef2c",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "button",
+     "id": "cd93d24",
+     "text": "Annual Maintenance Contract Services in Bangalore",
+     "href": "#"
+    },
+    {
+     "type": "eael-cta-box",
+     "id": "f632ea3",
+     "html": "<h1>Reliable IT Support for Your Business </h1><p>Keep your office computers in good working condition with Annual Maintenance Contract services from Renton Technologies.<br/>We help businesses manage laptop and desktop maintenance, hardware troubleshooting, preventive maintenance, and technical support according to their requirements.</p><a href=\"/contact/\"><i></i>Get an AMC Quote</a>"
+    },
+    {
+     "type": "image",
+     "id": "ed06358",
+     "src": "/images/AMC-Services.jpeg",
+     "alt": "Annual Maintenance Contract Services",
+     "width": "1024",
+     "height": "768"
+    }
+   ]
+  },
+  {
+   "id": "vykrbp1",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "f8e2218",
+     "tag": "h2",
+     "text": "IT Maintenance Made Easier for Your Business"
+    },
+    {
+     "type": "text-editor",
+     "id": "14524f7",
+     "html": "<p>Computer problems can interrupt everyday work and affect employee productivity. Our AMC solutions help businesses organize their IT maintenance requirements through planned servicing and technical assistance.</p><p>From individual office computers to larger workplace setups, we help you explore maintenance options that fit your equipment and support needs.</p>"
+    }
+   ]
+  },
+  {
+   "id": "564fe99",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "image",
+     "id": "b2c54a8",
+     "src": "/images/Laptop-maintennace.jpeg",
+     "alt": "Laptop Maintenance",
+     "width": "600",
+     "height": "474"
+    },
+    {
+     "type": "image",
+     "id": "dbe7d78",
+     "src": "/images/desktop-service-image-2.jpeg",
+     "alt": "Desktop AMC Services",
+     "width": "1024",
+     "height": "852"
+    },
+    {
+     "type": "image",
+     "id": "ae3182d",
+     "src": "/images/AMC-in-electronic-city-1.jpeg",
+     "alt": "AMC in Bangalore",
+     "width": "1024",
+     "height": "700"
+    },
+    {
+     "type": "heading",
+     "id": "b831b07",
+     "tag": "h2",
+     "text": "Laptop AMC Services"
+    },
+    {
+     "type": "text-editor",
+     "id": "5e18868",
+     "html": "<p>Maintenance and troubleshooting support for business laptops, including hardware diagnostics and common technical issues.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "017383c",
+     "tag": "h2",
+     "text": "Desktop AMC Services"
+    },
+    {
+     "type": "text-editor",
+     "id": "c5f0f48",
+     "html": "<p>Computer maintenance and hardware troubleshooting to help businesses manage their office desktop systems.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "2983f05",
+     "tag": "h2",
+     "text": "On-Site IT Support"
+    },
+    {
+     "type": "text-editor",
+     "id": "1541fe2",
+     "html": "<p>Technical assistance at your workplace, subject to location, availability, and the agreed service terms.</p>"
+    }
+   ]
+  },
+  {
+   "id": "286dbf1",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "button",
+     "id": "f818ed5",
+     "text": "Explore Our AMC Services",
+     "href": "/services/"
+    }
+   ]
+  },
+  {
+   "id": "ddfkyw2",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "f8e2218",
+     "tag": "h2",
+     "text": "Our Complete AMC Services"
+    }
+   ]
+  },
+  {
+   "id": "d7c3be1",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "a4effe3",
+     "tag": "h2",
+     "text": "Laptop Maintenance"
+    },
+    {
+     "type": "text-editor",
+     "id": "d688138",
+     "html": "<p>Troubleshooting and hardware diagnostics for laptops used in daily business operations.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "6244112",
+     "tag": "h2",
+     "text": "Desktop and Computer Maintenance"
+    },
+    {
+     "type": "text-editor",
+     "id": "69621f2",
+     "html": "<p>Inspection and troubleshooting of office computers to identify common hardware and system issues.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "5a3e5c6",
+     "tag": "h2",
+     "text": "Preventive Maintenance"
+    },
+    {
+     "type": "text-editor",
+     "id": "e20536a",
+     "html": "<p>Scheduled equipment checks and recommendations to help identify potential problems.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "e42504a",
+     "tag": "h2",
+     "text": "IT Hardware Diagnostics"
+    },
+    {
+     "type": "text-editor",
+     "id": "f342f5c",
+     "html": "<p>Technical assessments to identify hardware faults and determine appropriate corrective action.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "9d5cc02",
+     "tag": "h2",
+     "text": "Repair Assistance"
+    },
+    {
+     "type": "text-editor",
+     "id": "5940141",
+     "html": "<p>Support for repairs and component replacement according to the terms of your AMC agreement.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "ead4c9a",
+     "tag": "h2",
+     "text": "On-Site Technical Support"
+    },
+    {
+     "type": "text-editor",
+     "id": "0d909bd",
+     "html": "<p>Workplace assistance for covered equipment, subject to service availability and contract conditions.</p>"
+    }
+   ]
+  },
+  {
+   "id": "ya2y031",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "c73836d",
+     "tag": "h5",
+     "text": "Why Choose Renton Technologies?"
+    },
+    {
+     "type": "heading",
+     "id": "253de0d",
+     "tag": "h2",
+     "text": "A Practical Approach to Business IT Maintenance"
+    },
+    {
+     "type": "image",
+     "id": "bcea649",
+     "src": "/images/Services-image.png",
+     "alt": "AMC Services in Bangalore",
+     "width": null,
+     "height": null
+    },
+    {
+     "type": "heading",
+     "id": "c61711b",
+     "tag": "h3",
+     "text": "Support Based on Your Requirements"
+    },
+    {
+     "type": "text-editor",
+     "id": "009557e",
+     "html": "<p>Discuss your equipment and technical support needs to identify a suitable maintenance plan.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "90fff60",
+     "tag": "h3",
+     "text": "Flexible Service Arrangements"
+    },
+    {
+     "type": "text-editor",
+     "id": "40d7be8",
+     "html": "<p>Explore AMC options based on the number of devices, required services, and budget.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "fe2ed7f",
+     "tag": "h3",
+     "text": "Planned Maintenance Options"
+    },
+    {
+     "type": "text-editor",
+     "id": "970f325",
+     "html": "<p>Establish a maintenance schedule that suits your equipment and agreed service terms.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "6e4c355",
+     "tag": "h3",
+     "text": "Clear Coverage and Service Terms"
+    },
+    {
+     "type": "text-editor",
+     "id": "416554f",
+     "html": "<p>Understand the included services, exclusions, spare-parts coverage, and applicable charges before signing the agreement.</p>"
+    }
+   ]
+  },
+  {
+   "id": "o50t74e",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "7a55904",
+     "tag": "h2",
+     "text": "Who Can Benefit from AMC Services?"
+    }
+   ]
+  },
+  {
+   "id": "5r2ls1l",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "f8e2218",
+     "tag": "h2",
+     "text": "IT Maintenance for Different Business Environments"
+    },
+    {
+     "type": "text-editor",
+     "id": "14524f7",
+     "html": "<p>Our AMC services are suitable for organizations that rely on computers for everyday operations.</p><ul><li><p><strong>Corporate Offices:</strong> Support for employee computers and office IT equipment.</p></li><li><p><strong>IT Companies:</strong> Maintenance options for laptops and desktops used by technical teams.</p></li><li><p><strong>Startups and Small Businesses:</strong> External maintenance support for business computers.</p></li><li><p><strong>Educational Institutions:</strong> Computer maintenance for offices and training environments.</p></li><li><p><strong>BPOs and Service Companies:</strong> Support options for workplace computer systems.</p></li><li><p><strong>Growing Organizations:</strong> Maintenance arrangements for expanding IT equipment inventories.</p></li></ul>"
+    }
+   ]
+  },
+  {
+   "id": "a4169f0",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "aeba233",
+     "tag": "h2",
+     "text": "AMC Services in Electronic City, Bangalore"
+    },
+    {
+     "type": "text-editor",
+     "id": "89a1ba2",
+     "html": "<p>Looking for IT hardware maintenance in Electronic City?</p><p>Renton Technologies helps businesses explore maintenance and technical support solutions for their office laptops, desktops, and other eligible IT equipment.</p><p>We cater to business IT maintenance requirements in Electronic City and other areas of Bangalore, subject to service availability.</p><p>Contact our team to discuss your equipment inventory, support requirements, and AMC options.</p>"
+    },
+    {
+     "type": "image",
+     "id": "8e20b0c",
+     "src": "/images/WhatsApp-Image-2026-10-28-at-11.33.06-AM.jpeg",
+     "alt": "AMC Services in Electronic City",
+     "width": "379",
+     "height": "250"
+    }
+   ]
+  },
+  {
+   "id": "mk5ehsy",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "7a55904",
+     "tag": "h2",
+     "text": "How Our AMC Process Works"
+    },
+    {
+     "type": "heading",
+     "id": "3767e6a",
+     "tag": "h4",
+     "text": "Getting Started Is Simple"
+    },
+    {
+     "type": "text-editor",
+     "id": "9fccf6b",
+     "html": "<p><strong>01. Discuss Your Requirements</strong><br/>Tell us about your business, equipment, and maintenance needs.</p><p><strong>02. Share Your Equipment Inventory</strong><br/>Provide the number and types of devices you want covered.</p><p><strong>03. Review Your Service Plan</strong><br/>Discuss maintenance activities, visit frequency, coverage, and pricing.</p><p><strong>04. Finalize the Agreement</strong><br/>Confirm the service scope, exclusions, and applicable terms.</p><p><strong>05. Begin AMC Support</strong><br/>Receive maintenance and technical assistance according to the finalized agreement.</p>"
+    }
+   ]
+  },
+  {
+   "id": "ptx46ql",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "9fc6712",
+     "tag": "h2",
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "type": "accordion",
+     "id": "631b990",
+     "items": [
+      {
+       "q": "What is an Annual Maintenance Contract?",
+       "a": "<p>An Annual Maintenance Contract is an agreement covering the maintenance and technical support of specified equipment over an agreed period.</p>"
+      },
+      {
+       "q": "Which devices can be covered under an AMC?",
+       "a": "<p>Laptops and desktop computers can be considered for coverage. Other IT equipment may be included if supported and listed in the agreement.</p>"
+      },
+      {
+       "q": "Do you provide AMC services in Bangalore?",
+       "a": "<p>Yes. Contact Renton Technologies to discuss IT maintenance requirements in Bangalore. Availability depends on the location and requested services.</p>"
+      },
+      {
+       "q": "Is on-site support included in an AMC?",
+       "a": "<p>On-site support may be available depending on the selected plan, location, and agreed contract terms.</p>"
+      },
+      {
+       "q": "Are spare parts included in AMC charges?",
+       "a": "<p>Spare-parts coverage depends on the agreement. Components and certain repairs may incur additional charges unless explicitly included.</p>"
+      },
+      {
+       "q": "How much does an AMC cost?",
+       "a": "<p>Pricing depends on equipment quantity, device types, maintenance requirements, service frequency, and coverage.</p>"
+      },
+      {
+       "q": "How can I request an AMC quotation?",
+       "a": "<p>Contact our team with your business location, equipment inventory, and support requirements to discuss a suitable quotation.</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9939216",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "social-icons",
+     "id": "759fd00",
+     "items": [
+      {
+       "label": "Facebook",
+       "href": "https://www.facebook.com/rentontechnologies",
+       "icon": "fab fa-facebook"
+      },
+      {
+       "label": "X-twitter",
+       "href": "https://x.com/RentonT35572",
+       "icon": "fab fa-x-twitter"
+      },
+      {
+       "label": "Youtube",
+       "href": "https://www.youtube.com/@RentonTechnologies",
+       "icon": "fab fa-youtube"
+      },
+      {
+       "label": "Whatsapp",
+       "href": "https://wa.me/918050281515",
+       "icon": "fab fa-whatsapp"
+      },
+      {
+       "label": "Instagram",
+       "href": "https://www.instagram.com/renton.technologies/",
+       "icon": "fab fa-instagram"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

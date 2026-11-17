@@ -1,0 +1,111 @@
+{
+ "slug": "services",
+ "sections": [
+  {
+   "id": "4ead71b",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "74e381e7",
+     "tag": "h1",
+     "text": "Comprehensive IT Solutions For You​."
+    },
+    {
+     "type": "heading",
+     "id": "1c95d3b2",
+     "tag": "p",
+     "text": "Explore our wide array of IT lifecycle services designed to optimize your technology and enhance your business performance.​"
+    },
+    {
+     "type": "button",
+     "id": "641cf93c",
+     "text": "Book Appointment",
+     "href": "#"
+    },
+    {
+     "type": "image",
+     "id": "30576b4f",
+     "src": "/images/35030f3b-sl-hero-layer-1.png",
+     "alt": "",
+     "width": null,
+     "height": null
+    },
+    {
+     "type": "image",
+     "id": "5c67158b",
+     "src": "/images/865db8ad-sl-hero-layer-2.png",
+     "alt": "865db8ad sl hero layer 2.png",
+     "width": "230",
+     "height": "190"
+    },
+    {
+     "type": "image",
+     "id": "353d6418",
+     "src": "/images/Comprehensive-IT-Solutions-for-You.jpeg",
+     "alt": "comprehensive it solutions for you",
+     "width": "1184",
+     "height": "511"
+    }
+   ]
+  },
+  {
+   "id": "5ecdb2990",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "3b928c52",
+     "tag": "h2",
+     "text": "Server Rentals"
+    },
+    {
+     "type": "divider",
+     "id": "6a16c4d"
+    },
+    {
+     "type": "text-editor",
+     "id": "2a9f6e1b",
+     "html": "<p>Intelligent Renting offers a seamless way to access the latest technology without the upfront costs. Our AI-driven platform guarantees competitive quotes and a high fill rate, ensuring you get the equipment when and where you need it.</p>"
+    },
+    {
+     "type": "image",
+     "id": "bde49aa",
+     "src": "/images/Server-Rentals.jpeg",
+     "alt": "server rentals",
+     "width": "1024",
+     "height": "448"
+    }
+   ]
+  },
+  {
+   "id": "ba2232c",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "image",
+     "id": "da10b23",
+     "src": "/images/Laptop-Workstation-Rentals.jpeg",
+     "alt": "laptop & workstation rentals",
+     "width": "1024",
+     "height": "535"
+    },
+    {
+     "type": "heading",
+     "id": "56ca78a",
+     "tag": "h2",
+     "text": "Laptop & Workstation Rentals"
+    },
+    {
+     "type": "divider",
+     "id": "4c746b4"
+    },
+    {
+     "type": "text-editor",
+     "id": "0d8f942",
+     "html": "<p>Proactive Services keep your systems running smoothly with 24/7/365 support. Our predictive maintenance solutions identify and resolve potential issues before they lead to downtime, ensuring your operations are uninterrupted.</p>"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "slug": "products",
+ "sections": [
+  {
+   "id": "198a0e23",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "id": "554169fa",
+     "tag": "div",
+     "text": "Amazing Feature For Explore Trusted IT Solutions Browse Renton’s comprehensive catalog of secure IT rental and automated data erasure software. Enhance compliance, reduce risk, and optimize your asset lifecycle with industry-leading security.",
+     "html": "<h3>\nAmazing Feature For\n</h3><h2>Explore Trusted IT Solutions</h2>\n<p>Browse Renton’s comprehensive catalog of secure IT rental and automated data erasure software. Enhance compliance, reduce risk, and optimize your asset lifecycle with industry-leading security.</p>"
+    },
+    {
+     "type": "elementskit-button",
+     "id": "cf722d6",
+     "text": "Rent Now",
+     "href": "#"
+    },
+    {
+     "type": "elementskit-button",
+     "id": "0805fcf",
+     "text": "Get a Quote",
+     "href": "/contact/"
+    },
+    {
+     "type": "image",
+     "id": "56023fb0",
+     "src": "/images/all-in-one-pc.jpg",
+     "alt": "all in one pc",
+     "width": "1280",
+     "height": "761"
+    }
+   ]
+  },
+  {
+   "id": "7c796f01",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "id": "3e6dfab8",
+     "tag": "div",
+     "text": "Secure IT Rental & Data Protection Solutions",
+     "html": "<h2>Secure IT Rental &amp; Data Protection Solutions</h2>"
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "5693656e",
+     "title": "IT Hardware Rental",
+     "titleTag": "h3",
+     "html": "<h3>\nIT Hardware Rental                </h3>\n<p>Flexible rental of desktops, laptops, servers, and networking equipment to ensure business continuity and cost-effective scaling.</p>",
+     "href": "#",
+     "linkText": "IT Hardware Rental Flexible rental of desktops, laptops, servers, and networking equipment to ensure business continuity and cost-effective scaling."
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "d0bc199",
+     "title": "Secure Data Erasure Software",
+     "titleTag": "h3",
+     "html": "<h3>\nSecure Data Erasure Software                </h3>\n<p>Certified software solutions for automated, compliant data destruction and end-of-life device management.</p>",
+     "href": "#",
+     "linkText": "Secure Data Erasure Software Certified software solutions for automated, compliant data destruction and end-of-life device management."
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "45444d3f",
+     "title": "IT Asset Management Tools",
+     "titleTag": "h3",
+     "html": "<h3>\nIT Asset Management Tools                </h3>\n<p>Track, audit, and optimize your IT assets with advanced management tools that enhance security and efficiency.</p>",
+     "href": "#",
+     "linkText": "IT Asset Management Tools Track, audit, and optimize your IT assets with advanced management tools that enhance security and efficiency."
+    }
+   ]
+  },
+  {
+   "id": "4c6c6a19",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "id": "3fe560cc",
+     "tag": "div",
+     "text": "Comprehensive IT Solutions A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
+     "html": "<h2>Comprehensive IT Solutions</h2>\n<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise</p>"
+    },
+    {
+     "type": "image",
+     "id": "37837902",
+     "src": "/images/pexels-photo-1181354-1181354-scaled.jpg",
+     "alt": "A female engineer using a laptop while monitoring data servers in a modern server room.",
+     "width": "2560",
+     "height": "1709"
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "6e259b5c",
+     "title": "Automated Data Erasure",
+     "titleTag": "h3",
+     "html": "<h3>\nAutomated Data Erasure                </h3>\n<p>Ensure every device is wiped to the highest standards with fully automated data erasure workflows, minimizing manual intervention and human error.</p>",
+     "href": "#",
+     "linkText": "Automated Data Erasure Ensure every device is wiped to the highest standards with fully automated data erasure workflows, minimizing manual intervention and human error."
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "5ca7a32c",
+     "title": "Regulatory Compliance Assurance",
+     "titleTag": "h3",
+     "html": "<h3>\nRegulatory Compliance Assurance                </h3>\n<p>Meet global data protection laws and industry standards with built-in compliance reporting and audit trails for every asset processed.</p>",
+     "href": "#",
+     "linkText": "Regulatory Compliance Assurance Meet global data protection laws and industry standards with built-in compliance reporting and audit trails for every asset processed."
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "6276e7a1",
+     "title": "Secure IT Asset Disposal",
+     "titleTag": "h3",
+     "html": "<h3>\nSecure IT Asset Disposal                </h3>\n<p>Safely dispose of outdated devices with secure logistics and environmentally responsible processes, supporting circular economy initiatives.</p>",
+     "href": "#",
+     "linkText": "Secure IT Asset Disposal Safely dispose of outdated devices with secure logistics and environmentally responsible processes, supporting circular economy initiatives."
+    },
+    {
+     "type": "divider",
+     "id": "6456dadf",
+     "hidden": [
+      "tablet",
+      "mobile"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "40c53636",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "id": "13408102",
+     "tag": "div",
+     "text": "Our Special Features A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
+     "html": "<h2>Our Special Features</h2>\n<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise</p>"
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "6c38adf2",
+     "title": "Organised Code",
+     "titleTag": "h3",
+     "html": "<h3>\nOrganised Code                </h3>\n<p>A mobile app landing page is the important and essentials amount product.</p>",
+     "href": "#",
+     "linkText": "Organised Code A mobile app landing page is the important and essentials amount product."
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "36dd8b4a",
+     "title": "Super Performence",
+     "titleTag": "h3",
+     "html": "<h3>\nSuper Performence                </h3>\n<p>A mobile app landing page is the important and essentials amount product.</p>",
+     "href": "#",
+     "linkText": "Super Performence A mobile app landing page is the important and essentials amount product."
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "7251b41",
+     "title": "100% Response Time",
+     "titleTag": "h3",
+     "html": "<h3>\n100% Response Time                </h3>\n<p>A mobile app landing page is the important and essentials amount product.</p>",
+     "href": "#",
+     "linkText": "100% Response Time A mobile app landing page is the important and essentials amount product."
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "3ecd2cb0",
+     "title": "Maintaining Milestones",
+     "titleTag": "h3",
+     "html": "<h3>\nMaintaining Milestones                </h3>\n<p>A mobile app landing page is the important and essentials amount product.</p>",
+     "href": "#",
+     "linkText": "Maintaining Milestones A mobile app landing page is the important and essentials amount product."
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "1f92a167",
+     "title": "Search Optimization",
+     "titleTag": "h3",
+     "html": "<h3>\nSearch Optimization                </h3>\n<p>A mobile app landing page is the important and essentials amount product.</p>",
+     "href": "#",
+     "linkText": "Search Optimization A mobile app landing page is the important and essentials amount product."
+    },
+    {
+     "type": "elementskit-icon-box",
+     "id": "2f558f27",
+     "title": "Customer Support",
+     "titleTag": "h3",
+     "html": "<h3>\nCustomer Support                </h3>\n<p>A mobile app landing page is the important and essentials amount product.</p>",
+     "href": "#",
+     "linkText": "Customer Support A mobile app landing page is the important and essentials amount product."
+    }
+   ]
+  },
+  {
+   "id": "57d48eb1",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "elementskit-heading",
+     "id": "2ede2039",
+     "tag": "div",
+     "text": "Frequently Asked Questions A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
+     "html": "<h2>Frequently Asked Questions</h2>\n<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise</p>"
+    },
+    {
+     "type": "image",
+     "id": "477c83a7",
+     "src": "/images/server.jpg",
+     "alt": "server",
+     "width": "1280",
+     "height": "761"
+    },
+    {
+     "type": "elementskit-accordion",
+     "id": "16b295f2",
+     "items": [
+      {
+       "q": "How to Change my Photo from Admin Dashboard?",
+       "a": "<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>"
+      },
+      {
+       "q": "How to Change my Password easily?",
+       "a": "<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>"
+      },
+      {
+       "q": "How to Change my Subscription Plan using PayPal",
+       "a": "<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

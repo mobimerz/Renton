@@ -1,0 +1,524 @@
+{
+ "url": "https://www.renton.org.in/laptop-rental-in-electronic-city/",
+ "slug": "laptop-rental-in-electronic-city",
+ "file": "laptop-rental-in-electronic-city",
+ "title": "Laptop Rental in Electronic City | Renton Technologies",
+ "description": "Renton Technologies offers Laptop Rental in Electronic City, Bangalore—tailored for businesses, startups, training sessions & events. Request your quote today!",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "canonical": "https://www.renton.org.in/laptop-rental-in-electronic-city/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Laptop Rental in Electronic City | Renton Technologies",
+  "og:description": "Renton Technologies offers Laptop Rental in Electronic City, Bangalore—tailored for businesses, startups, training sessions & events. Request your quote today!",
+  "og:url": "https://www.renton.org.in/laptop-rental-in-electronic-city/",
+  "og:site_name": "Renton Technologies",
+  "og:updated_time": "2026-10-14T17:08:47+05:30",
+  "og:image": "https://www.renton.org.in/wp-content/uploads/2026/08/Laptop_image.jpeg",
+  "og:image:secure_url": "https://www.renton.org.in/wp-content/uploads/2026/08/Laptop_image.jpeg",
+  "og:image:width": "1024",
+  "og:image:height": "795",
+  "og:image:alt": "Laptop Rental in Electronic City",
+  "og:image:type": "image/jpeg",
+  "article:published_time": "2026-08-18T13:53:38+05:30",
+  "article:modified_time": "2026-10-14T17:08:47+05:30"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Laptop Rental in Electronic City | Renton Technologies",
+  "twitter:description": "Renton Technologies offers Laptop Rental in Electronic City, Bangalore—tailored for businesses, startups, training sessions & events. Request your quote today!",
+  "twitter:image": "https://www.renton.org.in/wp-content/uploads/2026/08/Laptop_image.jpeg",
+  "twitter:label1": "Time to read",
+  "twitter:data1": "9 minutes"
+ },
+ "jsonld_types": [
+  "ComputerStore/Organization",
+  "WebSite",
+  "ImageObject",
+  "BreadcrumbList",
+  "WebPage",
+  "Person",
+  "BlogPosting"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "ComputerStore",
+      "Organization"
+     ],
+     "@id": "https://www.renton.org.in/#organization",
+     "name": "Renton Technologies",
+     "url": "https://www.renton.org.in",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.renton.org.in/#logo",
+      "url": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "contentUrl": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "caption": "Renton Technologies",
+      "inLanguage": "en-US",
+      "width": "312",
+      "height": "265"
+     },
+     "openingHours": [
+      "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+     ],
+     "image": {
+      "@id": "https://www.renton.org.in/#logo"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.renton.org.in/#website",
+     "url": "https://www.renton.org.in",
+     "name": "Renton Technologies",
+     "alternateName": "Renton",
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.renton.org.in/wp-content/uploads/2026/08/Laptop_image.jpeg",
+     "url": "https://www.renton.org.in/wp-content/uploads/2026/08/Laptop_image.jpeg",
+     "width": "1024",
+     "height": "795",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.renton.org.in/laptop-rental-in-electronic-city/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.renton.org.in",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.renton.org.in/laptop-rental-in-electronic-city/",
+        "name": "Laptop Rental in Electronic City"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.renton.org.in/laptop-rental-in-electronic-city/#webpage",
+     "url": "https://www.renton.org.in/laptop-rental-in-electronic-city/",
+     "name": "Laptop Rental in Electronic City | Renton Technologies",
+     "datePublished": "2026-08-18T13:53:38+05:30",
+     "dateModified": "2026-10-14T17:08:47+05:30",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/08/Laptop_image.jpeg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.renton.org.in/laptop-rental-in-electronic-city/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+     "name": "Renton Technology",
+     "url": "https://www.renton.org.in/author/724137pwpadmin/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "caption": "Renton Technology",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://renton.org.in"
+     ],
+     "worksFor": {
+      "@id": "https://www.renton.org.in/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Laptop Rental in Electronic City | Renton Technologies",
+     "keywords": "Laptop Rental in Electronic City,Corporate Laptop Rental in Electronic City,Laptop Rental for Startups in Electronic City,Laptop Rental for Events &amp; Short-Term Projects,Laptop on rent in electronic city",
+     "datePublished": "2026-08-18T13:53:38+05:30",
+     "dateModified": "2026-10-14T17:08:47+05:30",
+     "author": {
+      "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+      "name": "Renton Technology"
+     },
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "description": "Renton Technologies offers Laptop Rental in Electronic City, Bangalore—tailored for businesses, startups, training sessions &amp; events. Request your quote today!",
+     "name": "Laptop Rental in Electronic City | Renton Technologies",
+     "@id": "https://www.renton.org.in/laptop-rental-in-electronic-city/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/laptop-rental-in-electronic-city/#webpage"
+     },
+     "image": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/08/Laptop_image.jpeg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.renton.org.in/laptop-rental-in-electronic-city/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "h1": [
+  "Laptop Rental in Electronic City"
+ ],
+ "headings": [
+  "h1: Laptop Rental in Electronic City",
+  "h2: Laptop Rental in Electronic City for Businesses, Startups & Projects",
+  "h2: Thinking of Renting a Laptop in Electronic City? Here’s Why You Should",
+  "h2: Corporate Laptop Rental in Electronic City",
+  "h2: Laptop Rentals for Startups in Electronic City",
+  "h2: Laptop Rental for Corporate Training Programs",
+  "h2: Laptop Rentals for Events and Temporary Projects",
+  "h2: Choose the Right Laptop Configuration",
+  "h2: Why Renton Technologies is Your Best Choice for Laptop Rentals in Electronic City",
+  "h2: Laptop Rental Near Electronic City",
+  "h2: How to Rent a Laptop from Renton Technologies",
+  "h2: Who Can Benefit from Laptop Rental?",
+  "h2: Rent Instead of Buy When Flexibility Matters",
+  "h2: Conclusion: Renton Technologies for Laptop Rental in Electronic City",
+  "h2: Frequently Asked Questions"
+ ],
+ "body_class": "wp-singular page-template-default page page-id-11496 wp-custom-logo wp-theme-phlox latepoint ehf-header ehf-footer ehf-template-phlox ehf-stylesheet-phlox ally-default elementor-default elementor-kit-1399 elementor-page elementor-page-11496 phlox aux-dom-unready aux-full-width aux-resp aux-s-fhd aux-top-sticky aux-page-animation-off",
+ "sections": [
+  {
+   "id": "a4ra7gy",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Laptop Rental in Electronic City for Businesses, Startups & Projects"
+     ],
+     "text": "Laptop Rental in Electronic City for Businesses, Startups & Projects"
+    },
+    {
+     "type": "text-editor",
+     "text": "Looking for a reliable laptop rental in Electronic City without making a large upfront investment? Renton Technologies provides flexible laptop rental solutions for businesses, startups, training institutes, corporate teams, events, and short-term projects in Electronic City and across Bangalore. Whether you need a few laptops for new employees or a bulk fleet for a corporate training program, we help you get business-ready devices without the cost and responsibility of ownership. Our rental approach is designed around practical business requirements — the right configuration, flexible rental tenure, quality-checked equipment, timely delivery, maintenance support, and replacement assistance when required.",
+     "links": [
+      {
+       "text": "laptop rental in Electronic City",
+       "href": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2026/08/Laptop_image.jpeg",
+       "alt": "Laptop Rental in Electronic City",
+       "w": "1024",
+       "h": "795"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7sg4bv",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Thinking of Renting a Laptop in Electronic City? Here’s Why You Should"
+     ],
+     "text": "Thinking of Renting a Laptop in Electronic City? Here’s Why You Should"
+    },
+    {
+     "type": "text-editor",
+     "text": "Electronic City is one of Bangalore’s major business and technology hubs, with startups, IT companies, BPOs, training organizations, service providers, and growing enterprises operating in the area. As teams expand or projects begin, businesses may need additional laptops quickly without wanting to purchase equipment for every temporary requirement. Laptop rental gives businesses greater flexibility. Instead of investing a significant amount in hardware upfront, you can rent the devices required for your project and adjust your IT inventory according to your business needs. With Renton Technologies, you can choose rental periods from 1 month to 3 years, depending on your requirement. This makes laptop rental particularly useful for: New employee onboarding Temporary project teams Corporate training programs Workshops and seminars Events and conferences Startups and growing companies Remote and hybrid teams Software development projects Temporary office setups Bulk laptop requirements"
+    }
+   ]
+  },
+  {
+   "id": "p6781d1",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Corporate Laptop Rental in Electronic City"
+     ],
+     "text": "Corporate Laptop Rental in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Managing IT equipment for a growing workforce can become expensive when every new employee requires a laptop. Purchasing hardware also means dealing with depreciation, maintenance, upgrades, storage, and eventual replacement. Our corporate laptop rental in Electronic City service provides businesses with a more flexible way to equip their teams. By choosing corporate laptop rental in Electronic City , companies can avoid upfront costs and still access reliable, business‑ready devices. You can select laptops based on your employees’ requirements — from everyday business computing to configurations suitable for development, professional applications, data-intensive work, and other demanding workloads. With corporate laptop rental in Electronic City , Renton Technologies ensures that businesses receive tailored solutions for both short‑term and long‑term needs. Renton Technologies primarily focuses on B2B requirements, including corporate offices, training programs, events, and bulk laptop requirements."
+    }
+   ]
+  },
+  {
+   "id": "3121ff9",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Laptop Rentals for Startups in Electronic City"
+     ],
+     "text": "Laptop Rentals for Startups in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Laptop Rentals for Startups in Electronic City are the smartest way to save costs while scaling. For startups, managing cash flow is often as important as managing growth. With Laptop Rentals for Startups in Electronic City, teams can onboard quickly without heavy investment. Buying dozens of laptops at the beginning of a project can tie up capital that could otherwise be used for hiring, marketing, product development, or business expansion. With a laptop on rent in Electronic City, startups can equip their employees while keeping their IT infrastructure flexible. As your team grows, your laptop requirement can grow with it. When a temporary project ends, you don’t have to keep unused hardware sitting in your office. Laptop rental can therefore be a practical option for startups that want to build their workforce without making unnecessary hardware investments."
+    }
+   ]
+  },
+  {
+   "id": "d48a5a4",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Laptop Rental for Corporate Training Programs"
+     ],
+     "text": "Laptop Rental for Corporate Training Programs"
+    },
+    {
+     "type": "text-editor",
+     "text": "Training companies and organizations often require multiple laptops for a limited period. For example, a training program may require 20, 50, or more laptops for several weeks. Purchasing this quantity of equipment may not make financial sense when the machines will not be needed after the training ends. Renton Technologies offers scalable rental solutions for training programs and bulk requirements. We can help businesses plan their laptop requirements according to: Number of participants Training duration Required software Processor requirements RAM requirements Storage requirements Connectivity requirements Our devices can also be pre-configured with specific software or security requirements upon request, helping teams get started faster."
+    }
+   ]
+  },
+  {
+   "id": "d579a24",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Laptop Rentals for Events and Temporary Projects"
+     ],
+     "text": "Laptop Rentals for Events and Temporary Projects"
+    },
+    {
+     "type": "text-editor",
+     "text": "Events, exhibitions, conferences, workshops, and temporary projects often require additional IT equipment for a limited period. Buying laptops specifically for a short-term event can create unnecessary expenses and leave businesses with equipment they may not immediately need afterward. Renting allows you to arrange the required number of laptops for the duration of your project. Whether the requirement is for registration desks, presentations, demonstrations, temporary workstations, data entry, or event management, renting can provide a more flexible alternative to purchasing."
+    }
+   ]
+  },
+  {
+   "id": "41961f9",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Choose the Right Laptop Configuration"
+     ],
+     "text": "Choose the Right Laptop Configuration"
+    },
+    {
+     "type": "text-editor",
+     "text": "Not every employee or project needs the same laptop. A finance team may require a reliable business laptop for office applications, while a software development team may need higher RAM and processing capability. A training program may prioritize consistent configurations across all machines. At Renton Technologies, laptop configurations can be customized according to technical requirements. The website notes that customers can request configurations such as increased RAM, higher-performance hardware, or specific storage capacities where required. Before renting, consider: Processor: Choose a processor appropriate for the applications your team will use. RAM: More memory can be useful for multitasking and demanding professional applications. Storage: SSD/NVMe storage can provide faster system responsiveness compared with traditional hard drives. Operating System: Ensure the required operating system and software environment are supported. Connectivity: Consider Wi-Fi, ports, display connectivity, and other peripherals required for your work. If you are unsure about the configuration, our team can help you identify a suitable option based on your application and project requirements."
+    }
+   ]
+  },
+  {
+   "id": "84a7550",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Why Renton Technologies is Your Best Choice for Laptop Rentals in Electronic City"
+     ],
+     "text": "Why Renton Technologies is Your Best Choice for Laptop Rentals in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Choosing a rental provider is not only about getting a laptop. For businesses, reliability, service, and flexibility are equally important. Quality-Checked Devices: Every device goes through quality inspection before being provided to customers, helping businesses receive equipment that is ready for professional use. Flexible Rental Duration: Rent laptops for periods ranging from 1 month to 3 years, depending on your project and business requirements. Express Delivery: Renton Technologies states that laptops can be delivered within 24 working hours in metro cities, subject to requirements and availability. Maintenance Support: Rental plans include 1 year of free maintenance and servicing, helping businesses reduce the burden associated with routine hardware maintenance. Replacement Assistance: If a rented device develops a problem, Renton Technologies provides troubleshooting and replacement assistance. The company states that replacement can be provided within 72 hours when required. Dedicated Technical Support: Businesses can also access technical support for their rental requirements, helping reduce disruption when hardware issues occur."
+    }
+   ]
+  },
+  {
+   "id": "75c18a2",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Laptop Rental Near Electronic City"
+     ],
+     "text": "Laptop Rental Near Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Renton Technologies is based in Beratena Agrahara, Electronic City, Bengaluru, along Hosur Road. The company serves businesses requiring laptops and other IT hardware for offices, projects, training programs, events, and corporate laptop rental in Electronic City. Being located in Electronic City makes it convenient for nearby businesses to discuss their hardware requirements and arrange rental solutions. Startups especially benefit from corporate laptop rental in Electronic City, as it helps them manage costs while scaling their teams. If your office is located in areas such as Electronic City Phase 1, Electronic City Phase 2, Bommasandra, Hosa Road, Singasandra, Hebbagodi, or nearby business areas, contact our team to discuss your requirement, delivery options, and explore laptop rental for startup in Electronic City . Being located in Electronic City makes it convenient for nearby businesses to discuss their hardware requirements and arrange rental solutions. If your office is located in areas such as Electronic City Phase 1, Electronic City Phase 2, Bommasandra, Hosa Road, Singasandra, Hebbagodi, or nearby business areas, contact our team to discuss your requirement and delivery options."
+    }
+   ]
+  },
+  {
+   "id": "06c3ae4",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: How to Rent a Laptop from Renton Technologies"
+     ],
+     "text": "How to Rent a Laptop from Renton Technologies"
+    },
+    {
+     "type": "text-editor",
+     "text": "Getting started is simple. Step 1: Tell Us Your Requirement Share the number of laptops you need, rental duration, preferred configuration, location, and intended use. Step 2: Get a Suitable Configuration Our team can recommend configurations based on your project, software, employee role, or training requirement. Step 3: Receive Your Quote We will provide a rental quotation based on the selected equipment and rental period. Step 4: Confirm the Rental Once the rental is confirmed, the required devices can be prepared for deployment. Step 5: Start Working Receive the laptops and get your team operational without making a large hardware purchase."
+    }
+   ]
+  },
+  {
+   "id": "f9ad60f",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Who Can Benefit from Laptop Rental?"
+     ],
+     "text": "Who Can Benefit from Laptop Rental?"
+    },
+    {
+     "type": "text-editor",
+     "text": "Our laptop rental solutions can be useful for: IT and software companies Startups BPO and support companies Training institutes Educational organizations Event management companies Construction and engineering companies Corporate offices MNCs Temporary project teams Remote workforce teams Whether you need one laptop or a larger quantity, the right rental approach depends on your duration, configuration, and business requirements."
+    }
+   ]
+  },
+  {
+   "id": "dad54ec",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Rent Instead of Buy When Flexibility Matters"
+     ],
+     "text": "Rent Instead of Buy When Flexibility Matters"
+    },
+    {
+     "type": "text-editor",
+     "text": "Buying laptops makes sense for some businesses and long‑term requirements. However, purchasing is not always the most practical solution for temporary projects, rapidly changing teams, training programs, or short‑term business requirements. Laptop rental in Electronic City gives you the opportunity to use professional IT equipment while avoiding the need to own every device permanently. For businesses operating in Electronic City, laptop rental in Electronic City can be especially useful when workforce requirements change frequently or when additional laptops are needed at short notice."
+    }
+   ]
+  },
+  {
+   "id": "ed74e33",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Conclusion: Renton Technologies for Laptop Rental in Electronic City"
+     ],
+     "text": "Conclusion: Renton Technologies for Laptop Rental in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Laptop rental is a practical solution for businesses that need flexible access to IT equipment without making a large upfront investment. Whether you are a startup, corporate office, training institute or event management company, renting laptops can help you manage changing workforce requirements and short-term projects more efficiently. Renton Technologies provides laptop rental solutions for businesses in Electronic City and across Bangalore, with options based on your required configuration, quantity and rental duration. If you are looking for corporate laptop rental, bulk laptop rental or laptops for training programs and temporary projects, our team can help you explore suitable options for your business. Contact Renton Technologies today to discuss your laptop requirements and request a customized rental quotation."
+    }
+   ]
+  },
+  {
+   "id": "58htoxe",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Frequently Asked Questions"
+     ],
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "type": "accordion",
+     "text": "1. How much does laptop rental cost in Electronic City, Bangalore? Laptop rental costs depend on the configuration, quantity, rental duration and applicable charges. Contact Renton Technologies with your requirements to receive a customized quotation. 2. What is the minimum rental period for laptops? The rental period depends on the available rental plans and terms. Contact our team to confirm the minimum rental duration and available options for your requirement. 3. Can I rent laptops in bulk for corporate training? Yes, you can enquire about bulk laptop rental for corporate training, workshops, seminars and other business requirements. Share the number of laptops, required specifications and rental dates so our team can assess availability. 4. Do you provide laptop rental services for startups? Yes, startups can enquire about laptop rental for employee onboarding, new projects, temporary teams and business expansion. Rental options depend on the required configuration, duration and availability. 5. Can I choose the laptop configuration? You can share your preferred processor, RAM, storage capacity, operating system and software requirements. Suitable configurations will depend on equipment availability and the agreed rental terms. 6. Is maintenance included in laptop rental? Maintenance coverage depends on the applicable rental plan and agreement. Confirm the maintenance services, exclusions and support conditions with Renton Technologies before finalizing your rental. 7. How quickly can rented laptops be delivered in Electronic City? Delivery time depends on device availability, quantity, configuration and delivery location. Contact our team with your required delivery date to confirm the expected schedule. 8. Can I rent laptops for events and short-term projects? Yes, you can enquire about laptop rental for conferences, exhibitions, workshops, training sessions and temporary projects. Share your equipment requirements and rental period to discuss available options."
+    }
+   ]
+  },
+  {
+   "id": "6a911cb",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "google_maps"
+    }
+   ]
+  },
+  {
+   "id": "f79ae0e",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "social-icons",
+     "text": "Facebook X-twitter Youtube Linkedin Instagram Whatsapp Link",
+     "links": [
+      {
+       "text": "Facebook",
+       "href": "https://www.facebook.com/rentontechnologies"
+      },
+      {
+       "text": "X-twitter",
+       "href": "https://x.com/RentonT35572"
+      },
+      {
+       "text": "Youtube",
+       "href": "https://www.youtube.com/@RentonTechnologies"
+      },
+      {
+       "text": "Linkedin",
+       "href": "https://www.linkedin.com/in/renton-technologies/"
+      },
+      {
+       "text": "Instagram",
+       "href": "https://www.instagram.com/renton.technologies/"
+      },
+      {
+       "text": "Whatsapp",
+       "href": "https://wa.me/918050281515"
+      },
+      {
+       "text": "Link",
+       "href": "http://www.renton.org.in/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "post_body_html": null
+}

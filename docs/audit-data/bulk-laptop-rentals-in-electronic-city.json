@@ -1,0 +1,542 @@
+{
+ "url": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/",
+ "slug": "bulk-laptop-rentals-in-electronic-city",
+ "file": "bulk-laptop-rentals-in-electronic-city",
+ "title": "Reduce IT Costs with Bulk Laptop Rentals in Electronic City",
+ "description": "Bulk laptop rentals in Electronic City help businesses reduce IT expenses with flexible plans, lower upfront costs, maintenance, and quick deployment.",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "canonical": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Reduce IT Costs with Bulk Laptop Rentals in Electronic City",
+  "og:description": "Bulk laptop rentals in Electronic City help businesses reduce IT expenses with flexible plans, lower upfront costs, maintenance, and quick deployment.",
+  "og:url": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/",
+  "og:site_name": "Renton Technologies",
+  "article:tag": "Premium Laptop Rental in Electronic City",
+  "article:section": "Blog",
+  "og:updated_time": "2026-07-24T17:29:37+05:30",
+  "og:image": "https://www.renton.org.in/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-21-at-4.15.57-PM.jpeg",
+  "og:image:secure_url": "https://www.renton.org.in/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-21-at-4.15.57-PM.jpeg",
+  "og:image:width": "1600",
+  "og:image:height": "1200",
+  "og:image:alt": "bulk laptop rentals in Electronic City",
+  "og:image:type": "image/jpeg",
+  "article:published_time": "2026-07-22T18:56:49+05:30",
+  "article:modified_time": "2026-07-24T17:29:37+05:30"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Reduce IT Costs with Bulk Laptop Rentals in Electronic City",
+  "twitter:description": "Bulk laptop rentals in Electronic City help businesses reduce IT expenses with flexible plans, lower upfront costs, maintenance, and quick deployment.",
+  "twitter:image": "https://www.renton.org.in/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-21-at-4.15.57-PM.jpeg",
+  "twitter:label1": "Written by",
+  "twitter:data1": "Renton Technology",
+  "twitter:label2": "Time to read",
+  "twitter:data2": "6 minutes"
+ },
+ "jsonld_types": [
+  "ComputerStore/Organization",
+  "WebSite",
+  "ImageObject",
+  "BreadcrumbList",
+  "WebPage",
+  "Person",
+  "BlogPosting"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "ComputerStore",
+      "Organization"
+     ],
+     "@id": "https://www.renton.org.in/#organization",
+     "name": "Renton Technologies",
+     "url": "https://www.renton.org.in",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.renton.org.in/#logo",
+      "url": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "contentUrl": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "caption": "Renton Technologies",
+      "inLanguage": "en-US",
+      "width": "312",
+      "height": "265"
+     },
+     "openingHours": [
+      "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+     ],
+     "image": {
+      "@id": "https://www.renton.org.in/#logo"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.renton.org.in/#website",
+     "url": "https://www.renton.org.in",
+     "name": "Renton Technologies",
+     "alternateName": "Renton",
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.renton.org.in/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-21-at-4.15.57-PM.jpeg",
+     "url": "https://www.renton.org.in/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-21-at-4.15.57-PM.jpeg",
+     "width": "1600",
+     "height": "1200",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.renton.org.in",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/",
+        "name": "9 Powerful Ways Bulk Laptop Rentals in Electronic City Reduce IT Expenses"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/#webpage",
+     "url": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/",
+     "name": "Reduce IT Costs with Bulk Laptop Rentals in Electronic City",
+     "datePublished": "2026-07-22T18:56:49+05:30",
+     "dateModified": "2026-07-24T17:29:37+05:30",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-21-at-4.15.57-PM.jpeg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+     "name": "Renton Technology",
+     "url": "https://www.renton.org.in/author/724137pwpadmin/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "caption": "Renton Technology",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://renton.org.in"
+     ],
+     "worksFor": {
+      "@id": "https://www.renton.org.in/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Reduce IT Costs with Bulk Laptop Rentals in Electronic City",
+     "keywords": "bulk laptop rentals in Electronic City,laptop rental in Electronic City,corporate laptop rental in electronic city,business laptop rental in electronic city,premium laptop rental in electronic city",
+     "datePublished": "2026-07-22T18:56:49+05:30",
+     "dateModified": "2026-07-24T17:29:37+05:30",
+     "author": {
+      "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+      "name": "Renton Technology"
+     },
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "description": "Bulk laptop rentals in Electronic City help businesses reduce IT expenses with flexible plans, lower upfront costs, maintenance, and quick deployment.",
+     "name": "Reduce IT Costs with Bulk Laptop Rentals in Electronic City",
+     "@id": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/#webpage"
+     },
+     "image": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-21-at-4.15.57-PM.jpeg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.renton.org.in/bulk-laptop-rentals-in-electronic-city/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "h1": [
+  "9 Powerful Ways Bulk Laptop Rentals in Electronic City Reduce IT Expenses"
+ ],
+ "headings": [
+  "h1: 9 Powerful Ways Bulk Laptop Rentals in Electronic City Reduce IT Expenses",
+  "h2: How Bulk Laptop Rentals in Electronic City Help Businesses Reduce IT Expenses",
+  "h2: 1. Eliminate High Upfront Investment",
+  "h2: 2. Access Premium Business Laptops at Affordable Prices",
+  "h2: 3. Lower Maintenance and Repair Costs",
+  "h2: 4. Scale Your Business Without Buying More Equipment",
+  "h2: 5. Reduce IT Management Workload",
+  "h2: 6. Improve Business Productivity",
+  "h2: 7. Flexible Rental Plans for Every Business",
+  "h2: 8. Better Budget Control and Tax Benefits",
+  "h2: 9. Partner with a Trusted Laptop Rental Provider",
+  "h2: Why Businesses Prefer Bulk Laptop Rentals in Electronic City",
+  "h2: Conclusion: Bulk Laptop Rentals in Electronic City",
+  "h2: Frequently Asked Questions",
+  "h5: 1. What are the benefits of bulk laptop rentals in Electronic City?",
+  "h5: 2. Who can benefit from corporate laptop rental in Electronic City?",
+  "h5: 3. Can I rent laptops for short-term projects?",
+  "h5: 4. Are maintenance and technical support included?",
+  "h5: 5. Is business laptop rental more affordable than buying?",
+  "h5: 6. How do I choose the right laptop rental provider?",
+  "h2: Company Contact Information:",
+  "h4: Server Rental in Electronic City for Startups: 15 Benefits That Drive Business Growth",
+  "h4: Desktop Rental in Electronic City for Office Expansion: 9 Smart Reasons Businesses Choose to Rent"
+ ],
+ "body_class": "wp-singular post-template-default single single-post postid-10543 single-format-standard wp-custom-logo wp-theme-phlox latepoint ehf-header ehf-footer ehf-template-phlox ehf-stylesheet-phlox ally-default elementor-default elementor-kit-1399 elementor-page elementor-page-10543 phlox aux-dom-unready aux-full-width aux-resp aux-s-fhd aux-top-sticky aux-page-animation-off",
+ "sections": [
+  {
+   "id": "5urdcws",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "text-editor",
+     "text": "In today’s fast-moving business environment, companies need reliable technology without stretching their budgets. Whether you’re a startup, an established enterprise, or a training institute, investing in dozens of laptops can be expensive and difficult to manage. That’s why many organizations are choosing bulk laptop rentals in Electronic City as a smart and cost-effective alternative. Electronic City is home to thousands of IT companies, startups, BPOs, and multinational organizations that require high-performance laptops for employees, projects, and corporate events. Instead of spending a large amount on purchasing new devices, businesses can rent premium laptops that are ready to use and supported by professional technical assistance. If you’re looking for a flexible and affordable laptop rental in Electronic City, this guide explains how bulk rentals can significantly reduce IT expenses while improving business efficiency.",
+     "links": [
+      {
+       "text": "bulk laptop rentals in Electronic City",
+       "href": "https://www.renton.org.in/"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-21-at-4.15.57-PM.jpeg",
+       "alt": "bulk laptop rentals in Electronic City",
+       "w": "1600",
+       "h": "1200"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tmdf5rz",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: How Bulk Laptop Rentals in Electronic City Help Businesses Reduce IT Expenses"
+     ],
+     "text": "How Bulk Laptop Rentals in Electronic City Help Businesses Reduce IT Expenses"
+    }
+   ]
+  },
+  {
+   "id": "14lemum",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 1. Eliminate High Upfront Investment"
+     ],
+     "text": "1. Eliminate High Upfront Investment"
+    },
+    {
+     "type": "text-editor",
+     "text": "Purchasing laptops for an entire team requires a substantial capital investment. For growing businesses, this can impact cash flow and delay other important investments. With bulk laptop rentals in Electronic City, businesses only pay a monthly rental fee, making budgeting easier while preserving capital for expansion, hiring, and marketing. Benefits include: No large upfront cost Predictable monthly expenses Better cash flow management Easier financial planning"
+    }
+   ]
+  },
+  {
+   "id": "6e719fd",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 2. Access Premium Business Laptops at Affordable Prices"
+     ],
+     "text": "2. Access Premium Business Laptops at Affordable Prices"
+    },
+    {
+     "type": "text-editor",
+     "text": "Technology evolves quickly. Buying laptops means they begin losing value from day one. Choosing a premium laptop rental in Electronic City allows businesses to use the latest Dell, HP, Lenovo, and other enterprise-grade laptops without worrying about depreciation. Businesses can rent: Intel Core i5 and i7 laptops High-RAM business laptops SSD-based systems Professional workstations Latest Windows-ready devices This ensures employees always work on modern and reliable hardware."
+    }
+   ]
+  },
+  {
+   "id": "557a44b",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 3. Lower Maintenance and Repair Costs"
+     ],
+     "text": "3. Lower Maintenance and Repair Costs"
+    },
+    {
+     "type": "text-editor",
+     "text": "Laptop ownership comes with ongoing maintenance expenses, including hardware failures, software issues, and replacement parts. A dependable business laptop rental in Electronic City comes with comprehensive maintenance and responsive technical support, helping businesses operate without disruption. This helps businesses avoid unexpected repair bills while minimizing downtime. Rental providers generally offer: Preventive maintenance Software support Hardware replacement Quick troubleshooting Technical assistance As a result, your IT team can focus on business-critical tasks instead of managing hardware issues."
+    }
+   ]
+  },
+  {
+   "id": "2677a7d",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 4. Scale Your Business Without Buying More Equipment"
+     ],
+     "text": "4. Scale Your Business Without Buying More Equipment"
+    },
+    {
+     "type": "text-editor",
+     "text": "Business requirements often change. Companies may hire new employees, launch short-term projects, or organize training sessions requiring additional laptops. With corporate laptop rental in Electronic City, businesses can quickly increase or reduce the number of laptops based on demand. Bulk rental solutions are ideal for: Employee onboarding Corporate training Seasonal workforce Project-based teams Business expansion This flexibility ensures you’re only paying for the equipment you actually need."
+    }
+   ]
+  },
+  {
+   "id": "cccbcc3",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 5. Reduce IT Management Workload"
+     ],
+     "text": "5. Reduce IT Management Workload"
+    },
+    {
+     "type": "text-editor",
+     "text": "Managing hundreds of company-owned laptops involves installation, software updates, inventory tracking, and hardware maintenance. Choosing bulk laptop rentals in Electronic City significantly reduces the workload for internal IT teams. Most rental providers deliver laptops that are: Fully configured Quality tested Ready to use Updated with required software This allows employees to become productive immediately after receiving their devices."
+    }
+   ]
+  },
+  {
+   "id": "550a311",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 6. Improve Business Productivity"
+     ],
+     "text": "6. Improve Business Productivity"
+    },
+    {
+     "type": "text-editor",
+     "text": "Device failures can disrupt workflows and reduce employee productivity. Professional laptop rental in Electronic City providers usually offer quick replacement services if a laptop develops a hardware issue. Instead of waiting several days for repairs, employees receive a replacement device, helping projects continue without interruption. Reliable laptops mean: Less downtime Better employee performance Faster project completion Improved customer satisfaction"
+    }
+   ]
+  },
+  {
+   "id": "e4e2ab4",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 7. Flexible Rental Plans for Every Business"
+     ],
+     "text": "7. Flexible Rental Plans for Every Business"
+    },
+    {
+     "type": "text-editor",
+     "text": "Every organization has different technology needs. Whether you need laptops for a week, a month, or an entire year, business laptop rental in Electronic City offers flexible rental plans designed for businesses of every size. Suitable for: Startups IT companies Educational institutions Event management companies Corporate offices BPOs Software development firms Businesses can choose rental durations based on project timelines, avoiding unnecessary long-term commitments."
+    }
+   ]
+  },
+  {
+   "id": "5ccdada",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 8. Better Budget Control and Tax Benefits"
+     ],
+     "text": "8. Better Budget Control and Tax Benefits"
+    },
+    {
+     "type": "text-editor",
+     "text": "Renting laptops converts large capital expenses into manageable operating expenses. This financial model helps organizations maintain healthier budgets while reducing the burden of purchasing expensive IT equipment. Many businesses prefer corporate laptop rental in Electronic City because rental payments are easier to manage and can simplify financial planning compared to purchasing large quantities of hardware. This approach is especially beneficial for startups and growing companies that want to optimize cash flow.",
+     "links": [
+      {
+       "text": "corporate laptop rental in Electronic City",
+       "href": "https://www.renton.org.in/contact/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "8d5d889",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 9. Partner with a Trusted Laptop Rental Provider"
+     ],
+     "text": "9. Partner with a Trusted Laptop Rental Provider"
+    },
+    {
+     "type": "text-editor",
+     "text": "Choosing the right rental partner makes a significant difference. A reliable provider should offer: Feature Benefit Latest Business Laptops Better performance Flexible Rental Plans Lower operational costs Technical Support Reduced downtime Quick Delivery Faster deployment Bulk Availability Suitable for large teams Replacement Support Business continuity For a hassle-free experience with bulk laptop rentals in Electronic City, choose a trusted provider that combines reliable hardware, fast support, and years of industry expertise."
+    }
+   ]
+  },
+  {
+   "id": "lnmbde6",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Why Businesses Prefer Bulk Laptop Rentals in Electronic City"
+     ],
+     "text": "Why Businesses Prefer Bulk Laptop Rentals in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Electronic City is one of Bengaluru’s leading IT hubs, with companies frequently requiring laptops for new hires, temporary projects, client demonstrations, and corporate events. Instead of investing heavily in new hardware, organizations are increasingly choosing premium laptop rental in Electronic City because it provides flexibility, lower costs, and access to the latest technology without ownership risks. Whether you need 10, 50, or even 200 laptops, bulk rental solutions help businesses stay agile while controlling IT expenses."
+    }
+   ]
+  },
+  {
+   "id": "5oq45po",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Conclusion: Bulk Laptop Rentals in Electronic City"
+     ],
+     "text": "Conclusion: Bulk Laptop Rentals in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Managing IT infrastructure doesn’t have to strain your budget. By choosing bulk laptop rentals in Electronic City, businesses can reduce capital expenditure, improve productivity, simplify IT management, and access the latest business laptops without the burden of ownership. Whether you’re a startup, an enterprise, or a training institute, laptop rental in Electronic City offers a practical solution for today’s dynamic business needs. From flexible rental plans and maintenance support to quick deployment and scalable solutions, renting laptops is a smart investment that supports business growth while keeping costs under control. If you’re looking for reliable corporate laptop rental in Electronic City, business laptop rental in Electronic City, or premium laptop rental in Electronic City, choose a trusted rental partner that delivers quality devices, responsive support, and flexible plans tailored to your requirements."
+    }
+   ]
+  },
+  {
+   "id": "nfjsdrf",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Frequently Asked Questions"
+     ],
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 1. What are the benefits of bulk laptop rentals in Electronic City?"
+     ],
+     "text": "1. What are the benefits of bulk laptop rentals in Electronic City? Bulk laptop rentals reduce upfront costs, provide flexible rental plans, include maintenance support, and allow businesses to scale quickly."
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 2. Who can benefit from corporate laptop rental in Electronic City?"
+     ],
+     "text": "2. Who can benefit from corporate laptop rental in Electronic City? Startups, IT companies, educational institutions, BPOs, event organizers, and enterprises can all benefit from corporate laptop rental services."
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 3. Can I rent laptops for short-term projects?"
+     ],
+     "text": "3. Can I rent laptops for short-term projects? Yes. Most providers offer daily, weekly, monthly, and long-term rental options to suit different business requirements."
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 4. Are maintenance and technical support included?"
+     ],
+     "text": "4. Are maintenance and technical support included? Most professional laptop rental providers include maintenance, troubleshooting, and replacement support as part of the rental package."
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 5. Is business laptop rental more affordable than buying?"
+     ],
+     "text": "5. Is business laptop rental more affordable than buying? For many organizations, renting is more cost-effective because it eliminates high upfront costs, maintenance expenses, and hardware depreciation."
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 6. How do I choose the right laptop rental provider?"
+     ],
+     "text": "6. How do I choose the right laptop rental provider? Look for a provider that offers premium laptops, flexible rental plans, technical support, fast delivery, and a strong reputation for customer service."
+    }
+   ]
+  },
+  {
+   "id": "7p3p0kj",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Company Contact Information:"
+     ],
+     "text": "Company Contact Information:"
+    },
+    {
+     "type": "text-editor",
+     "text": "Email Id: contact@renton.org.in Mobile No: +91-8050281515 Address: Renton Technologies LLP, First Floor, Lava Kusha Building, No. 6/2, Beratena Agrahara, Electronic City, Bengaluru, Karnataka 560100. Land Mark: Near Damro Furniture Map Link: https://www.google.com/maps/place/Renton+Technologies+LLP/@12.8646504,77.6578691,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6d5de476e795:0x6425e00f67ca91d7!8m2!3d12.8646504!4d77.6578691!16s%2Fg%2F11xrgvxx7z?hl=en&entry=ttu&g_ep=EgoyMDI2MDcyMS4wIKXMDSoASAFQAw%3D%3D",
+     "links": [
+      {
+       "text": "https://www.google.com/maps/place/Renton+Technologies+LLP/@12.8646504,77.6578691,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6d5de476e795:0x6425e00f67ca91d7!8m2!3d12.8646504!4d77.6578691!16s%2Fg%2F11xrgvxx7z?hl=en&entry=ttu&g_ep=EgoyMDI2MDcyMS4wIKXMDSoASAFQAw%3D%3D",
+       "href": "https://www.google.com/maps/place/Renton+Technologies+LLP/@12.8646504,77.6578691,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6d5de476e795:0x6425e00f67ca91d7!8m2!3d12.8646504!4d77.6578691!16s%2Fg%2F11xrgvxx7z?hl=en&entry=ttu&g_ep=EgoyMDI2MDcyMS4wIKXMDSoASAFQAw%3D%3D"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "post_body_html": null
+}

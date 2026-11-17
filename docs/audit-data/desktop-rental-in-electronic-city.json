@@ -1,0 +1,583 @@
+{
+ "url": "https://www.renton.org.in/desktop-rental-in-electronic-city/",
+ "slug": "desktop-rental-in-electronic-city",
+ "file": "desktop-rental-in-electronic-city",
+ "title": "9 Advantages of Desktop Rental in Electronic City",
+ "description": "Looking for Desktop Rental in Electronic City? Discover how desktop rentals help businesses expand offices while reducing IT costs and improving flexibility.",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "canonical": "https://www.renton.org.in/desktop-rental-in-electronic-city/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "9 Advantages of Desktop Rental in Electronic City",
+  "og:description": "Looking for Desktop Rental in Electronic City? Discover how desktop rentals help businesses expand offices while reducing IT costs and improving flexibility.",
+  "og:url": "https://www.renton.org.in/desktop-rental-in-electronic-city/",
+  "og:site_name": "Renton Technologies",
+  "article:tag": "Office Desktop Rental in Electronic City",
+  "article:section": "Blog",
+  "og:updated_time": "2026-07-27T22:05:28+05:30",
+  "og:image": "https://www.renton.org.in/wp-content/uploads/2026/07/Dell-desktop-1.jpeg",
+  "og:image:secure_url": "https://www.renton.org.in/wp-content/uploads/2026/07/Dell-desktop-1.jpeg",
+  "og:image:width": "1600",
+  "og:image:height": "1204",
+  "og:image:alt": "Desktop Rental in Electronic City",
+  "og:image:type": "image/jpeg",
+  "article:published_time": "2026-07-27T21:41:52+05:30",
+  "article:modified_time": "2026-07-27T22:05:28+05:30"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:title": "9 Advantages of Desktop Rental in Electronic City",
+  "twitter:description": "Looking for Desktop Rental in Electronic City? Discover how desktop rentals help businesses expand offices while reducing IT costs and improving flexibility.",
+  "twitter:image": "https://www.renton.org.in/wp-content/uploads/2026/07/Dell-desktop-1.jpeg",
+  "twitter:label1": "Written by",
+  "twitter:data1": "Renton Technology",
+  "twitter:label2": "Time to read",
+  "twitter:data2": "6 minutes"
+ },
+ "jsonld_types": [
+  "ComputerStore/Organization",
+  "WebSite",
+  "ImageObject",
+  "BreadcrumbList",
+  "WebPage",
+  "Person",
+  "BlogPosting"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "ComputerStore",
+      "Organization"
+     ],
+     "@id": "https://www.renton.org.in/#organization",
+     "name": "Renton Technologies",
+     "url": "https://www.renton.org.in",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.renton.org.in/#logo",
+      "url": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "contentUrl": "https://www.renton.org.in/wp-content/uploads/2025/12/cropped-Renton_Logo.png",
+      "caption": "Renton Technologies",
+      "inLanguage": "en-US",
+      "width": "312",
+      "height": "265"
+     },
+     "openingHours": [
+      "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+     ],
+     "image": {
+      "@id": "https://www.renton.org.in/#logo"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.renton.org.in/#website",
+     "url": "https://www.renton.org.in",
+     "name": "Renton Technologies",
+     "alternateName": "Renton",
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.renton.org.in/wp-content/uploads/2026/07/Dell-desktop-1.jpeg",
+     "url": "https://www.renton.org.in/wp-content/uploads/2026/07/Dell-desktop-1.jpeg",
+     "width": "1600",
+     "height": "1204",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.renton.org.in/desktop-rental-in-electronic-city/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.renton.org.in",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.renton.org.in/desktop-rental-in-electronic-city/",
+        "name": "Desktop Rental in Electronic City for Office Expansion: 9 Smart Reasons Businesses Choose to Rent"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.renton.org.in/desktop-rental-in-electronic-city/#webpage",
+     "url": "https://www.renton.org.in/desktop-rental-in-electronic-city/",
+     "name": "9 Advantages of Desktop Rental in Electronic City",
+     "datePublished": "2026-07-27T21:41:52+05:30",
+     "dateModified": "2026-07-27T22:05:28+05:30",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/07/Dell-desktop-1.jpeg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.renton.org.in/desktop-rental-in-electronic-city/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+     "name": "Renton Technology",
+     "url": "https://www.renton.org.in/author/724137pwpadmin/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/59736fad90faab777b7df7692c07ca7329dfba484a5291f9df2b7012cb54576b?s=96&amp;d=mm&amp;r=g",
+      "caption": "Renton Technology",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://renton.org.in"
+     ],
+     "worksFor": {
+      "@id": "https://www.renton.org.in/#organization"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "9 Advantages of Desktop Rental in Electronic City",
+     "keywords": "Desktop Rental in Electronic City,Business Desktop Rental in Electronic City,Corporate Desktop Rental in Electronic City,Desktop Computer Rental in Electronic City,Office Desktop Rental in Electronic City",
+     "datePublished": "2026-07-27T21:41:52+05:30",
+     "dateModified": "2026-07-27T22:05:28+05:30",
+     "author": {
+      "@id": "https://www.renton.org.in/author/724137pwpadmin/",
+      "name": "Renton Technology"
+     },
+     "publisher": {
+      "@id": "https://www.renton.org.in/#organization"
+     },
+     "description": "Looking for Desktop Rental in Electronic City? Discover how desktop rentals help businesses expand offices while reducing IT costs and improving flexibility.",
+     "name": "9 Advantages of Desktop Rental in Electronic City",
+     "@id": "https://www.renton.org.in/desktop-rental-in-electronic-city/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.renton.org.in/desktop-rental-in-electronic-city/#webpage"
+     },
+     "image": {
+      "@id": "https://www.renton.org.in/wp-content/uploads/2026/07/Dell-desktop-1.jpeg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.renton.org.in/desktop-rental-in-electronic-city/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "h1": [
+  "Desktop Rental in Electronic City for Office Expansion: 9 Smart Reasons Businesses Choose to Rent"
+ ],
+ "headings": [
+  "h1: Desktop Rental in Electronic City for Office Expansion: 9 Smart Reasons Businesses Choose to Rent",
+  "h2: Why Businesses Choose Desktop Rental in Electronic City?",
+  "h2: In this guide, you'll discover nine smart reasons why companies are choosing desktop rentals in Electronic City for office expansion and how your business can benefit.",
+  "h2: 1. Save Capital for Business Growth",
+  "h2: 2. Scale Your Office Anytime",
+  "h2: 3. Get High-Performance Desktop Computers",
+  "h2: 4. Reduce IT Maintenance Costs",
+  "h2: 5. Faster Office Setup",
+  "h2: 6. Flexible Rental Plans",
+  "h2: 7. Stay Updated with Modern Technology",
+  "h2: 8. Ideal for Temporary Projects and Corporate Events",
+  "h2: 9. Improve Business Productivity",
+  "h2: Who Can Benefit from Desktop Rental in Electronic City?",
+  "h2: How to Choose the Right Desktop Rental Provider in Electronic City?",
+  "h2: Why Renton Technologies for Desktop Rental in Electronic City?",
+  "h2: Conclusion: Desktop Rental in Electronic City",
+  "h2: Frequently Asked Questions",
+  "h5: 1. Is desktop rental in electronic city suitable for startups?",
+  "h5: 2. Can I rent desktops for a short-term project?",
+  "h5: 3. Is maintenance included?",
+  "h5: 4. How many desktops can I rent?",
+  "h2: Company Contact Information:",
+  "h4: 9 Powerful Ways Bulk Laptop Rentals in Electronic City Reduce IT Expenses",
+  "h4: How to Choose the Best Laptop Rental Company in Electronic City"
+ ],
+ "body_class": "wp-singular post-template-default single single-post postid-10690 single-format-standard wp-custom-logo wp-theme-phlox latepoint ehf-header ehf-footer ehf-template-phlox ehf-stylesheet-phlox ally-default elementor-default elementor-kit-1399 elementor-page elementor-page-10690 phlox aux-dom-unready aux-full-width aux-resp aux-s-fhd aux-top-sticky aux-page-animation-off",
+ "sections": [
+  {
+   "id": "fuksmbg",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "text-editor",
+     "text": "Expanding an office is an exciting milestone for any business. Whether you’re a startup hiring new employees, an IT company managing client projects, or an established enterprise opening a new branch, one challenge remains the same—setting up reliable desktop computers without overspending. Purchasing dozens of desktops requires significant capital investment, ongoing maintenance, and future upgrade costs. That’s why many businesses are now choosing Desktop Rental in Electronic City instead of buying new computers outright. With flexible rental plans, high-performance business desktops, and dedicated technical support, desktop rental has become the preferred solution for organizations that want to scale quickly while keeping IT costs under control.",
+     "links": [
+      {
+       "text": "Desktop Rental in Electronic City",
+       "href": "https://www.renton.org.in/"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "images": [
+      {
+       "src": "https://www.renton.org.in/wp-content/uploads/2026/07/Dell-desktop-1.jpeg",
+       "alt": "Desktop Rental in Electronic City",
+       "w": "1600",
+       "h": "1204"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ekj34he",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Why Businesses Choose Desktop Rental in Electronic City?"
+     ],
+     "text": "Why Businesses Choose Desktop Rental in Electronic City?"
+    },
+    {
+     "type": "text-editor",
+     "text": "Electronic City is one of Bangalore’s largest IT and business hubs, home to startups, multinational companies, educational institutions, manufacturing units, and corporate offices. As organizations continue to expand, the demand for flexible IT infrastructure has increased dramatically. Instead of making a large upfront investment, businesses now prefer renting desktops because it offers: Lower initial costs Faster deployment Easy scalability Professional technical support Access to the latest hardware Whether you need 10 desktops or 200, desktop rentals provide a practical and cost-effective solution."
+    }
+   ]
+  },
+  {
+   "id": "n2be9p5",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: In this guide, you'll discover nine smart reasons why companies are choosing desktop rentals in Electronic City for office expansion and how your business can benefit."
+     ],
+     "text": "In this guide, you'll discover nine smart reasons why companies are choosing desktop rentals in Electronic City for office expansion and how your business can benefit."
+    }
+   ]
+  },
+  {
+   "id": "njcskba",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 1. Save Capital for Business Growth"
+     ],
+     "text": "1. Save Capital for Business Growth"
+    },
+    {
+     "type": "text-editor",
+     "text": "Buying desktops for a growing office requires a substantial investment. Besides purchasing the hardware, companies also need to budget for software licenses, maintenance, repairs, and future upgrades. Choosing Business Desktop Rental in Electronic City allows businesses to convert a large capital expense into a predictable monthly operating expense. This frees up valuable cash that can be invested in hiring employees, marketing, product development, or business expansion.",
+     "links": [
+      {
+       "text": "Business Desktop Rental in Electronic City",
+       "href": "https://www.renton.org.in/contact/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0593182",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 2. Scale Your Office Anytime"
+     ],
+     "text": "2. Scale Your Office Anytime"
+    },
+    {
+     "type": "text-editor",
+     "text": "Business needs can change quickly. Additional desktops are commonly required during: New employee onboarding Client projects Seasonal workloads Training programs Temporary office expansion With Corporate Desktop Rental in Electronic City, businesses can easily increase or decrease the number of desktops based on current requirements without purchasing new equipment. This flexibility helps organizations stay agile while avoiding unnecessary expenses."
+    }
+   ]
+  },
+  {
+   "id": "f60a7b1",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 3. Get High-Performance Desktop Computers"
+     ],
+     "text": "3. Get High-Performance Desktop Computers"
+    },
+    {
+     "type": "text-editor",
+     "text": "Modern businesses require reliable systems capable of handling demanding applications such as: Microsoft Office ERP software Accounting software CRM platforms Design tools Development environments Video conferencing Professional Desktop Computer Rental in Electronic City providers offer desktops with the latest Intel Core processors, SSD storage, sufficient RAM, and genuine operating systems, ensuring smooth performance for everyday business operations."
+    }
+   ]
+  },
+  {
+   "id": "598439f",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 4. Reduce IT Maintenance Costs"
+     ],
+     "text": "4. Reduce IT Maintenance Costs"
+    },
+    {
+     "type": "text-editor",
+     "text": "Owning desktops means your internal IT team is responsible for troubleshooting, repairs, hardware failures, and upgrades. When you choose Office Desktop Rental in Electronic City, maintenance is typically included in the rental agreement. Most providers also offer quick replacement services if a system develops a hardware issue, minimizing downtime and improving employee productivity. This allows your IT team to focus on strategic initiatives rather than routine hardware maintenance."
+    }
+   ]
+  },
+  {
+   "id": "db3f4af",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 5. Faster Office Setup"
+     ],
+     "text": "5. Faster Office Setup"
+    },
+    {
+     "type": "text-editor",
+     "text": "When opening a new office, time is critical. Procurement, installation, and configuration of new hardware often take time, delaying business operations. Desktop rental providers usually deliver pre-configured systems that are ready to use. This enables businesses to start operations quickly without the hassle of lengthy procurement processes. Fast deployment is particularly beneficial for startups, project-based teams, and organizations working under tight deadlines."
+    }
+   ]
+  },
+  {
+   "id": "0fc6f9f",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 6. Flexible Rental Plans"
+     ],
+     "text": "6. Flexible Rental Plans"
+    },
+    {
+     "type": "text-editor",
+     "text": "Every business has unique requirements. Some companies need desktops for only a few weeks, while others require long-term IT infrastructure. Rental providers typically offer flexible options, including: Daily rentals Weekly rentals Monthly rentals Quarterly rentals Long-term rental agreements Pay-as-you-need flexibility ensures businesses avoid unnecessary IT expenses."
+    }
+   ]
+  },
+  {
+   "id": "7f83e84",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 7. Stay Updated with Modern Technology"
+     ],
+     "text": "7. Stay Updated with Modern Technology"
+    },
+    {
+     "type": "text-editor",
+     "text": "Technology evolves rapidly. Purchased desktops may become outdated within a few years, requiring another major investment. Desktop rental eliminates this concern by allowing businesses to upgrade systems as their requirements grow. Employees can continue working with reliable, modern hardware without the burden of frequent replacement costs. This keeps organizations competitive while maintaining operational efficiency."
+    }
+   ]
+  },
+  {
+   "id": "050983e",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 8. Ideal for Temporary Projects and Corporate Events"
+     ],
+     "text": "8. Ideal for Temporary Projects and Corporate Events"
+    },
+    {
+     "type": "text-editor",
+     "text": "Many businesses require desktop computers for short-term needs such as: Corporate training Software testing Government projects Events and exhibitions Temporary offices Employee onboarding Business expansion projects Renting desktops provides the necessary flexibility without locking the company into long-term ownership costs."
+    }
+   ]
+  },
+  {
+   "id": "9d756c4",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: 9. Improve Business Productivity"
+     ],
+     "text": "9. Improve Business Productivity"
+    },
+    {
+     "type": "text-editor",
+     "text": "Reliable hardware directly impacts employee productivity. Slow or outdated computers can reduce efficiency and frustrate staff. Professional desktop rental providers ensure businesses receive tested, business-grade systems that deliver consistent performance. Combined with technical support and timely maintenance, employees can focus on their work without interruptions. For growing organizations, improved productivity translates into better customer service and faster project completion."
+    }
+   ]
+  },
+  {
+   "id": "38xv3wv",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Who Can Benefit from Desktop Rental in Electronic City?"
+     ],
+     "text": "Who Can Benefit from Desktop Rental in Electronic City?"
+    },
+    {
+     "type": "text-editor",
+     "text": "Desktop rental is suitable for a wide range of organizations, including: IT companies Startups Corporate offices Educational institutions BPOs Manufacturing companies Construction firms Event management companies Healthcare organizations Government contractors Remote project teams Whether your requirement is small or large, desktop rentals can be customized to meet your operational needs."
+    }
+   ]
+  },
+  {
+   "id": "805b4fa",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: How to Choose the Right Desktop Rental Provider in Electronic City?"
+     ],
+     "text": "How to Choose the Right Desktop Rental Provider in Electronic City?"
+    },
+    {
+     "type": "text-editor",
+     "text": "Before selecting a rental partner, consider the following: Availability of the latest desktop configurations Flexible rental durations Transparent pricing Fast delivery and installation Technical support and maintenance Quick replacement policy Positive customer reviews Experience serving corporate clients Choosing an experienced provider ensures reliable service and minimizes business disruptions."
+    }
+   ]
+  },
+  {
+   "id": "aef3c98",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Why Renton Technologies for Desktop Rental in Electronic City?"
+     ],
+     "text": "Why Renton Technologies for Desktop Rental in Electronic City?"
+    },
+    {
+     "type": "text-editor",
+     "text": "If you’re looking for Desktop Rental in Electronic City, Renton Technologies offers dependable desktop rental solutions tailored to business requirements. Our services include: Business-grade desktop computers Flexible daily, weekly, monthly, and long-term rental plans Quick delivery across Electronic City and nearby areas Installation and configuration support Preventive maintenance Fast hardware replacement Affordable pricing for startups, SMEs, and enterprises Whether you’re setting up a new office or expanding an existing one, we help you deploy reliable IT infrastructure quickly and efficiently."
+    }
+   ]
+  },
+  {
+   "id": "4e26b4a",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Conclusion: Desktop Rental in Electronic City"
+     ],
+     "text": "Conclusion: Desktop Rental in Electronic City"
+    },
+    {
+     "type": "text-editor",
+     "text": "Office expansion doesn’t have to involve heavy IT investments. Choosing Desktop Rental in Electronic City gives businesses the flexibility to scale operations, reduce costs, and access reliable technology without the financial burden of ownership. Whether you’re opening a new branch, hiring a growing team, or managing a temporary project, renting desktops is a practical and cost-effective solution. With flexible plans, professional support, and business-grade hardware, desktop rental enables organizations to focus on growth while leaving IT infrastructure management to experienced providers. If your business is planning an office expansion in Electronic City, partnering with a trusted desktop rental provider can help you get started quickly and efficiently."
+    }
+   ]
+  },
+  {
+   "id": "4ji0414",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Frequently Asked Questions"
+     ],
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 1. Is desktop rental in electronic city suitable for startups?"
+     ],
+     "text": "1. Is desktop rental in electronic city suitable for startups? Yes. Renting desktops reduces upfront investment, making it an ideal option for startups managing limited budgets."
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 2. Can I rent desktops for a short-term project?"
+     ],
+     "text": "2. Can I rent desktops for a short-term project? Absolutely. Rental plans are available for short-term and long-term business requirements."
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 3. Is maintenance included?"
+     ],
+     "text": "3. Is maintenance included? Most professional rental providers include maintenance and technical support as part of the rental agreement."
+    },
+    {
+     "type": "image-box",
+     "headings": [
+      "h5: 4. How many desktops can I rent?"
+     ],
+     "text": "4. How many desktops can I rent? Businesses can rent anything from a few desktops to hundreds of systems, depending on project requirements."
+    }
+   ]
+  },
+  {
+   "id": "vwy4fmt",
+   "hidden": [],
+   "bg_images": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "headings": [
+      "h2: Company Contact Information:"
+     ],
+     "text": "Company Contact Information:"
+    },
+    {
+     "type": "text-editor",
+     "text": "Email Id: contact@renton.org.in Mobile No: +91-8050281515 Address: Renton Technologies LLP, First Floor, Lava Kusha Building, No. 6/2, Beratena Agrahara, Electronic City, Bengaluru, Karnataka 560100. Land Mark: Near Damro Furniture Map Link: https://www.google.com/maps/place/Renton+Technologies+LLP/@12.8646504,77.6578691,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6d5de476e795:0x6425e00f67ca91d7!8m2!3d12.8646504!4d77.6578691!",
+     "links": [
+      {
+       "text": "https://www.google.com/maps/place/Renton+Technologies+LLP/@12.8646504,77.6578691,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6d5de476e795:0x6425e00f67ca91d7!8m2!3d12.8646504!4d77.6578691!",
+       "href": "https://www.google.com/maps/place/Renton+Technologies+LLP/@12.8646504,77.6578691,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6d5de476e795:0x6425e00f67ca91d7!8m2!3d12.8646504!4d77.6578691!"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "post_body_html": null
+}

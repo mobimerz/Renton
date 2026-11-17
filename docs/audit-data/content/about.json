@@ -1,0 +1,337 @@
+{
+ "slug": "about",
+ "sections": [
+  {
+   "id": "f0b3181",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "6878345",
+     "tag": "h1",
+     "text": "About Us"
+    },
+    {
+     "type": "heading",
+     "id": "9341fe9",
+     "tag": "h4",
+     "text": "Discover the Renton Commitment to Excellence"
+    },
+    {
+     "type": "text-editor",
+     "id": "3e7b7d8",
+     "html": "<p>Discover how Renton is transforming data security, compliance, and the circular economy through innovative IT asset services.</p>"
+    }
+   ]
+  },
+  {
+   "id": "57d9e8f",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "divider",
+     "id": "1a34d1a"
+    },
+    {
+     "type": "heading",
+     "id": "fea0c09",
+     "tag": "h3",
+     "text": "Our Vision"
+    },
+    {
+     "type": "text-editor",
+     "id": "a4293c1",
+     "html": "<p>To become a trusted partner for businesses seeking technology-driven growth and transformation</p>"
+    },
+    {
+     "type": "divider",
+     "id": "10c144f"
+    },
+    {
+     "type": "heading",
+     "id": "4b47812",
+     "tag": "h3",
+     "text": "Our Mission"
+    },
+    {
+     "type": "text-editor",
+     "id": "1a62bc8",
+     "html": "<p>To empower organizations by delivering reliable, efficient, and innovative technology solutions that improve operational efficiency and maximize ROI.</p>"
+    },
+    {
+     "type": "divider",
+     "id": "8cf3350"
+    },
+    {
+     "type": "heading",
+     "id": "3f3d1b4",
+     "tag": "h3",
+     "text": "What We Do"
+    },
+    {
+     "type": "icon-list",
+     "id": "c85950f",
+     "html": "<ul>\n<li>\n<i></i>\nRental\n</li>\n<li>\n<i></i>\nData Erasing\n</li>\n<li>\n<i></i>\nSales\n</li>\n<li>\n<i></i>\nService\n</li>\n<li>\n<i></i>\nDigital Marketing\n</li>\n<li>\n<i></i>\nTraining &amp; Internship\n</li>\n</ul>",
+     "items": [
+      {
+       "text": "Rental",
+       "href": null,
+       "icon": "fas fa-caret-right"
+      },
+      {
+       "text": "Data Erasing",
+       "href": null,
+       "icon": "fas fa-caret-right"
+      },
+      {
+       "text": "Sales",
+       "href": null,
+       "icon": "fas fa-caret-right"
+      },
+      {
+       "text": "Service",
+       "href": null,
+       "icon": "fas fa-caret-right"
+      },
+      {
+       "text": "Digital Marketing",
+       "href": null,
+       "icon": "fas fa-caret-right"
+      },
+      {
+       "text": "Training & Internship",
+       "href": null,
+       "icon": "fas fa-caret-right"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b3cc627",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "b30a678",
+     "tag": "h2",
+     "text": "Our 6-D Process"
+    },
+    {
+     "type": "heading",
+     "id": "4cea72a",
+     "tag": "h4",
+     "text": "01. Discover"
+    },
+    {
+     "type": "text-editor",
+     "id": "fc99bc1",
+     "html": "<p>✅  Identify market needs, customer pain points, and target industries</p><p>✅  Research competitors, technology trends, and pricing benchmarks</p><p>✅  Gather customer requirements (performance, security, scalability, cost)</p><p>✅  Validate demand through surveys, pilots, or proof-of-concept ideas</p>"
+    },
+    {
+     "type": "heading",
+     "id": "58d2a93",
+     "tag": "h4",
+     "text": "02. Define"
+    },
+    {
+     "type": "text-editor",
+     "id": "11037f6",
+     "html": "<p>✅ Define product vision, value proposition, and success criteria</p><p>✅ Finalize technical specifications and compliance requirements</p><p>✅ Select target customer segments and use cases</p><p>✅ Create a business model (pricing, sourcing, support strategy)</p>"
+    },
+    {
+     "type": "heading",
+     "id": "bf386fb",
+     "tag": "h4",
+     "text": "03. Design"
+    },
+    {
+     "type": "text-editor",
+     "id": "32d273f",
+     "html": "<p>✅ Design hardware architecture, system layouts, and user interfaces</p><p>✅ Select components, vendors, and manufacturing partners</p><p>✅ Design software/firmware integration (drivers, OS compatibility)</p><p>✅ Ensure cybersecurity, data protection, and regulatory compliance</p>"
+    },
+    {
+     "type": "heading",
+     "id": "037a4bc",
+     "tag": "h4",
+     "text": "04. Develop"
+    },
+    {
+     "type": "text-editor",
+     "id": "ef27720",
+     "html": "<p>✅ Build prototypes and minimum viable products (MVPs)</p><p>✅ Develop firmware, software tools, and configuration utilities</p><p>✅ Perform functional, performance, and stress testing</p><p>✅ Iterate designs based on testing and user feedback</p>"
+    },
+    {
+     "type": "heading",
+     "id": "cb5f4f1",
+     "tag": "h4",
+     "text": "05. Deploy"
+    },
+    {
+     "type": "text-editor",
+     "id": "d899c5e",
+     "html": "<p>✅ Prepare manufacturing, assembly, and quality control processes</p><p>✅ Package, document, and certify products for market release</p><p>✅ Deploy products to customers or distribution partners</p><p>✅ Train internal teams and customers on installation and usage.</p>"
+    },
+    {
+     "type": "heading",
+     "id": "95acaca",
+     "tag": "h4",
+     "text": "06. Deliver"
+    },
+    {
+     "type": "text-editor",
+     "id": "73db403",
+     "html": "<p>✅ Provide customer support, warranty, and maintenance services</p><p>✅ Monitor product performance and customer satisfaction</p><p>✅ Collect feedback for upgrades and next product versions</p><p>✅ Scale production, expand markets, and optimize costs</p>"
+    }
+   ]
+  },
+  {
+   "id": "8e8e58c",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "image",
+     "id": "a3e3bbe",
+     "src": "/images/printers.jpg",
+     "alt": "printers",
+     "width": "1024",
+     "height": "609"
+    },
+    {
+     "type": "heading",
+     "id": "ee3fca8",
+     "tag": "h2",
+     "text": "Why Choose Us?"
+    },
+    {
+     "type": "text-editor",
+     "id": "9d98c79",
+     "html": "<p>Renton Technologies is a technology-driven company focused on providing cutting-edge solutions in IT infrastructure, data security, digital automation, and business consulting. With a team of passionate technologists and domain experts, we help clients stay ahead of the curve in a rapidly changing digital world.<br/>Founded with a vision to streamline IT processes, Renton began as a local provider focused on revolutionizing technology management in the Puget Sound area.</p><p>We have proudly served a diverse clientele, including startups, educational institutions, and large enterprises, helping them navigate the complexities of IT lifecycle management.</p>"
+    }
+   ]
+  },
+  {
+   "id": "64fa1df",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "27fe420",
+     "tag": "h2",
+     "text": "Our Core Advantages"
+    },
+    {
+     "type": "heading",
+     "id": "647c980",
+     "tag": "h2",
+     "text": "Why Leading Organizations Choose Renton?"
+    }
+   ]
+  },
+  {
+   "id": "f646ff9",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "image",
+     "id": "6099d6c",
+     "src": "/images/1364371014.jpg",
+     "alt": "1364371014.jpg",
+     "width": "2560",
+     "height": "1440"
+    },
+    {
+     "type": "heading",
+     "id": "eb31a6f",
+     "tag": "h3",
+     "text": "Risk Reduction"
+    },
+    {
+     "type": "text-editor",
+     "id": "9b6ce62",
+     "html": "<p>Mitigate data breaches and minimize liability with certified data erasure and secure asset handling at every stage of the IT lifecycle.</p>"
+    },
+    {
+     "type": "image",
+     "id": "226d32b",
+     "src": "/images/1788265199.jpg",
+     "alt": "1788265199.jpg",
+     "width": "2121",
+     "height": "1414"
+    },
+    {
+     "type": "heading",
+     "id": "bbd196f",
+     "tag": "h3",
+     "text": "Compliance Support​"
+    },
+    {
+     "type": "text-editor",
+     "id": "a67a5a7",
+     "html": "<p>Stay ahead of regulatory requirements with audit-ready reporting and proven processes aligned to global data protection standards.</p>"
+    },
+    {
+     "type": "image",
+     "id": "292cc2a",
+     "src": "/images/2185337504.jpg",
+     "alt": "2185337504.jpg",
+     "width": "2210",
+     "height": "1357"
+    },
+    {
+     "type": "heading",
+     "id": "2672a7a",
+     "tag": "h3",
+     "text": "Automated Processes"
+    },
+    {
+     "type": "text-editor",
+     "id": "d1cc25b",
+     "html": "<p>Streamline IT asset management with seamless, automated workflows for data erasure, tracking, and reporting—saving time and resources.</p>"
+    },
+    {
+     "type": "image",
+     "id": "cab123b",
+     "src": "/images/1413601858.jpg",
+     "alt": "1413601858.jpg",
+     "width": "2560",
+     "height": "1440"
+    },
+    {
+     "type": "heading",
+     "id": "3c2bac6",
+     "tag": "h3",
+     "text": "Circular Economy Enablement"
+    },
+    {
+     "type": "text-editor",
+     "id": "79d4a31",
+     "html": "<p>Support environmental responsibility by securely refurbishing and redeploying assets, promoting reuse and reducing electronic waste.</p>"
+    }
+   ]
+  },
+  {
+   "id": "0282bd1",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "eb3ba65",
+     "tag": "h3",
+     "text": "Ready to power your business with the right IT infrastructure?"
+    },
+    {
+     "type": "text-editor",
+     "id": "fbd2906",
+     "html": "<p>Let’s start your project with our smart, scalable IT rental solutions.</p>"
+    },
+    {
+     "type": "button",
+     "id": "d8fdc95",
+     "text": "Get a Quote",
+     "href": "/contact/"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "careers",
+ "sections": [
+  {
+   "id": "6a0gn0l",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "94e3402",
+     "tag": "h1",
+     "text": "Job Openings"
+    }
+   ]
+  },
+  {
+   "id": "xrjl4m4",
+   "hidden": [],
+   "widgets": [
+    {
+     "type": "heading",
+     "id": "d3b6bcf",
+     "tag": "h5",
+     "text": "Career Opportunities"
+    },
+    {
+     "type": "heading",
+     "id": "4d1fc57",
+     "tag": "h2",
+     "text": "We're Hire to Grow.​"
+    },
+    {
+     "type": "divider",
+     "id": "c7f8b4b"
+    },
+    {
+     "type": "hfe-infocard",
+     "id": "59f4927",
+     "html": "<h3>Digital Marketing</h3>\n<a href=\"https://wa.me/918050281515\" rel=\"noopener noreferrer\" target=\"_blank\">\nApply Now\n</a>"
+    },
+    {
+     "type": "image",
+     "id": "5f3a22c",
+     "src": "/images/Openings.jpeg",
+     "alt": "openings",
+     "width": "1024",
+     "height": "683"
+    },
+    {
+     "type": "hfe-infocard",
+     "id": "bd762bc",
+     "html": "<h3>Students Internship</h3>\n<a href=\"https://wa.me/918050281515\" rel=\"noopener noreferrer\" target=\"_blank\">\nApply Now\n</a>"
+    },
+    {
+     "type": "icon-list",
+     "id": "4c3f242",
+     "html": "<ul>\n<li>\n<i></i>\nJan - March Batch - Closed\n</li>\n<li>\n<i></i>\nApril - June Batch - Opening Soon\n</li>\n</ul>",
+     "items": [
+      {
+       "text": "Jan - March Batch - Closed",
+       "href": null,
+       "icon": "fas fa-check"
+      },
+      {
+       "text": "April - June Batch - Opening Soon",
+       "href": null,
+       "icon": "fas fa-check"
+      }
+     ]
+    },
+    {
+     "type": "text-editor",
+     "id": "5a18897",
+     "html": "<p><strong>Launch Your Career: 90-Day Digital Growth &amp; Marketing Internship</strong></p><p>Are you ready to bridge the gap between academic theory and real-world business impact? <strong>Renton</strong> is now accepting applications for our <strong>Q2 2026 Student Internship Program (starting from April 2026)</strong>.</p><p>This intensive 90-day program is designed for ambitious students looking to master the high-demand skills required to drive digital growth in today’s competitive landscape.</p><p><strong>The Curriculum: Master the Full Growth Stack</strong></p><p>Throughout the program, you will gain hands-on experience and mentorship across eight core pillars of modern business:</p><ul><li><strong>Data Analytics:</strong> Turn raw data into actionable business insights.</li><li><strong>Market &amp; Competitor Analysis:</strong> Decode industry trends and stay ahead of the curve.</li><li><strong>Search Engine Optimization (SEO):</strong> Master the art of organic visibility.</li><li><strong>Strategic Planning:</strong> Learn how to build long-term growth roadmaps.</li><li><strong>Business Communication:</strong> Professionalize your verbal and written impact.</li><li><strong>Customer Cold Outreach:</strong> Perfect the “art of the pitch” and lead generation.</li><li><strong>Paid Advertising:</strong> Understand the mechanics of ROI-driven ad campaigns.</li><li><strong>Business Development:</strong> Learn the fundamentals of scaling a brand.</li></ul><p><strong>Program Details &amp; Eligibility</strong></p><ul><li><strong>Timeline:</strong> 90 Days (Quarter 2, April 2026)</li><li><strong>Eligibility:</strong> Open to all students currently pursuing an <strong>Undergraduate (UG)</strong> or <strong>Postgraduate (PG)</strong> degree.</li><li><strong>Location:</strong> [Remote &amp; Hybrid]</li><li><strong>Status:</strong> <strong>Admissions Now Open</strong></li></ul><p><strong>Why Renton?</strong> We don’t just assign tasks; we build experts. You will work on live projects, receive direct feedback from industry leaders, and leave with a portfolio that stands out.</p><p><strong>How to Apply</strong></p><p>Don’t wait for your career to start after graduation—start it now. Slots for the Q2 cohort are limited.</p><p><strong>[Apply Now – Button/Link]</strong></p><p>Form fields:</p><p>Student’s first and Last name:</p><p>Contact number</p><p>Email ID</p><p>College name</p><p>Department</p><p>Semester</p><p>Your expectation from this internship program?</p>"
+    }
+   ]
+  }
+ ]
+}
