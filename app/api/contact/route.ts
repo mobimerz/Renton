@@ -1,5 +1,6 @@
 import { contactSchema } from "@/lib/contact-schema";
 import { sendMail } from "@/lib/mail";
+import { upsertBrevoContact } from "@/lib/brevo";
 
 const MIN_FILL_MS = 3000;
 
@@ -37,6 +38,9 @@ export async function POST(request: Request) {
     ["Terms of Service", "I agree to the Terms & Conditions."],
   ];
 
+  // Save the lead in Brevo Contacts (only when BREVO_LIST_ID is set). Never blocks the email.
+  const contactSync = upsertBrevoContact(d).catch((err) => console.error("[contact] Brevo contact sync failed:", err));
+
   try {
     await sendMail({
       to: (process.env.CONTACT_TO ?? "contact@renton.org.in").split(",").map((s) => s.trim()),
@@ -49,8 +53,10 @@ export async function POST(request: Request) {
     });
   } catch (err) {
     console.error("[contact] mail send failed:", err);
+    await contactSync;
     return Response.json({ ok: false, error: "Sorry, your message could not be sent. Please call or WhatsApp us." }, { status: 502 });
   }
 
+  await contactSync;
   return Response.json({ ok: true });
 }

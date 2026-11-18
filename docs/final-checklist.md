@@ -45,7 +45,7 @@ Unknown URLs return a real 404 (`dynamicParams = false`).
 - `/api/contact/` (Contact page and Products enquiry):
   - Server-side validation (zod), honeypot field and a minimum fill time.
   - Tested: an empty or invalid payload returns 400 with field errors; the honeypot and too-fast submissions are dropped silently.
-- **Not tested:** a real email delivery. That needs the keys from `.env.example` (`MAIL_PROVIDER=resend` with `RESEND_API_KEY`, or `smtp` with `SMTP_*`). Send one test from the deployed site after adding them.
+- **Not tested:** a real email delivery. That needs the keys from `.env.example` (`MAIL_PROVIDER=brevo` with `BREVO_API_KEY`, `resend` with `RESEND_API_KEY`, or `smtp` with `SMTP_*`). Send one test from the deployed site after adding them.
 
 ## Redirects (all 301)
 
@@ -66,8 +66,8 @@ Spot-checked on the production build: `/?p=14306`, `/?page_id=19`, `/category/bl
 1. Commit and push the repo to GitHub, then **Add New → Project** in Vercel and import it. Vercel detects Next.js; keep the defaults (build `next build`, output `.next`). The project's Node version setting should be 20 or newer.
 2. **Environment variables** (Production and Preview):
    - `MAIL_PROVIDER`, `MAIL_FROM`, `CONTACT_TO`.
-   - Then either `RESEND_API_KEY`, or `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`.
-   - For Resend, verify the `MAIL_FROM` domain in Resend first.
+   - Then `BREVO_API_KEY` (plus optional `BREVO_LIST_ID`), or `RESEND_API_KEY`, or `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`.
+   - Verify the `MAIL_FROM` sender/domain in Brevo (or Resend) first.
 3. Deploy, then check the preview URL: a few pages, the contact form (one real test email), `/sitemap.xml`, `/feed/`.
 4. **Domains:** add `www.renton.org.in` as the primary domain and `renton.org.in` set to *redirect to www (301)*. Point DNS at Vercel: the apex A record to `76.76.21.21`, and `www` CNAME to `cname.vercel-dns.com` (use the exact values Vercel shows). HTTPS and the http→https redirect are automatic.
 5. **After go-live:**

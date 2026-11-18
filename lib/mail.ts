@@ -1,7 +1,7 @@
 import "server-only";
 
 /**
- * Provider-agnostic mail sending. Pick the provider with MAIL_PROVIDER=resend|smtp.
+ * Provider-agnostic mail sending. Pick the provider with MAIL_PROVIDER=brevo|resend|smtp.
  * See .env.example for every variable.
  */
 export type Mail = {
@@ -16,6 +16,18 @@ function required(name: string): string {
   const v = process.env[name];
   if (!v) throw new Error(`Missing environment variable ${name}`);
   return v;
+}
+
+async function sendWithBrevo(mail: Mail) {
+  const { sendBrevoEmail } = await import("./brevo");
+  await sendBrevoEmail(required("BREVO_API_KEY"), {
+    from: required("MAIL_FROM"),
+    to: Array.isArray(mail.to) ? mail.to : [mail.to],
+    subject: mail.subject,
+    text: mail.text,
+    html: mail.html,
+    replyTo: mail.replyTo,
+  });
 }
 
 async function sendWithResend(mail: Mail) {
@@ -52,8 +64,9 @@ async function sendWithSmtp(mail: Mail) {
 }
 
 export async function sendMail(mail: Mail): Promise<void> {
-  const provider = (process.env.MAIL_PROVIDER ?? "resend").toLowerCase();
+  const provider = (process.env.MAIL_PROVIDER ?? "brevo").toLowerCase();
+  if (provider === "brevo") return sendWithBrevo(mail);
   if (provider === "resend") return sendWithResend(mail);
   if (provider === "smtp") return sendWithSmtp(mail);
-  throw new Error(`Unknown MAIL_PROVIDER "${provider}" (use "resend" or "smtp")`);
+  throw new Error(`Unknown MAIL_PROVIDER "${provider}" (use "brevo", "resend" or "smtp")`);
 }
