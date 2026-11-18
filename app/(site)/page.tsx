@@ -11,9 +11,12 @@ import Icon from "@/components/Icon";
 import WhyChooseIcon from "@/components/home/WhyChooseIcon";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumb, faqPage, graph, localBusiness, webPage, website } from "@/lib/schema";
-import { hero, homeFaq, homeSeo, rentalProducts, testimonials, whyChoose } from "@/data/home";
+import { homeSeo } from "@/data/home";
+import { getHomepageContent } from "@/lib/homepage/content";
 
 export const metadata: Metadata = buildMetadata(homeSeo);
+/** Content comes from the admin (MongoDB) with data/home.ts as fallback; saves revalidate this page. */
+export const revalidate = 3600;
 
 const faqStyles = {
   box: "mt-5 overflow-hidden rounded-[10px] bg-white shadow-[0_0_18px_rgba(209,204,204,0.36)]",
@@ -23,7 +26,12 @@ const faqStyles = {
     "px-[30px] font-lato text-[13px] leading-[19.5px] tracking-[0.2px] text-[#575656] md:text-[14px] md:leading-[21px] [&_p]:mb-[13px] md:[&_p]:mb-[14px] [&_ul]:my-[13px] md:[&_ul]:my-[14px] [&_ul]:pl-0 [&_ul]:list-inside [&_li]:mb-[13px] md:[&_li]:mb-[14px]",
 };
 
-export default function HomePage() {
+export default async function HomePage() {
+  const { content } = await getHomepageContent();
+  const { hero, rentalProducts, whyChoose, testimonials, homeFaq } = content;
+  // next/image needs a size; uploads store it, this covers images with an unknown size.
+  const heroW = hero.image.width || 1024;
+  const heroH = hero.image.height || 683;
   const allFaqs = homeFaq.columns.flat();
   return (
     <>
@@ -62,8 +70,8 @@ export default function HomePage() {
             <Image
               src={hero.image.src}
               alt={hero.image.alt}
-              width={hero.image.width}
-              height={hero.image.height}
+              width={heroW}
+              height={heroH}
               loading="eager"
               sizes="(max-width: 767px) 100vw, 45vw"
               className="mt-[70px] mb-0 w-full rounded-[150px_0] md:mb-[22px]"
@@ -96,7 +104,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 gap-5 px-2.5 pt-2.5 pb-[9px] md:grid-flow-col md:grid-cols-3 md:grid-rows-2 md:gap-x-0 md:gap-y-[30px] md:px-0 md:pt-2.5 md:pb-[60px]">
             {whyChoose.boxes.map((b, i) => (
               <div
-                key={b.title}
+                key={`${i}-${b.title}`}
                 className="flex items-center rounded-[15px] shadow-[0_0_20px_rgba(0,0,0,0.1)] md:mx-2.5"
                 style={{ backgroundColor: b.bg }}
               >
@@ -122,8 +130,8 @@ export default function HomePage() {
             <span className="mx-auto block w-[100px] border-t-[0.8px] border-[#2d2d2d]" />
           </div>
           <div className="mt-5 grid grid-cols-1 md:grid-cols-3">
-            {testimonials.items.map((t) => (
-              <div key={t.name} className="p-5">
+            {testimonials.items.map((t, i) => (
+              <div key={`${i}-${t.name}`} className="p-5">
                 <figure className="relative m-0 flex h-full flex-col rounded-[10px_10px_10px_65px] md:min-h-[319px] bg-card-dark p-[30px] pb-[37px] shadow-[0_0_30px_#121212]">
                   <blockquote className="mb-5 font-raleway text-[16px] leading-6 text-white">{t.content}</blockquote>
                   <figcaption className="flex items-center">

@@ -1,10 +1,11 @@
 import "@/styles/wpr-grid.css";
-import { posts as allPosts } from "@/content/blog";
+import { getAllPosts } from "@/lib/blog/posts";
 import PostGridClient, { type GridItem } from "./PostGridClient";
 
 /**
  * Royal Elementor Addons post grid used on /blog/ (all posts, 12 per "page", Load More, filters).
  * Server part: builds the item data (excerpt cut to N words like the plugin) for the client grid.
+ * Lists legacy MDX posts and published admin posts together, newest first.
  */
 export type PostGridProps = {
   id?: string;
@@ -33,12 +34,14 @@ const cut = (text: string, words: number) => {
   return w.length > words ? w.slice(0, words).join(" ") + "..." : text;
 };
 
-export default function PostGrid(props: PostGridProps) {
-  const items: GridItem[] = allPosts.map(({ meta }) => ({
-    slug: meta.slug,
-    title: meta.wpTitle,
-    date: meta.dateText,
-    excerpt: cut(meta.excerpt, props.excerptWords),
+export default async function PostGrid(props: PostGridProps) {
+  const items: GridItem[] = (await getAllPosts()).map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    date: p.dateText,
+    excerpt: cut(p.excerpt, props.excerptWords),
   }));
-  return <PostGridClient {...props} items={items} />;
+  // WordPress capped Load More at maxPages; keep that, but never hide posts once there are more.
+  const maxPages = Math.max(props.maxPages, Math.ceil(items.length / props.perPage));
+  return <PostGridClient {...props} maxPages={maxPages} items={items} />;
 }

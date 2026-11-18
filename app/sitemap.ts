@@ -1,14 +1,17 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/data/site";
 import { pages } from "@/data/pages";
-import { allPosts } from "@/lib/content";
+import { getAllPosts } from "@/lib/blog/posts";
 import { elementorPages } from "@/content/pages";
 
 /**
  * /sitemap.xml — every indexable URL (the WordPress sitemap only listed posts and the category;
  * pages are included here too). URLs keep the trailing slash used on WordPress.
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+export const revalidate = 3600;
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const posts = await getAllPosts();
   const url = (p: string) => `${SITE_URL}${p}`;
   const handBuilt = [
     { path: "/", lastModified: "2026-09-28T11:26:20+05:30", priority: 1 },
@@ -22,10 +25,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...handBuilt.map((p) => ({ url: url(p.path), lastModified: p.lastModified, changeFrequency: "monthly" as const, priority: p.priority })),
     ...elementor.map((p) => ({ url: url(p.path), lastModified: p.lastModified, changeFrequency: "monthly" as const, priority: p.priority })),
-    { url: url("/category/blog/"), lastModified: allPosts[0].meta.modifiedTime, changeFrequency: "weekly", priority: 0.5 },
-    ...allPosts.map(({ meta }) => ({
-      url: url(`/${meta.slug}/`),
-      lastModified: meta.modifiedTime ?? meta.date,
+    { url: url("/category/blog/"), lastModified: posts.reduce((max, p) => (p.modified > max ? p.modified : max), ""), changeFrequency: "weekly", priority: 0.5 },
+    ...posts.map((p) => ({
+      url: url(`/${p.slug}/`),
+      lastModified: p.modified,
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),

@@ -1,25 +1,28 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import PageTitleBar from "@/components/layout/PageTitleBar";
 import BoxedContent from "@/components/layout/BoxedContent";
 import JsonLd from "@/components/JsonLd";
 import ElementorBody from "@/components/elementor/ElementorBody";
-import { allPosts } from "@/lib/content";
+import { getAllPosts } from "@/lib/blog/posts";
+import { FeaturedImage } from "@/components/blog/DbPostBody";
+import RichText from "@/components/ui/RichText";
 import { buildMetadata, absUrl } from "@/lib/seo";
 import { breadcrumb, graph, organization, website } from "@/lib/schema";
-import { imageSize } from "@/lib/image-size";
 
 /**
  * /category/blog/ — the WordPress category archive. Like the live Phlox archive it lists every post
- * (37, no pagination) with its image, title, meta line, full content and a "Read More" button.
+ * (no pagination) with its image, title, meta line, full content and a "Read More" button.
+ * Legacy MDX posts and published admin posts, newest first.
  */
 const path = "/category/blog/";
 const title = "Blog Archives - Renton Technologies";
 
 export const metadata: Metadata = buildMetadata({ path, title, ogType: "article" });
+export const revalidate = 3600;
 
-export default function CategoryBlogPage() {
+export default async function CategoryBlogPage() {
+  const allPosts = await getAllPosts();
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Blog", path },
@@ -39,7 +42,7 @@ export default function CategoryBlogPage() {
             breadcrumb: { "@id": `${absUrl(path)}#breadcrumb` },
             mainEntity: {
               "@type": "ItemList",
-              itemListElement: allPosts.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: absUrl(`/${p.meta.slug}/`) })),
+              itemListElement: allPosts.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: absUrl(`/${p.slug}/`) })),
             },
           },
           breadcrumb(path, crumbs),
@@ -48,34 +51,25 @@ export default function CategoryBlogPage() {
       <PageTitleBar title="Posts in category: Blog" crumbs={crumbs} />
       <div className="aux-archive">
         <BoxedContent>
-          {allPosts.map(({ meta, Content }) => {
-            const href = `/${meta.slug}/`;
-            const dim = meta.image ? imageSize(meta.image) : undefined;
+          {allPosts.map((p) => {
+            const href = `/${p.slug}/`;
             return (
-              <article key={meta.slug} className="hentry type-post">
-                {meta.image && dim && (
-                  <div className="entry-media">
-                    <div className="aux-media-frame aux-media-image aux-image-mask">
-                      <Link href={href}>
-                        <Image src={meta.image} alt={meta.imageAlt ?? meta.wpTitle} width={dim.width} height={dim.height} sizes="(max-width: 1351px) 100vw, 1281px" />
-                      </Link>
-                    </div>
-                  </div>
-                )}
+              <article key={p.slug} className="hentry type-post">
+                {p.image && p.image.width > 0 && <FeaturedImage image={p.image} href={href} />}
                 <div className="entry-main">
                   <header className="entry-header">
                     <h3 className="entry-title">
-                      <Link href={href}>{meta.wpTitle}</Link>
+                      <Link href={href}>{p.title}</Link>
                     </h3>
                   </header>
                   <div className="entry-info">
                     <div className="entry-date">
                       <Link href={href}>
-                        <time dateTime={meta.date}>{meta.dateText}</time>
+                        <time dateTime={p.date}>{p.dateText}</time>
                       </Link>
                     </div>
                     <span className="entry-meta-sep meta-sep meta-author">by</span>
-                    <span className="author vcard meta-author">{meta.author}</span>
+                    <span className="author vcard meta-author">{p.author}</span>
                     <span className="meta-sep">with</span>
                     <Link className="meta-comment" href={href}>
                       No Comment
@@ -87,9 +81,15 @@ export default function CategoryBlogPage() {
                     </span>
                   </div>
                   <div className="entry-content">
-                    <ElementorBody elementorId={meta.elementorId}>
-                      <Content />
-                    </ElementorBody>
+                    {p.mdx ? (
+                      <ElementorBody elementorId={p.mdx.meta.elementorId}>
+                        <p.mdx.Content />
+                      </ElementorBody>
+                    ) : (
+                      <div className="wp-content">
+                        <RichText html={p.html ?? ""} className="db-post-body" />
+                      </div>
+                    )}
                   </div>
                   <footer className="entry-meta">
                     <div className="readmore">

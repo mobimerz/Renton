@@ -17,6 +17,8 @@ const nextConfig: NextConfig = {
   },
   images: {
     formats: ["image/avif", "image/webp"],
+    // Images uploaded from /admin live in Vercel Blob (<store>.public.blob.vercel-storage.com).
+    remotePatterns: [{ protocol: "https", hostname: "*.public.blob.vercel-storage.com", port: "", search: "" }],
   },
   async redirects() {
     return redirects;
