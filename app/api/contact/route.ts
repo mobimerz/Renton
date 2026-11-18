@@ -4,6 +4,25 @@ import { upsertBrevoContact } from "@/lib/brevo";
 import { contactEnquiryEmail } from "@/lib/email/contact-enquiry";
 
 const MIN_FILL_MS = 3000;
+const DEFAULT_TO = "contact@renton.org.in";
+
+/**
+ * CONTACT_TO, comma-separated. Forgiving about how it was pasted into the host's env UI:
+ * strips quotes, "KEY=" prefixes, "Name <email>" wrappers and blanks.
+ */
+function recipients(): string[] {
+  const raw = (process.env.CONTACT_TO ?? "").replace(/^\s*CONTACT_TO\s*=/, "");
+  const list = raw
+    .split(/[,;]/)
+    .map((s) => s.trim().replace(/^["']+|["']+$/g, "").trim())
+    .map((s) => s.match(/<([^>]+)>/)?.[1].trim() ?? s)
+    .filter((s) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s));
+  if (list.length === 0) {
+    if (raw.trim()) console.error(`[contact] CONTACT_TO has no valid address (${JSON.stringify(raw)}), using ${DEFAULT_TO}`);
+    return [DEFAULT_TO];
+  }
+  return list;
+}
 
 export async function POST(request: Request) {
   let body: unknown;
@@ -33,7 +52,7 @@ export async function POST(request: Request) {
   try {
     const { subject, html, text } = contactEnquiryEmail(d);
     await sendMail({
-      to: (process.env.CONTACT_TO ?? "contact@renton.org.in").split(",").map((s) => s.trim()),
+      to: recipients(),
       replyTo: d.email,
       subject,
       text,
