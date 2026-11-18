@@ -1,11 +1,9 @@
 import { contactSchema } from "@/lib/contact-schema";
 import { sendMail } from "@/lib/mail";
 import { upsertBrevoContact } from "@/lib/brevo";
+import { contactEnquiryEmail } from "@/lib/email/contact-enquiry";
 
 const MIN_FILL_MS = 3000;
-
-const esc = (s: string) =>
-  s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
 export async function POST(request: Request) {
   let body: unknown;
@@ -29,27 +27,17 @@ export async function POST(request: Request) {
   const d = parsed.data;
   if (Date.now() - d.startedAt < MIN_FILL_MS) return Response.json({ ok: true });
 
-  const rows: [string, string][] = [
-    ["Name", d.name],
-    ["Email", d.email],
-    ["Mob Numbers", d.phone],
-    ["Products", d.product],
-    ["Leave Your Requirements", d.requirements || "—"],
-    ["Terms of Service", "I agree to the Terms & Conditions."],
-  ];
-
   // Save the lead in Brevo Contacts (only when BREVO_LIST_ID is set). Never blocks the email.
   const contactSync = upsertBrevoContact(d).catch((err) => console.error("[contact] Brevo contact sync failed:", err));
 
   try {
+    const { subject, html, text } = contactEnquiryEmail(d);
     await sendMail({
       to: (process.env.CONTACT_TO ?? "contact@renton.org.in").split(",").map((s) => s.trim()),
       replyTo: d.email,
-      subject: `New Entry: Contact form – ${d.name}`,
-      text: rows.map(([k, v]) => `${k}:\n${v}`).join("\n\n"),
-      html: `<table cellpadding="6" style="font-family:Arial,sans-serif;font-size:14px">${rows
-        .map(([k, v]) => `<tr><td style="font-weight:bold;vertical-align:top">${esc(k)}</td><td>${esc(v).replace(/\n/g, "<br>")}</td></tr>`)
-        .join("")}</table>`,
+      subject,
+      text,
+      html,
     });
   } catch (err) {
     console.error("[contact] mail send failed:", err);
