@@ -17,6 +17,15 @@ const PAGE_BG = "#f3f4f6";
 const WHATSAPP = "#25D366";
 const FONT = "Arial, Helvetica, sans-serif";
 
+/** Path of the email logo inside /public. */
+export const EMAIL_LOGO_PATH = "/images/email-logo.png";
+/**
+ * Served from the public GitHub repo so the logo shows even before www.renton.org.in
+ * points at this site. If the repo is made private, set EMAIL_LOGO_URL to
+ * `${SITE_URL}${EMAIL_LOGO_PATH}` instead.
+ */
+const DEFAULT_LOGO_URL = `https://raw.githubusercontent.com/mobimerz/Renton/main/public${EMAIL_LOGO_PATH}`;
+
 const esc = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
@@ -53,9 +62,8 @@ export function contactEnquiryEmail(
   d: Pick<ContactData, "name" | "email" | "phone" | "product" | "requirements">,
   opts: { logoUrl?: string; now?: Date } = {},
 ): EnquiryEmail {
-  // Emails need an absolute, public logo URL. EMAIL_LOGO_URL overrides it, e.g. while
-  // www.renton.org.in still points at the old site and the new one lives on a vercel.app URL.
-  const logoUrl = opts.logoUrl ?? process.env.EMAIL_LOGO_URL ?? `${SITE_URL}${site.logo}`;
+  // Emails need an absolute, public logo URL. EMAIL_LOGO_URL overrides the default.
+  const logoUrl = opts.logoUrl ?? process.env.EMAIL_LOGO_URL ?? DEFAULT_LOGO_URL;
   const when = receivedAt(opts.now ?? new Date());
   const wa = phoneDigits(d.phone);
   const replySubject = `Re: Your enquiry about ${d.product} – ${site.name}`;
