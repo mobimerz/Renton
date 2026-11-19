@@ -12,7 +12,7 @@ const brandIcon: Record<string, IconName> = {
   linkedin: "linkedin-in",
   instagram: "instagram",
   pinterest: "pinterest",
-  twitter: "twitter",
+  twitter: "x-twitter",
   whatsapp: "whatsapp",
 };
 

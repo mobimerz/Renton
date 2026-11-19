@@ -35,14 +35,14 @@ export default function WhyChooseIcon({ icon, color, label }: { icon: WhyChooseI
     <span
       role="img"
       aria-label={label}
-      className="flex h-[53px] w-20 shrink-0 items-center justify-center rounded-[50%]"
-      style={{ backgroundColor: color }}
+      className="flex size-[60px] shrink-0 items-center justify-center rounded-full transition-transform duration-300 ease-out group-hover:-rotate-6 group-hover:scale-110"
+      style={{ backgroundColor: color, boxShadow: `0 10px 22px -6px ${color}73` }}
     >
       {original ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={original} alt="" className="max-h-[30px] max-w-[50px]" />
       ) : (
-        <Lucide aria-hidden="true" className="size-7 text-white" strokeWidth={2} />
+        <Lucide aria-hidden="true" className="size-7 text-white transition-transform duration-300 ease-out group-hover:scale-110" strokeWidth={2.2} />
       )}
     </span>
   );

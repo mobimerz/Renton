@@ -5,6 +5,7 @@ import JsonLd from "@/components/JsonLd";
 import Button from "@/components/ui/Button";
 import RichText from "@/components/ui/RichText";
 import RotatingText from "@/components/ui/RotatingText";
+import Reveal from "@/components/ui/Reveal";
 import ImageCarousel from "@/components/ui/ImageCarousel";
 import Accordion from "@/components/ui/Accordion";
 import Icon from "@/components/Icon";
@@ -49,7 +50,7 @@ export default async function HomePage() {
       {/* Hero */}
       <section className="mb-2.5 bg-hero py-[60px] md:mb-0">
         <div className="e-container flex flex-col md:flex-row">
-          <div className="flex flex-col justify-end p-2.5 md:w-[54.4%]">
+          <Reveal className="reveal-up flex flex-col justify-end p-2.5 md:w-[54.4%]">
             <h2 className="mb-5 font-raleway text-[15px] leading-none font-semibold text-white md:text-[17.5px]">{hero.kicker}</h2>
             <h3 className="mb-5 text-left font-michroma text-white">
               <span className="text-[46px] leading-[60px] font-bold">{hero.headline}</span>{" "}
@@ -65,8 +66,8 @@ export default async function HomePage() {
                 {hero.secondary.label}
               </Button>
             </div>
-          </div>
-          <div className="p-2.5 md:w-[45.6%]">
+          </Reveal>
+          <Reveal className="reveal-up p-2.5 md:w-[45.6%]" delay={150}>
             <Image
               src={hero.image.src}
               alt={hero.image.alt}
@@ -74,25 +75,27 @@ export default async function HomePage() {
               height={heroH}
               loading="eager"
               sizes="(max-width: 767px) 100vw, 45vw"
-              className="mt-[70px] mb-0 w-full rounded-[150px_0] md:mb-[22px]"
+              className="mt-[70px] mb-0 w-full rounded-[150px_0] transition-transform duration-500 ease-out hover:scale-[1.03] md:mb-[22px]"
             />
-          </div>
+          </Reveal>
         </div>
       </section>
 
       {/* Rental Products */}
       <section className="px-[30px] pt-[60px] pb-[30px] md:px-0 md:pt-20 md:pb-[60px]">
-        <div className="mx-auto flex max-w-[733px] flex-col gap-5 text-center">
+        <Reveal className="reveal-up mx-auto flex max-w-[733px] flex-col gap-5 text-center">
           <h2 className="font-poppins text-[28px] leading-none font-bold text-body md:text-[45px]">{rentalProducts.title}</h2>
           <RichText html={rentalProducts.text} className="font-raleway text-[16px] leading-6 text-body [&_p]:mb-4" />
-        </div>
-        <ImageCarousel slides={rentalProducts.slides} />
+        </Reveal>
+        <Reveal className="reveal-up">
+          <ImageCarousel slides={rentalProducts.slides} />
+        </Reveal>
       </section>
 
       {/* Why Choose Renton? */}
       <section className="pt-10 pb-20 md:pt-0 md:pb-10">
         <div className="e-container p-2.5">
-          <div className="px-2.5 pt-3 pb-[31px] md:mx-auto md:w-[79.35%] md:p-2.5">
+          <Reveal className="reveal-up px-2.5 pt-3 pb-[31px] md:mx-auto md:w-[79.35%] md:p-2.5">
             <h2 className="mb-[5px] text-center font-poppins text-[28px] leading-[30px] font-semibold text-navy md:text-[45px] md:leading-[60px]">
               {whyChoose.title}
             </h2>
@@ -100,12 +103,12 @@ export default async function HomePage() {
               html={whyChoose.text}
               className="pt-5 text-center font-poppins text-[14px] leading-[26px] font-medium text-muted md:text-[16px] md:leading-[30px] [&_p]:mb-[14px] md:[&_p]:mb-4"
             />
-          </div>
-          <div className="grid grid-cols-1 gap-5 px-2.5 pt-2.5 pb-[9px] md:grid-flow-col md:grid-cols-3 md:grid-rows-2 md:gap-x-0 md:gap-y-[30px] md:px-0 md:pt-2.5 md:pb-[60px]">
+          </Reveal>
+          <Reveal className="reveal-stagger grid grid-cols-1 gap-5 px-2.5 pt-2.5 pb-[9px] md:grid-flow-col md:grid-cols-3 md:grid-rows-2 md:gap-x-0 md:gap-y-[30px] md:px-0 md:pt-2.5 md:pb-[60px]">
             {whyChoose.boxes.map((b, i) => (
               <div
                 key={`${i}-${b.title}`}
-                className="flex items-center rounded-[15px] shadow-[0_0_20px_rgba(0,0,0,0.1)] md:mx-2.5"
+                className="group flex items-center rounded-[15px] p-[18px] shadow-[0_0_20px_rgba(0,0,0,0.1)] transition duration-300 ease-out hover:-translate-y-1 hover:shadow-[0_8px_28px_rgba(0,0,0,0.16)] md:mx-2.5"
                 style={{ backgroundColor: b.bg }}
               >
                 <WhyChooseIcon icon={b.icon} color={b.iconColor} label={b.iconAlt} />
@@ -118,7 +121,7 @@ export default async function HomePage() {
                 </div>
               </div>
             ))}
-          </div>
+          </Reveal>
         </div>
       </section>
 
@@ -129,10 +132,10 @@ export default async function HomePage() {
           <div className="py-[15px]" role="separator">
             <span className="mx-auto block w-[100px] border-t-[0.8px] border-[#2d2d2d]" />
           </div>
-          <div className="mt-5 grid grid-cols-1 md:grid-cols-3">
+          <Reveal className="reveal-stagger mt-5 grid grid-cols-1 md:grid-cols-3">
             {testimonials.items.map((t, i) => (
               <div key={`${i}-${t.name}`} className="p-5">
-                <figure className="relative m-0 flex h-full flex-col rounded-[10px_10px_10px_65px] md:min-h-[319px] bg-card-dark p-[30px] pb-[37px] shadow-[0_0_30px_#121212]">
+                <figure className="relative m-0 flex h-full flex-col rounded-[10px_10px_10px_65px] md:min-h-[319px] bg-card-dark p-[30px] pb-[37px] shadow-[0_0_30px_#121212] transition-transform duration-300 ease-out hover:-translate-y-1.5">
                   <blockquote className="mb-5 font-raleway text-[16px] leading-6 text-white">{t.content}</blockquote>
                   <figcaption className="flex items-center">
                     {t.img && (
@@ -153,7 +156,7 @@ export default async function HomePage() {
                 </figure>
               </div>
             ))}
-          </div>
+          </Reveal>
         </div>
       </section>
 
@@ -165,13 +168,13 @@ export default async function HomePage() {
             html={homeFaq.intro}
             className="mb-5 h-[35px] text-center font-lato text-[16px] leading-[15px] tracking-[0.2px] text-black md:text-[20px] [&_p]:m-0"
           />
-          <div className="grid grid-cols-1 md:grid-cols-2">
+          <Reveal className="reveal-up grid grid-cols-1 md:grid-cols-2">
             {homeFaq.columns.map((items, i) => (
               <div key={i} className="p-2.5">
                 <Accordion items={items} styles={faqStyles} />
               </div>
             ))}
-          </div>
+          </Reveal>
         </div>
       </section>
     </>

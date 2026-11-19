@@ -25,8 +25,10 @@ export default function AboutPage() {
       <PageTitleBar title={page.pageTitle} crumbs={crumbsFor(page)} />
       <BoxedContent>
         {/* Hero banner */}
-        <section className="flex min-h-[440px] flex-col justify-center bg-[url('/images/about-bg-img.jpg')] bg-cover bg-center px-[30px] pt-[60px] md:min-h-[500px] md:px-2.5 md:pt-0">
-          <div className="flex flex-col gap-5 text-center text-white">
+        <section className="relative flex min-h-[440px] flex-col justify-center bg-[url('/images/about-bg-img.jpg')] bg-cover bg-center px-[30px] pt-[60px] md:min-h-[500px] md:px-2.5 md:pt-0">
+          {/* Dark scrim so the white text stays legible over the bright photo */}
+          <div aria-hidden className="absolute inset-0 bg-black/50" />
+          <div className="relative z-10 flex flex-col gap-5 text-center text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.6)]">
             {/* Second <h1> on the page, as on WordPress (theme title "About" + this "About Us") */}
             <h1 className="mt-[15px] font-raleway text-[43.2px] leading-none font-semibold md:mt-0">{aboutHero.title}</h1>
             <h4 className="font-raleway text-[22px] leading-none font-semibold">{aboutHero.subtitle}</h4>

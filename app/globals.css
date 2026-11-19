@@ -138,6 +138,41 @@ img.emoji {
   }
 }
 
+/* Scroll-reveal entrance (components/ui/Reveal.tsx adds .is-visible when in view) */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-up {
+    opacity: 0;
+    transform: translateY(26px);
+    transition:
+      opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  .reveal-up.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Fade the direct children in sequence */
+  .reveal-stagger > * {
+    opacity: 0;
+    transform: translateY(26px);
+    transition:
+      opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  .reveal-stagger.is-visible > * {
+    opacity: 1;
+    transform: none;
+  }
+  .reveal-stagger.is-visible > *:nth-child(2) { transition-delay: 0.08s; }
+  .reveal-stagger.is-visible > *:nth-child(3) { transition-delay: 0.16s; }
+  .reveal-stagger.is-visible > *:nth-child(4) { transition-delay: 0.24s; }
+  .reveal-stagger.is-visible > *:nth-child(5) { transition-delay: 0.32s; }
+  .reveal-stagger.is-visible > *:nth-child(6) { transition-delay: 0.40s; }
+}
+
 /* ---- Admin: TipTap editor content (components/admin/RichTextEditor.tsx) ---- */
 .rte-content { color: #1e293b; font-size: 15px; line-height: 1.65; }
 .rte-content > * + * { margin-top: 0.75em; }

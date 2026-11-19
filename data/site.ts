@@ -39,7 +39,7 @@ export const social: Record<SocialKey, { label: string; href: string; color: str
   linkedin: { label: "Linkedin", href: "https://www.linkedin.com/in/renton-technologies/", color: "#0077B5" },
   instagram: { label: "Instagram", href: "https://www.instagram.com/renton_technologies/", color: "#262626" },
   pinterest: { label: "Pinterest", href: "https://www.pinterest.com/in/renton_technologies/", color: "#BD081C" },
-  twitter: { label: "Twitter", href: "https://x.com/RentonT35572", color: "#1DA1F2" },
+  twitter: { label: "X", href: "https://x.com/RentonT35572", color: "#000000" },
   whatsapp: { label: "Whatsapp", href: "https://wa.me/918050281515", color: "#25D366" },
 };
 

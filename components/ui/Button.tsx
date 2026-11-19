@@ -19,7 +19,7 @@ export default function Button({
   variant?: Variant;
   className?: string;
 }) {
-  const cls = `inline-block rounded-lg border-[0.8px] px-10 py-[18px] text-center font-inter text-[14px] leading-none font-semibold transition-colors md:px-[60px] md:py-5 md:text-[18px] ${variants[variant]} ${className}`;
+  const cls = `inline-block rounded-lg border-[0.8px] px-10 py-[18px] text-center font-inter text-[14px] leading-none font-semibold transition-all duration-300 ease-out hover:-translate-y-0.5 hover:shadow-lg md:px-[60px] md:py-5 md:text-[18px] ${variants[variant]} ${className}`;
   return href.startsWith("/") ? (
     <Link href={href} className={cls}>
       {children}
