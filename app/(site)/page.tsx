@@ -20,11 +20,15 @@ export const metadata: Metadata = buildMetadata(homeSeo);
 export const revalidate = 3600;
 
 const faqStyles = {
-  box: "mt-5 overflow-hidden rounded-[10px] bg-white shadow-[0_0_18px_rgba(209,204,204,0.36)]",
-  title: "px-[30px] py-[25px] font-poppins text-[14px] leading-[16.33px] md:text-[16px] md:leading-4 font-normal text-[#4f4f4f]",
-  activeTitle: "text-[#362aff]!",
+  box: "mt-5 divide-y divide-slate-100 overflow-hidden rounded-2xl bg-white shadow-[0_16px_44px_rgba(79,70,229,0.14)] ring-1 ring-slate-100",
+  iconPosition: "right" as const,
+  closedIcon: "plus" as const,
+  openIcon: "minus" as const,
+  title:
+    "px-6 py-[22px] font-poppins text-[14px] leading-[22px] md:text-[16px] md:leading-[24px] font-medium text-slate-700 transition-colors duration-200 hover:bg-slate-50 hover:text-indigo-600",
+  activeTitle: "bg-indigo-50/60! text-indigo-600!",
   content:
-    "px-[30px] font-lato text-[13px] leading-[19.5px] tracking-[0.2px] text-[#575656] md:text-[14px] md:leading-[21px] [&_p]:mb-[13px] md:[&_p]:mb-[14px] [&_ul]:my-[13px] md:[&_ul]:my-[14px] [&_ul]:pl-0 [&_ul]:list-inside [&_li]:mb-[13px] md:[&_li]:mb-[14px]",
+    "bg-indigo-50/60 px-6 pb-5 font-lato text-[13px] leading-[21px] tracking-[0.2px] text-[#575656] md:text-[14px] md:leading-[22px] [&_p]:mb-[13px] md:[&_p]:mb-[14px] [&_ul]:my-[13px] md:[&_ul]:my-[14px] [&_ul]:pl-0 [&_ul]:list-inside [&_li]:mb-[13px] md:[&_li]:mb-[14px]",
 };
 
 export default async function HomePage() {
