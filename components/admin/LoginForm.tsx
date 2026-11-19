@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Button, Field, Input } from "./ui";
 
 export default function LoginForm({ next }: { next: string }) {
@@ -40,6 +41,11 @@ export default function LoginForm({ next }: { next: string }) {
       <Field label="Password" htmlFor="password">
         <Input id="password" name="password" type="password" autoComplete="current-password" required />
       </Field>
+      <div className="-mt-1 text-right">
+        <Link href="/admin/forgot/" className="text-sm font-medium text-blue-700 hover:underline">
+          Forgot password?
+        </Link>
+      </div>
       {error && (
         <p role="alert" className="rounded-md bg-red-50 px-3 py-2 text-sm text-red-700">
           {error}

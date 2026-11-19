@@ -3,7 +3,17 @@ import { wpIds } from "@/lib/wp-ids";
 import { SESSION_COOKIE, verifySession } from "@/lib/auth/session";
 
 /** Admin pages that must stay reachable without a session. */
-const PUBLIC_ADMIN_PATHS = new Set(["/admin/login", "/admin/login/"]);
+const PUBLIC_ADMIN_PATHS = new Set([
+  "/admin/login",
+  "/admin/login/",
+  "/admin/forgot",
+  "/admin/forgot/",
+  "/admin/reset",
+  "/admin/reset/",
+]);
+
+/** The sign-in page: an already-signed-in visitor is sent straight to the dashboard. */
+const LOGIN_PATHS = new Set(["/admin/login", "/admin/login/"]);
 
 export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
@@ -24,8 +34,8 @@ async function adminGuard(request: NextRequest) {
   const isApi = pathname.startsWith("/api/");
 
   if (PUBLIC_ADMIN_PATHS.has(pathname)) {
-    // Already signed in: skip the login form.
-    if (session) return NextResponse.redirect(new URL("/admin/", request.url));
+    // Already signed in: skip the login form (but still allow forgot/reset).
+    if (session && LOGIN_PATHS.has(pathname)) return NextResponse.redirect(new URL("/admin/", request.url));
     return withNoIndex(NextResponse.next());
   }
 

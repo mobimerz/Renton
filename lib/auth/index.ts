@@ -6,22 +6,35 @@ import { SESSION_COOKIE, verifySession, type Session } from "./session";
 
 export * from "./session";
 
+const isDbConfigured = () => Boolean(process.env.MONGODB_URI);
+
 /**
- * Single admin account from env vars:
- *   ADMIN_EMAIL     the login email
- *   ADMIN_PASSWORD  a bcrypt hash ("$2a$/$2b$/$2y$…", recommended — make one with
- *                   `node scripts/hash-password.mjs`) or, if not a hash, the plain password
- *                   (compared in constant time).
+ * Single admin account identified by ADMIN_EMAIL. The password is either:
+ *   - one set through the "forgot password" flow (a bcrypt hash stored in MongoDB), which
+ *     takes precedence, or
+ *   - ADMIN_PASSWORD env var: a bcrypt hash ("$2a$/$2b$/$2y$…", recommended — make one with
+ *     `node scripts/hash-password.mjs`) or, if not a hash, the plain password (compared in
+ *     constant time).
  */
 export async function checkCredentials(email: string, password: string): Promise<boolean> {
   const adminEmail = process.env.ADMIN_EMAIL;
-  const adminPassword = process.env.ADMIN_PASSWORD;
-  if (!adminEmail || !adminPassword) throw new Error("ADMIN_EMAIL and ADMIN_PASSWORD must be set");
+  if (!adminEmail) throw new Error("ADMIN_EMAIL must be set");
 
   const emailOk = safeEqual(email.trim().toLowerCase(), adminEmail.trim().toLowerCase());
-  const passwordOk = /^\$2[aby]\$\d{2}\$/.test(adminPassword)
-    ? await bcrypt.compare(password, adminPassword)
-    : safeEqual(password, adminPassword);
+
+  // A password set via /admin/forgot (stored in MongoDB) overrides ADMIN_PASSWORD.
+  const storedHash = isDbConfigured() ? await (await import("./password")).getStoredPasswordHash(adminEmail) : null;
+
+  let passwordOk: boolean;
+  if (storedHash) {
+    passwordOk = await bcrypt.compare(password, storedHash);
+  } else {
+    const adminPassword = process.env.ADMIN_PASSWORD;
+    if (!adminPassword) throw new Error("ADMIN_PASSWORD must be set (or reset the password via /admin/forgot)");
+    passwordOk = /^\$2[aby]\$\d{2}\$/.test(adminPassword)
+      ? await bcrypt.compare(password, adminPassword)
+      : safeEqual(password, adminPassword);
+  }
   return emailOk && passwordOk;
 }
 
