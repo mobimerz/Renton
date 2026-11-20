@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
 import RichText from "@/components/ui/RichText";
 import Reveal from "@/components/ui/Reveal";
-import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 import CTABand from "@/components/ui/CTABand";
-import WhyChooseIcon from "@/components/home/WhyChooseIcon";
 import Hero from "@/components/home/Hero";
+import WhyChoose from "@/components/home/WhyChoose";
 import StatsStrip from "@/components/home/StatsStrip";
 import ProductsGrid from "@/components/home/ProductsGrid";
 import HowItWorks from "@/components/home/HowItWorks";
@@ -61,23 +60,7 @@ export default async function HomePage() {
       </section>
 
       {/* Why Choose Renton (existing content) */}
-      <section className="bg-brand-50">
-        <div className="e-container px-5 py-14 md:px-6 md:py-20">
-          <Reveal className="reveal-up mx-auto flex max-w-[720px] flex-col items-center gap-3 text-center">
-            <h2 className="font-poppins text-[28px] leading-[1.15] font-bold text-brand-navy md:text-[40px]">{whyChoose.title}</h2>
-            <RichText html={whyChoose.text} className="font-inter text-[15px] leading-7 text-muted md:text-[17px] [&_p]:m-0" />
-          </Reveal>
-          <Reveal className="reveal-stagger mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {whyChoose.boxes.map((b, i) => (
-              <Card key={`${i}-${b.title}`} className="group flex flex-col gap-4">
-                <WhyChooseIcon icon={b.icon} color={b.iconColor} label={b.iconAlt} />
-                <h3 className="font-poppins text-[19px] font-semibold text-brand-navy">{b.title}</h3>
-                <RichText html={b.text} className="font-inter text-[14px] leading-6 text-muted [&_p]:m-0" />
-              </Card>
-            ))}
-          </Reveal>
-        </div>
-      </section>
+      <WhyChoose title={whyChoose.title} text={whyChoose.text} boxes={whyChoose.boxes} />
 
       <HowItWorks />
 
