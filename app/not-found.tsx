@@ -14,7 +14,7 @@ export default function NotFound() {
     <SiteChrome>
       <PageTitleBar title="Page not found" />
       <section className="e-container px-[35px] py-[60px] text-center">
-        <p className="mb-6 font-raleway text-[18px] text-body">Sorry, the page you are looking for does not exist or has been moved.</p>
+        <p className="mb-6 text-[18px] text-body">Sorry, the page you are looking for does not exist or has been moved.</p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button href="/">Go to Home</Button>
           <Button href="/blog/" variant="outline">

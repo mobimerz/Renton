@@ -19,7 +19,7 @@ export default function EkitAccordion({ items }: { items: AccordionItem[] }) {
               aria-expanded={isOpen}
               aria-controls={`ekit-acc-${i}`}
               onClick={() => setOpen(isOpen ? -1 : i)}
-              className="relative block w-full border-[0.8px] border-transparent bg-[#fa346e] px-[30px] py-[14px] text-left font-raleway text-[18px] leading-6 font-semibold text-white"
+              className="relative block w-full border-[0.8px] border-transparent bg-[#fa346e] px-[30px] py-[14px] text-left text-[18px] leading-6 font-semibold text-white"
             >
               {/* ElementsKit title block keeps ~11px clear of the arrow */}
               <span className="block pr-[11px]">{it.q}</span>
@@ -28,7 +28,7 @@ export default function EkitAccordion({ items }: { items: AccordionItem[] }) {
             <div
               id={`ekit-acc-${i}`}
               hidden={!isOpen}
-              className="rich px-[60px] pt-[35px] pb-[25px] [&_p]:mb-0 font-open-sans text-[15px] leading-[25px] text-body"
+              className="rich px-[60px] pt-[35px] pb-[25px] [&_p]:mb-0 text-[15px] leading-[25px] text-body"
               dangerouslySetInnerHTML={{ __html: wpEmoji(it.a) }}
             />
           </div>

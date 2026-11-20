@@ -8,13 +8,9 @@
 /* Design tokens measured from the live WordPress (Phlox + Elementor) site */
 @theme {
   /* Theme font (Raleway on every page — intentional fix, see docs/site-audit.md §10) */
-  --font-raleway: var(--nf-raleway), arial, sans-serif;
-  --font-poppins: var(--nf-poppins), sans-serif;
-  --font-michroma: var(--nf-michroma), sans-serif;
-  --font-open-sans: var(--nf-open-sans), sans-serif;
-  --font-inter: var(--nf-inter), sans-serif;
-  --font-lato: var(--nf-lato), sans-serif;
-  --font-roboto: var(--nf-roboto), sans-serif;
+  /* Two families only: Poppins for headings, Inter for body/UI */
+  --font-poppins: var(--nf-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-inter: var(--nf-inter), ui-sans-serif, system-ui, sans-serif;
 
   --color-body: #444444;
   --color-ink: #111111;
@@ -35,6 +31,29 @@
   --color-card-dark: #2d2d2d;
   --color-whatsapp: #2db742;
 
+  /* ---- Brand design tokens (redesign) — all derived from the logo blue #0a2b9b ---- */
+  --color-brand: #0a2b9b;
+  --color-brand-bright: #0479ff;
+  --color-brand-navy: #142344;
+  --color-accent: #28e98c;
+  /* Brand blue ramp (tints/shades of #0a2b9b) */
+  --color-brand-50: #eef2fc;
+  --color-brand-100: #d7e0f7;
+  --color-brand-200: #adbdee;
+  --color-brand-300: #7e95e2;
+  --color-brand-400: #4a66cf;
+  --color-brand-500: #233fb3;
+  --color-brand-600: #0a2b9b;
+  --color-brand-700: #0a2585;
+  --color-brand-800: #081d6b;
+  --color-brand-900: #07164f;
+
+  /* Shared radii + shadow for cards/controls */
+  --radius-card: 16px;
+  --radius-control: 10px;
+  --shadow-card: 0 10px 30px -12px rgba(10, 43, 155, 0.18);
+  --shadow-card-hover: 0 18px 40px -14px rgba(10, 43, 155, 0.28);
+
   /* Elementor breakpoints: mobile <=767, tablet <=1024 */
   --breakpoint-md: 768px;
   --breakpoint-lg: 1025px;
@@ -49,10 +68,15 @@ body {
   margin: 0;
   background: #fff;
   color: var(--color-body);
-  font-family: var(--font-raleway);
+  font-family: var(--font-inter);
   font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Headings use Poppins by default (redesign: two-family type system) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins);
 }
 
 a {
@@ -171,6 +195,39 @@ img.emoji {
   .reveal-stagger.is-visible > *:nth-child(4) { transition-delay: 0.24s; }
   .reveal-stagger.is-visible > *:nth-child(5) { transition-delay: 0.32s; }
   .reveal-stagger.is-visible > *:nth-child(6) { transition-delay: 0.40s; }
+}
+
+/* Soft floating effect for the hero image */
+@keyframes floaty {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .animate-floaty {
+    animation: floaty 6s ease-in-out infinite;
+  }
+}
+
+/* Marquee (logo strip / auto-scroll row). Duplicate the track twice and translate -50%. */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .animate-marquee {
+    animation: marquee var(--marquee-duration, 32s) linear infinite;
+  }
+  .marquee-group:hover .animate-marquee {
+    animation-play-state: paused;
+  }
 }
 
 /* ---- Admin: TipTap editor content (components/admin/RichTextEditor.tsx) ---- */

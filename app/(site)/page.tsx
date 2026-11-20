@@ -1,43 +1,37 @@
-import Image from "next/image";
 import type { Metadata } from "next";
-import PageTitleBar from "@/components/layout/PageTitleBar";
 import JsonLd from "@/components/JsonLd";
-import Button from "@/components/ui/Button";
 import RichText from "@/components/ui/RichText";
-import RotatingText from "@/components/ui/RotatingText";
 import Reveal from "@/components/ui/Reveal";
-import ImageCarousel from "@/components/ui/ImageCarousel";
-import Accordion from "@/components/ui/Accordion";
-import Icon from "@/components/Icon";
+import Card from "@/components/ui/Card";
+import Button from "@/components/ui/Button";
+import CTABand from "@/components/ui/CTABand";
 import WhyChooseIcon from "@/components/home/WhyChooseIcon";
+import Hero from "@/components/home/Hero";
+import StatsStrip from "@/components/home/StatsStrip";
+import ProductsGrid from "@/components/home/ProductsGrid";
+import HowItWorks from "@/components/home/HowItWorks";
+import WhoWeServe from "@/components/home/WhoWeServe";
+import TestimonialsCarousel from "@/components/home/TestimonialsCarousel";
+import LogosMarquee from "@/components/home/LogosMarquee";
+import FaqSection from "@/components/home/FaqSection";
+import LocationMap from "@/components/home/LocationMap";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumb, faqPage, graph, localBusiness, webPage, website } from "@/lib/schema";
 import { homeSeo } from "@/data/home";
+import { site } from "@/data/site";
 import { getHomepageContent } from "@/lib/homepage/content";
 
 export const metadata: Metadata = buildMetadata(homeSeo);
 /** Content comes from the admin (MongoDB) with data/home.ts as fallback; saves revalidate this page. */
 export const revalidate = 3600;
 
-const faqStyles = {
-  box: "mt-5 divide-y divide-slate-100 overflow-hidden rounded-2xl bg-white shadow-[0_16px_44px_rgba(79,70,229,0.14)] ring-1 ring-slate-100",
-  iconPosition: "right" as const,
-  closedIcon: "plus" as const,
-  openIcon: "minus" as const,
-  title:
-    "px-6 py-[22px] font-poppins text-[14px] leading-[22px] md:text-[16px] md:leading-[24px] font-medium text-slate-700 transition-colors duration-200 hover:bg-slate-50 hover:text-indigo-600",
-  activeTitle: "bg-indigo-50/60! text-indigo-600!",
-  content:
-    "bg-indigo-50/60 px-6 pb-5 font-lato text-[13px] leading-[21px] tracking-[0.2px] text-[#575656] md:text-[14px] md:leading-[22px] [&_p]:mb-[13px] md:[&_p]:mb-[14px] [&_ul]:my-[13px] md:[&_ul]:my-[14px] [&_ul]:pl-0 [&_ul]:list-inside [&_li]:mb-[13px] md:[&_li]:mb-[14px]",
-};
-
 export default async function HomePage() {
   const { content } = await getHomepageContent();
   const { hero, rentalProducts, whyChoose, testimonials, homeFaq } = content;
-  // next/image needs a size; uploads store it, this covers images with an unknown size.
   const heroW = hero.image.width || 1024;
   const heroH = hero.image.height || 683;
   const allFaqs = homeFaq.columns.flat();
+
   return (
     <>
       <JsonLd
@@ -49,138 +43,79 @@ export default async function HomePage() {
           faqPage("/", allFaqs),
         )}
       />
-      <PageTitleBar title={homeSeo.pageTitle} />
 
-      {/* Hero */}
-      <section className="mb-2.5 bg-hero py-[60px] md:mb-0">
-        <div className="e-container flex flex-col md:flex-row">
-          <Reveal className="reveal-up flex flex-col justify-end p-2.5 md:w-[54.4%]">
-            <h2 className="mb-5 font-raleway text-[15px] leading-none font-semibold text-white md:text-[17.5px]">{hero.kicker}</h2>
-            <h3 className="mb-5 text-left font-michroma text-white">
-              <span className="text-[46px] leading-[60px] font-bold">{hero.headline}</span>{" "}
-              <RotatingText words={hero.rotating} className="text-[20px] leading-[60px] font-normal text-accent-green md:text-[37px]" />
-            </h3>
-            <RichText
-              html={hero.text}
-              className="w-[86.5%] py-0 font-raleway text-[14px] leading-[21px] text-[#f0f0f0] md:py-[30px] [&_p]:mb-6 md:[&_p]:mb-[14px]"
-            />
-            <div className="flex flex-wrap gap-2.5 md:gap-[30px]">
-              <Button href={hero.primary.href}>{hero.primary.label}</Button>
-              <Button href={hero.secondary.href} variant="outline">
-                {hero.secondary.label}
-              </Button>
-            </div>
+      <Hero hero={hero} imgW={heroW} imgH={heroH} />
+
+      <StatsStrip />
+
+      {/* Rental Products (existing content) */}
+      <section className="bg-white">
+        <div className="e-container px-5 py-14 md:px-6 md:py-20">
+          <Reveal className="reveal-up mx-auto flex max-w-[720px] flex-col items-center gap-3 text-center">
+            <h2 className="font-poppins text-[28px] leading-[1.15] font-bold text-brand-navy md:text-[40px]">{rentalProducts.title}</h2>
+            <RichText html={rentalProducts.text} className="font-inter text-[15px] leading-7 text-muted md:text-[17px] [&_p]:m-0" />
           </Reveal>
-          <Reveal className="reveal-up p-2.5 md:w-[45.6%]" delay={150}>
-            <Image
-              src={hero.image.src}
-              alt={hero.image.alt}
-              width={heroW}
-              height={heroH}
-              loading="eager"
-              sizes="(max-width: 767px) 100vw, 45vw"
-              className="mt-[70px] mb-0 w-full rounded-[150px_0] transition-transform duration-500 ease-out hover:scale-[1.03] md:mb-[22px]"
-            />
-          </Reveal>
+          <ProductsGrid slides={rentalProducts.slides} />
         </div>
       </section>
 
-      {/* Rental Products */}
-      <section className="px-[30px] pt-[60px] pb-[30px] md:px-0 md:pt-20 md:pb-[60px]">
-        <Reveal className="reveal-up mx-auto flex max-w-[733px] flex-col gap-5 text-center">
-          <h2 className="font-poppins text-[28px] leading-none font-bold text-body md:text-[45px]">{rentalProducts.title}</h2>
-          <RichText html={rentalProducts.text} className="font-raleway text-[16px] leading-6 text-body [&_p]:mb-4" />
-        </Reveal>
-        <Reveal className="reveal-up">
-          <ImageCarousel slides={rentalProducts.slides} />
-        </Reveal>
-      </section>
-
-      {/* Why Choose Renton? */}
-      <section className="pt-10 pb-20 md:pt-0 md:pb-10">
-        <div className="e-container p-2.5">
-          <Reveal className="reveal-up px-2.5 pt-3 pb-[31px] md:mx-auto md:w-[79.35%] md:p-2.5">
-            <h2 className="mb-[5px] text-center font-poppins text-[28px] leading-[30px] font-semibold text-navy md:text-[45px] md:leading-[60px]">
-              {whyChoose.title}
-            </h2>
-            <RichText
-              html={whyChoose.text}
-              className="pt-5 text-center font-poppins text-[14px] leading-[26px] font-medium text-muted md:text-[16px] md:leading-[30px] [&_p]:mb-[14px] md:[&_p]:mb-4"
-            />
+      {/* Why Choose Renton (existing content) */}
+      <section className="bg-brand-50">
+        <div className="e-container px-5 py-14 md:px-6 md:py-20">
+          <Reveal className="reveal-up mx-auto flex max-w-[720px] flex-col items-center gap-3 text-center">
+            <h2 className="font-poppins text-[28px] leading-[1.15] font-bold text-brand-navy md:text-[40px]">{whyChoose.title}</h2>
+            <RichText html={whyChoose.text} className="font-inter text-[15px] leading-7 text-muted md:text-[17px] [&_p]:m-0" />
           </Reveal>
-          <Reveal className="reveal-stagger grid grid-cols-1 gap-5 px-2.5 pt-2.5 pb-[9px] md:grid-flow-col md:grid-cols-3 md:grid-rows-2 md:gap-x-0 md:gap-y-[30px] md:px-0 md:pt-2.5 md:pb-[60px]">
+          <Reveal className="reveal-stagger mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {whyChoose.boxes.map((b, i) => (
-              <div
-                key={`${i}-${b.title}`}
-                className="group flex items-center rounded-[15px] p-[18px] shadow-[0_0_20px_rgba(0,0,0,0.1)] transition duration-300 ease-out hover:-translate-y-1 hover:shadow-[0_8px_28px_rgba(0,0,0,0.16)] md:mx-2.5"
-                style={{ backgroundColor: b.bg }}
-              >
+              <Card key={`${i}-${b.title}`} className="group flex flex-col gap-4">
                 <WhyChooseIcon icon={b.icon} color={b.iconColor} label={b.iconAlt} />
-                <div className="pl-[15px]">
-                  <h2 className="mb-2.5 font-poppins text-[20px] leading-8 font-medium text-navy capitalize md:leading-[30px]">{b.title}</h2>
-                  <RichText
-                    html={b.text}
-                    className={`mb-[15px] font-poppins text-[14px] font-medium text-muted md:text-[16px] md:leading-[30px] ${i === 0 ? "leading-6" : "leading-7"}`}
-                  />
-                </div>
-              </div>
+                <h3 className="font-poppins text-[19px] font-semibold text-brand-navy">{b.title}</h3>
+                <RichText html={b.text} className="font-inter text-[14px] leading-6 text-muted [&_p]:m-0" />
+              </Card>
             ))}
           </Reveal>
         </div>
       </section>
 
-      {/* Our Happy Clients! */}
-      <section className="bg-white py-[50px] md:pt-[60px] md:pb-20">
-        <div className="e-container p-2.5">
-          <h2 className="mb-5 text-center font-raleway text-[38px] leading-none font-semibold text-[#2d2d2d]">{testimonials.title}</h2>
-          <div className="py-[15px]" role="separator">
-            <span className="mx-auto block w-[100px] border-t-[0.8px] border-[#2d2d2d]" />
-          </div>
-          <Reveal className="reveal-stagger mt-5 grid grid-cols-1 md:grid-cols-3">
-            {testimonials.items.map((t, i) => (
-              <div key={`${i}-${t.name}`} className="p-5">
-                <figure className="relative m-0 flex h-full flex-col rounded-[10px_10px_10px_65px] md:min-h-[319px] bg-card-dark p-[30px] pb-[37px] shadow-[0_0_30px_#121212] transition-transform duration-300 ease-out hover:-translate-y-1.5">
-                  <blockquote className="mb-5 font-raleway text-[16px] leading-6 text-white">{t.content}</blockquote>
-                  <figcaption className="flex items-center">
-                    {t.img && (
-                      <Image
-                        src={t.img.src}
-                        alt={t.img.alt}
-                        width={65}
-                        height={65}
-                        className="mr-[15px] size-[65px] rounded-full border-[5.6px] border-[#54595f] object-cover"
-                      />
-                    )}
-                    <span>
-                      <cite className="block font-raleway text-[16px] leading-6 text-white not-italic">{t.name}</cite>
-                      <span className="block font-raleway text-[13.6px] leading-none text-[#bdbdbd]">{t.job}</span>
-                    </span>
-                  </figcaption>
-                  <Icon name="quote-right" className="absolute right-0 bottom-1.5 text-[16px] text-white" />
-                </figure>
-              </div>
-            ))}
+      <HowItWorks />
+
+      <WhoWeServe />
+
+      {/* Testimonials (existing content) */}
+      <section className="bg-white">
+        <div className="e-container px-5 py-14 md:px-6 md:py-20">
+          <Reveal className="reveal-up mx-auto flex max-w-[720px] flex-col items-center gap-3 text-center">
+            <h2 className="font-poppins text-[28px] leading-[1.15] font-bold text-brand-navy md:text-[40px]">{testimonials.title}</h2>
+          </Reveal>
+          <TestimonialsCarousel items={testimonials.items} />
+        </div>
+      </section>
+
+      <LogosMarquee />
+
+      <FaqSection title={homeFaq.title} intro={homeFaq.intro} items={allFaqs} />
+
+      {/* Final CTA band */}
+      <section className="bg-white">
+        <div className="e-container px-5 pb-16 md:px-6 md:pb-20">
+          <Reveal className="reveal-up">
+            <CTABand
+              title="Ready to power your business with the right IT infrastructure?"
+              subtitle="Flexible rentals, fast delivery and 24/7 support — get a tailored quote today."
+            >
+              <Button href="/contact/" variant="white" size="lg">
+                Get a Quote
+              </Button>
+              <Button href={site.phoneHref} variant="accent" size="lg">
+                Call us
+              </Button>
+            </CTABand>
           </Reveal>
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="bg-[url('/images/background-4.png')] bg-cover bg-center">
-        <div className="e-container p-[30px]">
-          <h2 className="mb-5 text-center font-poppins text-[25px] leading-none font-medium text-black md:text-[30px]">{homeFaq.title}</h2>
-          <RichText
-            html={homeFaq.intro}
-            className="mb-5 h-[35px] text-center font-lato text-[16px] leading-[15px] tracking-[0.2px] text-black md:text-[20px] [&_p]:m-0"
-          />
-          <Reveal className="reveal-up grid grid-cols-1 md:grid-cols-2">
-            {homeFaq.columns.map((items, i) => (
-              <div key={i} className="p-2.5">
-                <Accordion items={items} styles={faqStyles} />
-              </div>
-            ))}
-          </Reveal>
-        </div>
-      </section>
+      <LocationMap />
     </>
   );
 }

@@ -21,10 +21,10 @@ export default function ServicesPage() {
         <div className="flex flex-col-reverse md:flex-row">
           <div className="flex flex-col items-center justify-center text-center md:mr-[60px] md:w-[calc(50%-60px)] md:items-start md:text-left">
             <h1 className="font-poppins text-[28px] leading-8 font-semibold text-white md:text-[37px] md:leading-[56px]">{servicesHero.title}</h1>
-            <p className="font-roboto text-[16px] leading-6 text-white md:my-5 md:mr-20">{servicesHero.text}</p>
+            <p className=" text-[16px] leading-6 text-white md:my-5 md:mr-20">{servicesHero.text}</p>
             <a
               href={servicesHero.button.href}
-              className="inline-block rounded-[10px] bg-[linear-gradient(120deg,#f3931b_0%,#eb5c2b_100%)] px-10 py-5 font-roboto text-[16px] leading-5 text-white uppercase"
+              className="inline-block rounded-[10px] bg-[linear-gradient(120deg,#f3931b_0%,#eb5c2b_100%)] px-10 py-5 text-[16px] leading-5 text-white uppercase"
             >
               {servicesHero.button.label}
             </a>
@@ -77,7 +77,7 @@ export default function ServicesPage() {
               </div>
               <RichText
                 html={row.html}
-                className="font-lato text-[13px] leading-[19.5px] tracking-[0.2px] text-[#7e7e7e] md:text-[15px] md:leading-[22.5px] [&_p]:mb-[13.5px] md:[&_p]:mb-[15.5px]"
+                className=" text-[13px] leading-[19.5px] tracking-[0.2px] text-[#7e7e7e] md:text-[15px] md:leading-[22.5px] [&_p]:mb-[13.5px] md:[&_p]:mb-[15.5px]"
               />
             </div>
           </div>

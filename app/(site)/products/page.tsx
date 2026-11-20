@@ -14,10 +14,10 @@ import { crumbsFor, pageMetadata, pageSchema } from "@/lib/page";
 const page = pages.products;
 export const metadata: Metadata = pageMetadata(page);
 
-const sectionTitle = "font-raleway text-[36px] leading-[54px] font-bold text-black";
-const sectionText = "font-open-sans text-[16px] leading-[26px] text-[#565656]";
-const boxTitle = "mb-[12.6px] font-raleway text-[21px] leading-[25px]";
-const boxText = "font-open-sans text-[15px] leading-[25px] text-[#565656] [&_p]:mb-7";
+const sectionTitle = " text-[36px] leading-[54px] font-bold text-black";
+const sectionText = " text-[16px] leading-[26px] text-[#565656]";
+const boxTitle = "mb-[12.6px] text-[21px] leading-[25px]";
+const boxText = " text-[15px] leading-[25px] text-[#565656] [&_p]:mb-7";
 
 function SectionHeading({ title, text, textMb }: { title: string; text?: string | null; textMb: string }) {
   return (
@@ -59,8 +59,8 @@ export default function ProductsPage() {
         <section className="flex flex-col gap-2.5 bg-white pt-[100px] pb-[90px] md:flex-row md:gap-0 md:py-[60px]">
           <div className="flex flex-col p-[15px] md:w-[53.55%]">
             <div className="md:my-[25px]">
-              <h3 className="mt-[3.6px] mb-[10.8px] font-open-sans text-[18px] leading-[25px] font-bold text-[#111633]">{productsHero.subtitle}</h3>
-              <h2 className="mb-2.5 font-raleway text-[44px] leading-[70px] font-bold text-[#111633]">{productsHero.title}</h2>
+              <h3 className="mt-[3.6px] mb-[10.8px] text-[18px] leading-[25px] font-bold text-[#111633]">{productsHero.subtitle}</h3>
+              <h2 className="mb-2.5 text-[44px] leading-[70px] font-bold text-[#111633]">{productsHero.title}</h2>
               <RichText html={productsHero.text} className={`max-w-[530px] ${sectionText} [&_p]:mb-0`} />
             </div>
             <div className="flex flex-wrap gap-x-[60px]">
@@ -68,7 +68,7 @@ export default function ProductsPage() {
                 <Link
                   key={b.label}
                   href={b.href}
-                  className="inline-flex h-[45px] items-center justify-center rounded-[5px] bg-[#2575fc] px-[30px] font-raleway text-[15px] leading-none text-white hover:bg-[#1a63de]"
+                  className="inline-flex h-[45px] items-center justify-center rounded-[5px] bg-[#2575fc] px-[30px] text-[15px] leading-none text-white hover:bg-[#1a63de]"
                 >
                   {b.label}
                 </Link>

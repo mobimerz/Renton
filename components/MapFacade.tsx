@@ -61,7 +61,7 @@ export default function MapFacade({
         href={openHref}
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute top-2 left-2 inline-flex h-8 items-center gap-1.5 rounded-[2px] bg-white px-3 font-roboto text-[14px] leading-none font-medium text-[#1a73e8] shadow-[0_1px_4px_-1px_rgba(0,0,0,0.3)]"
+        className="absolute top-2 left-2 inline-flex h-8 items-center gap-1.5 rounded-[2px] bg-white px-3 text-[14px] leading-none font-medium text-[#1a73e8] shadow-[0_1px_4px_-1px_rgba(0,0,0,0.3)]"
       >
         <span className="hidden @[300px]:inline">Open in Maps</span>
         <span className="@[300px]:hidden">Maps</span>
@@ -69,7 +69,7 @@ export default function MapFacade({
           <path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
         </svg>
       </a>
-      <span className="pointer-events-none absolute right-0 bottom-0 bg-[rgba(245,245,245,0.7)] px-1.5 font-roboto text-[10px] leading-[14px] text-black">
+      <span className="pointer-events-none absolute right-0 bottom-0 bg-[rgba(245,245,245,0.7)] px-1.5 text-[10px] leading-[14px] text-black">
         Map data ©2026 Google
       </span>
     </div>

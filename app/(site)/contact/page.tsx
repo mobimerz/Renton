@@ -31,16 +31,16 @@ export default function ContactPage() {
 
       {/* Intro */}
       <section className="flow-root bg-white px-5 py-[75px] md:p-0">
-        <h2 className="text-center font-raleway text-[45px] leading-none font-semibold text-[#1e148b]">{contactIntro.title}</h2>
-        <h2 className="mt-5 text-center font-raleway text-[30px] leading-none font-semibold text-[#e93378]">{contactIntro.subtitle}</h2>
-        <RichText html={contactIntro.text} className="mt-5 font-raleway text-[16px] leading-6 text-body [&_p]:mb-4" />
+        <h2 className="text-center text-[45px] leading-none font-semibold text-[#1e148b]">{contactIntro.title}</h2>
+        <h2 className="mt-5 text-center text-[30px] leading-none font-semibold text-[#e93378]">{contactIntro.subtitle}</h2>
+        <RichText html={contactIntro.text} className="mt-5 text-[16px] leading-6 text-body [&_p]:mb-4" />
       </section>
 
       {/* Image + form */}
       <section className="mt-10 mb-20 px-2.5">
         <div className="e-container flex flex-col py-2.5 md:flex-row">
           <div className="m-10 flex flex-col gap-5 pt-[35px] md:w-[calc(52.97%-80px)] md:shrink-0">
-            <h2 className="pb-[30px] font-raleway text-[17px] leading-none font-semibold text-[#1e148b] md:text-[35px]">{contactFormBlock.title}</h2>
+            <h2 className="pb-[30px] text-[17px] leading-none font-semibold text-[#1e148b] md:text-[35px]">{contactFormBlock.title}</h2>
             <Image
               src={contactFormBlock.image.src}
               alt={contactFormBlock.image.alt}
@@ -62,7 +62,7 @@ export default function ContactPage() {
       {/* Headline */}
       <section className="px-[30px] pt-20 pb-[100px] md:px-0 md:py-10">
         <div className="p-2.5">
-          <h2 className="text-center font-raleway text-[25px] leading-none font-semibold text-[#1e148b] md:text-[45px]">{contactHeadline}</h2>
+          <h2 className="text-center text-[25px] leading-none font-semibold text-[#1e148b] md:text-[45px]">{contactHeadline}</h2>
         </div>
       </section>
 
@@ -74,13 +74,13 @@ export default function ContactPage() {
               <span className={cardIcon}>
                 <Icon name="phone" />
               </span>
-              <RichText html={`<p>${contactCards.phone}</p>`} className="w-full text-center font-raleway text-[16px] leading-6 text-body [&_p]:mb-4" />
+              <RichText html={`<p>${contactCards.phone}</p>`} className="w-full text-center text-[16px] leading-6 text-body [&_p]:mb-4" />
             </div>
             <div className={card}>
               <span className={cardIcon}>
                 <Icon name="envelope-regular" />
               </span>
-              <p className="mb-4 w-full text-center font-raleway text-[16px] leading-6 text-body">
+              <p className="mb-4 w-full text-center text-[16px] leading-6 text-body">
                 <a href={`mailto:${contactCards.email}`}>
                   {contactCards.email}
                 </a>
@@ -105,7 +105,7 @@ export default function ContactPage() {
               <span className={`${cardIcon} self-center`}>
                 <Icon name="map-marker-alt" />
               </span>
-              <RichText html={contactCards.addressHtml} className="w-full font-raleway text-[16px] leading-6 text-body [&_p]:mb-4" />
+              <RichText html={contactCards.addressHtml} className="w-full text-[16px] leading-6 text-body [&_p]:mb-4" />
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function ContactPage() {
       {/* FAQ (Elementor toggle: closed by default, icon on the right) */}
       <section className="px-[30px] pt-[50px] pb-[60px] md:px-0 md:pt-5 md:pb-0">
         <div className="flex flex-col gap-5 md:pl-[50px]">
-          <h2 className="text-center font-raleway text-[38px] leading-none font-semibold text-[#1e148b]">{contactFaq.title}</h2>
+          <h2 className="text-center text-[38px] leading-none font-semibold text-[#1e148b]">{contactFaq.title}</h2>
           <div className="mt-[9px] pt-[15px] md:mx-5 md:mt-0 md:p-2.5">
             <Accordion
               items={contactFaq.items}
@@ -123,9 +123,9 @@ export default function ContactPage() {
                 iconPosition: "right",
                 closedIcon: "caret-right",
                 openIcon: "caret-up",
-                title: "mb-[25px] px-[30px] py-[21px] font-raleway text-[16px] leading-none font-bold text-body",
+                title: "mb-[25px] px-[30px] py-[21px] text-[16px] leading-none font-bold text-body",
                 activeTitle: "mb-0",
-                content: "mb-[25px] px-[30px] pb-[21px] font-raleway text-[16px] leading-6 text-body",
+                content: "mb-[25px] px-[30px] pb-[21px] text-[16px] leading-6 text-body",
               }}
             />
           </div>

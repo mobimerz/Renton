@@ -5,12 +5,12 @@ import { PRODUCT_OPTIONS, TERMS_VALUE, contactSchema } from "@/lib/contact-schem
 
 type Errors = Partial<Record<"name" | "email" | "phone" | "product" | "requirements" | "terms" | "form", string>>;
 
-const label = "-mt-[15px] block font-raleway text-[17.6px] leading-[26.4px] font-bold text-[#3d3d3d]";
-const input = "block w-full border border-[#bbb] bg-white px-[17.6px] font-raleway text-[16px] text-body focus:border-[#999] focus:outline-none";
+const label = "-mt-[15px] block text-[17.6px] leading-[26.4px] font-bold text-[#3d3d3d]";
+const input = "block w-full border border-[#bbb] bg-white px-[17.6px] text-[16px] text-body focus:border-[#999] focus:outline-none";
 const Req = () => <span className="font-normal text-[#ff0000]"> *</span>;
 const Err = ({ id, msg }: { id: string; msg?: string }) =>
   msg ? (
-    <em id={id} className="mt-[5px] block font-raleway text-[14px] not-italic text-[#990000]" role="alert">
+    <em id={id} className="mt-[5px] block text-[14px] not-italic text-[#990000]" role="alert">
       {msg}
     </em>
   ) : null;
@@ -68,7 +68,7 @@ export default function ContactForm() {
 
   if (status === "sent") {
     return (
-      <div className="mx-auto mt-[30px] w-[290px] max-w-full border border-[#b4d39b] bg-[#dff0d8] px-5 py-[15px] font-raleway text-[16px] text-[#3c763d]" role="status">
+      <div className="mx-auto mt-[30px] w-[290px] max-w-full border border-[#b4d39b] bg-[#dff0d8] px-5 py-[15px] text-[16px] text-[#3c763d]" role="status">
         <p>Thanks for contacting us! We will be in touch with you shortly.</p>
       </div>
     );
@@ -112,7 +112,7 @@ export default function ContactForm() {
           inputMode="tel"
           required
           autoComplete="tel"
-          className="block h-[43px] w-full border-2 [border-style:inset] border-[#767676] bg-white px-0.5 py-px font-raleway text-[16px] text-body"
+          className="block h-[43px] w-full border-2 [border-style:inset] border-[#767676] bg-white px-0.5 py-px text-[16px] text-body"
           {...aria("phone")}
         />
         <Err id="cf-phone-error" msg={errors.phone} />
@@ -126,7 +126,7 @@ export default function ContactForm() {
           id="cf-product"
           name="product"
           defaultValue={PRODUCT_OPTIONS[0]}
-          className="block h-[34px] w-[174px] max-w-full border border-[#bbb] bg-transparent pr-2 pl-[18px] font-raleway text-[16px] text-body"
+          className="block h-[34px] w-[174px] max-w-full border border-[#bbb] bg-transparent pr-2 pl-[18px] text-[16px] text-body"
           {...aria("product")}
         >
           {PRODUCT_OPTIONS.map((o) => (
@@ -153,7 +153,7 @@ export default function ContactForm() {
         </p>
         <div className="mt-1 flex items-start" role="group" aria-labelledby="cf-terms-label">
           <input id="cf-terms" name="terms" type="checkbox" value={TERMS_VALUE} required className="mt-[3px] mr-2.5 ml-[3px] size-[13px] shrink-0" {...aria("terms")} />
-          <label htmlFor="cf-terms" className="font-raleway text-[17.6px] leading-[23px] text-[#3d3d3d]">
+          <label htmlFor="cf-terms" className=" text-[17.6px] leading-[23px] text-[#3d3d3d]">
             {TERMS_VALUE}
           </label>
         </div>
@@ -165,7 +165,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="mt-[14px] h-[53px] bg-[#f0f0f0] px-[35px] font-raleway text-[13px] font-semibold text-body hover:bg-[#e2e2e2] disabled:opacity-70"
+        className="mt-[14px] h-[53px] bg-[#f0f0f0] px-[35px] text-[13px] font-semibold text-body hover:bg-[#e2e2e2] disabled:opacity-70"
       >
         {status === "sending" ? "Sending..." : "Submit"}
       </button>

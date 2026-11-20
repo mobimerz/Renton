@@ -14,7 +14,7 @@ import { crumbsFor, pageMetadata, pageSchema } from "@/lib/page";
 const page = pages.about;
 export const metadata: Metadata = pageMetadata(page);
 
-const body = "font-raleway text-[16px] leading-6 text-body [&_p]:mb-4";
+const body = " text-[16px] leading-6 text-body [&_p]:mb-4";
 
 export default function AboutPage() {
   // hero background is a CSS image, so the browser would only find it after the stylesheet
@@ -30,9 +30,9 @@ export default function AboutPage() {
           <div aria-hidden className="absolute inset-0 bg-black/50" />
           <div className="relative z-10 flex flex-col gap-5 text-center text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.6)]">
             {/* Second <h1> on the page, as on WordPress (theme title "About" + this "About Us") */}
-            <h1 className="mt-[15px] font-raleway text-[43.2px] leading-none font-semibold md:mt-0">{aboutHero.title}</h1>
-            <h4 className="font-raleway text-[22px] leading-none font-semibold">{aboutHero.subtitle}</h4>
-            <RichText html={aboutHero.text} className="font-raleway text-[16px] leading-6 [&_p]:mb-4" />
+            <h1 className="mt-[15px] text-[43.2px] leading-none font-semibold md:mt-0">{aboutHero.title}</h1>
+            <h4 className=" text-[22px] leading-none font-semibold">{aboutHero.subtitle}</h4>
+            <RichText html={aboutHero.text} className=" text-[16px] leading-6 [&_p]:mb-4" />
           </div>
         </section>
 
@@ -41,13 +41,13 @@ export default function AboutPage() {
           {aboutCards.map((c) => (
             <div key={c.title} className="flex flex-1 flex-col gap-5 p-[30px] shadow-[0_0_40px_rgba(36,42,86,0.15)] md:p-[35px]">
               <span className="block w-[50px] border-t-[7px] border-[#0c0d0e]" role="separator" />
-              <h3 className="font-raleway text-[27px] leading-none font-semibold text-body">{c.title}</h3>
+              <h3 className=" text-[27px] leading-none font-semibold text-body">{c.title}</h3>
               {"html" in c ? (
                 <RichText html={c.html} className={body} />
               ) : (
                 <ul>
                   {c.list.map((li) => (
-                    <li key={li} className="flex items-center font-raleway text-[16px] leading-[30.4px] text-body">
+                    <li key={li} className="flex items-center text-[16px] leading-[30.4px] text-body">
                       <Icon name="caret-right" className="w-[17.5px]! text-[14px]" />
                       <span className="pl-[5px]">{li}</span>
                     </li>
@@ -60,11 +60,11 @@ export default function AboutPage() {
 
         {/* Our 6-D Process */}
         <section className="px-5 py-5 md:px-0 md:pt-0 md:pb-[50px]">
-          <h2 className="mb-5 text-center font-raleway text-[33.6px] leading-none font-semibold text-body">{sixD.title}</h2>
+          <h2 className="mb-5 text-center text-[33.6px] leading-none font-semibold text-body">{sixD.title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3">
             {sixD.steps.map((s) => (
               <div key={s.title} className="flex flex-col gap-5 p-5 md:p-10">
-                <h4 className="font-raleway text-[22px] leading-none font-semibold text-body">{s.title}</h4>
+                <h4 className=" text-[22px] leading-none font-semibold text-body">{s.title}</h4>
                 <RichText html={s.html} className={body} />
               </div>
             ))}
@@ -77,7 +77,7 @@ export default function AboutPage() {
             <Image src={whyUs.image.src} alt={whyUs.image.alt} width={whyUs.image.width} height={whyUs.image.height} sizes="(max-width: 767px) 100vw, 50vw" className="w-full" />
           </div>
           <div className="flex flex-col gap-5 px-[25px] py-[50px] md:w-1/2 md:p-20">
-            <h2 className="font-raleway text-[33.6px] leading-none font-semibold text-body">{whyUs.title}</h2>
+            <h2 className=" text-[33.6px] leading-none font-semibold text-body">{whyUs.title}</h2>
             <RichText html={whyUs.html} className={body} />
           </div>
         </section>
@@ -85,7 +85,7 @@ export default function AboutPage() {
         {/* Our Core Advantages */}
         <section className="my-2.5 bg-white md:pt-[60px] md:pb-[15px]">
           <div className="p-2.5 text-center">
-            <h2 className="mb-5 font-raleway text-[30px] leading-none font-semibold text-body">{advantages.kicker}</h2>
+            <h2 className="mb-5 text-[30px] leading-none font-semibold text-body">{advantages.kicker}</h2>
             <h2 className="mb-2.5 font-poppins text-[20px] leading-none font-medium text-black md:text-[32px]">{advantages.title}</h2>
           </div>
         </section>
@@ -101,7 +101,7 @@ export default function AboutPage() {
                 // Elementor stretches the 2nd and 3rd images to a fixed 138px height (object-fit: fill)
                 className={`mb-[15px] w-full ${i === 1 || i === 2 ? "h-[138px] object-fill" : ""}`}
               />
-              <h3 className="mt-2.5 mb-[15px] font-raleway text-[18px] leading-none font-semibold text-body">{a.title}</h3>
+              <h3 className="mt-2.5 mb-[15px] text-[18px] leading-none font-semibold text-body">{a.title}</h3>
               <RichText html={a.html} className={body} />
             </div>
           ))}
@@ -111,13 +111,13 @@ export default function AboutPage() {
         <section className="px-[30px] pt-2.5 pb-[30px] md:px-0 md:py-5">
           <div className="flex flex-col gap-5 py-[15px] md:flex-row md:py-[30px]">
             <div className="flex flex-col gap-5 md:w-[69%]">
-              <h3 className="font-raleway text-[26px] leading-none font-semibold text-body">{aboutCta.title}</h3>
+              <h3 className=" text-[26px] leading-none font-semibold text-body">{aboutCta.title}</h3>
               <RichText html={aboutCta.html} className={body} />
             </div>
             <div className="mt-5 flex flex-col justify-center md:mt-0 md:flex-1">
               <Link
                 href={aboutCta.button.href}
-                className="inline-block self-start rounded-[3px] md:self-end bg-[#69727d] px-6 py-3 font-raleway text-[15px] leading-none text-white hover:bg-[#5a636e]"
+                className="inline-block self-start rounded-[3px] md:self-end bg-[#69727d] px-6 py-3 text-[15px] leading-none text-white hover:bg-[#5a636e]"
               >
                 {aboutCta.button.label}
               </Link>

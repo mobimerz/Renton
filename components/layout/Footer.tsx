@@ -33,7 +33,7 @@ export default function Footer() {
                 <Image src={site.footerLogo} alt="logo renton" width={300} height={300} className="size-[65px] md:size-[75px]" />
               </Link>
             </div>
-            <p className="m-2.5 mb-[13px] font-open-sans md:mb-[14px] text-[13px] leading-[19.5px] text-white md:text-[14px] md:leading-[21px]">{site.footerText}</p>
+            <p className="m-2.5 mb-[13px] md:mb-[14px] text-[13px] leading-[19.5px] text-white md:text-[14px] md:leading-[21px]">{site.footerText}</p>
           </div>
 
           {/* Quick links */}
@@ -42,7 +42,7 @@ export default function Footer() {
             <ul className="space-y-[17px]">
               {footerQuickLinks.map((l) => (
                 <li key={l.label} className="leading-[14px]">
-                  <Link href={l.href} className="font-open-sans text-[14px] leading-[14px] text-white hover:text-footer-heading">
+                  <Link href={l.href} className=" text-[14px] leading-[14px] text-white hover:text-footer-heading">
                     {l.label}
                   </Link>
                 </li>
