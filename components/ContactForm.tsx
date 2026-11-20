@@ -5,12 +5,13 @@ import { PRODUCT_OPTIONS, TERMS_VALUE, contactSchema } from "@/lib/contact-schem
 
 type Errors = Partial<Record<"name" | "email" | "phone" | "product" | "requirements" | "terms" | "form", string>>;
 
-const label = "-mt-[15px] block text-[17.6px] leading-[26.4px] font-bold text-[#3d3d3d]";
-const input = "block w-full border border-[#bbb] bg-white px-[17.6px] text-[16px] text-body focus:border-[#999] focus:outline-none";
-const Req = () => <span className="font-normal text-[#ff0000]"> *</span>;
+const label = "block text-[14px] font-medium text-brand-navy";
+const inputBase =
+  "block w-full rounded-xl border bg-white px-4 py-3 text-[15px] text-brand-navy placeholder:text-slate-400 transition-colors focus:outline-none focus:ring-2";
+const Req = () => <span className="font-normal text-red-500"> *</span>;
 const Err = ({ id, msg }: { id: string; msg?: string }) =>
   msg ? (
-    <em id={id} className="mt-[5px] block text-[14px] not-italic text-[#990000]" role="alert">
+    <em id={id} className="mt-1.5 block text-[13px] not-italic text-red-600" role="alert">
       {msg}
     </em>
   ) : null;
@@ -68,67 +69,59 @@ export default function ContactForm() {
 
   if (status === "sent") {
     return (
-      <div className="mx-auto mt-[30px] w-[290px] max-w-full border border-[#b4d39b] bg-[#dff0d8] px-5 py-[15px] text-[16px] text-[#3c763d]" role="status">
-        <p>Thanks for contacting us! We will be in touch with you shortly.</p>
+      <div className="flex flex-col items-center gap-3 rounded-2xl border border-green-200 bg-green-50 px-6 py-10 text-center" role="status">
+        <span className="flex size-14 items-center justify-center rounded-full bg-green-500 text-white">
+          <svg viewBox="0 0 24 24" className="size-7 fill-current" aria-hidden>
+            <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z" />
+          </svg>
+        </span>
+        <p className="font-poppins text-[17px] font-semibold text-green-800">Thanks for contacting us!</p>
+        <p className="font-inter text-[14px] text-green-700">We will be in touch with you shortly.</p>
       </div>
     );
   }
 
   const aria = (k: keyof Errors) => (errors[k] ? { "aria-invalid": true, "aria-describedby": `cf-${k}-error` } : {});
+  const cls = (k: keyof Errors) =>
+    `${inputBase} ${errors[k] ? "border-red-400 focus:border-red-400 focus:ring-red-400/20" : "border-slate-300 focus:border-brand focus:ring-brand/20"}`;
 
   return (
-    <form onSubmit={onSubmit} noValidate className="mx-auto mt-[30px] w-[290px] max-w-full">
+    <form onSubmit={onSubmit} noValidate className="flex w-full flex-col gap-5">
       {/* Honeypot — hidden from people and screen readers */}
       <div aria-hidden="true" className="absolute -left-[9999px] h-px w-px overflow-hidden">
         <label htmlFor="cf-website">Website</label>
         <input id="cf-website" name="website" type="text" tabIndex={-1} autoComplete="off" />
       </div>
 
-      <div className="py-2.5">
+      <div className="flex flex-col gap-1.5">
         <label htmlFor="cf-name" className={label}>
           Name<Req />
         </label>
-        <input id="cf-name" name="name" type="text" required autoComplete="name" className={`${input} h-[43px]`} {...aria("name")} />
+        <input id="cf-name" name="name" type="text" required autoComplete="name" className={cls("name")} {...aria("name")} />
         <Err id="cf-name-error" msg={errors.name} />
       </div>
 
-      <div className="py-2.5">
+      <div className="flex flex-col gap-1.5">
         <label htmlFor="cf-email" className={label}>
           Email<Req />
         </label>
-        <input id="cf-email" name="email" type="email" required autoComplete="email" className={`${input} h-[43px]`} {...aria("email")} />
+        <input id="cf-email" name="email" type="email" required autoComplete="email" className={cls("email")} {...aria("email")} />
         <Err id="cf-email-error" msg={errors.email} />
       </div>
 
-      <div className="py-2.5">
+      <div className="flex flex-col gap-1.5">
         <label htmlFor="cf-phone" className={label}>
           Mob Numbers<Req />
         </label>
-        {/* The live site leaves this number input with the browser's default inset border */}
-        <input
-          id="cf-phone"
-          name="phone"
-          type="number"
-          inputMode="tel"
-          required
-          autoComplete="tel"
-          className="block h-[43px] w-full border-2 [border-style:inset] border-[#767676] bg-white px-0.5 py-px text-[16px] text-body"
-          {...aria("phone")}
-        />
+        <input id="cf-phone" name="phone" type="number" inputMode="tel" required autoComplete="tel" className={cls("phone")} {...aria("phone")} />
         <Err id="cf-phone-error" msg={errors.phone} />
       </div>
 
-      <div className="py-2.5">
+      <div className="flex flex-col gap-1.5">
         <label htmlFor="cf-product" className={label}>
           Products
         </label>
-        <select
-          id="cf-product"
-          name="product"
-          defaultValue={PRODUCT_OPTIONS[0]}
-          className="block h-[34px] w-[174px] max-w-full border border-[#bbb] bg-transparent pr-2 pl-[18px] text-[16px] text-body"
-          {...aria("product")}
-        >
+        <select id="cf-product" name="product" defaultValue={PRODUCT_OPTIONS[0]} className={`${cls("product")} pr-8`} {...aria("product")}>
           {PRODUCT_OPTIONS.map((o) => (
             <option key={o} value={o}>
               {o}
@@ -138,22 +131,29 @@ export default function ContactForm() {
         <Err id="cf-product-error" msg={errors.product} />
       </div>
 
-      <div className="py-2.5">
+      <div className="flex flex-col gap-1.5">
         <label htmlFor="cf-requirements" className={label}>
           Leave Your Requirements
         </label>
-        <textarea id="cf-requirements" name="requirements" className={`${input} h-[120px] py-[17.6px]`} {...aria("requirements")} />
+        <textarea id="cf-requirements" name="requirements" rows={4} className={`${cls("requirements")} min-h-28 resize-y`} {...aria("requirements")} />
         <Err id="cf-requirements-error" msg={errors.requirements} />
       </div>
 
-      <div className="py-2.5">
-        {/* <legend> ignores negative margins, so the group label is a plain element */}
+      <div className="flex flex-col gap-1.5">
         <p id="cf-terms-label" className={label}>
           Terms of Service<Req />
         </p>
-        <div className="mt-1 flex items-start" role="group" aria-labelledby="cf-terms-label">
-          <input id="cf-terms" name="terms" type="checkbox" value={TERMS_VALUE} required className="mt-[3px] mr-2.5 ml-[3px] size-[13px] shrink-0" {...aria("terms")} />
-          <label htmlFor="cf-terms" className=" text-[17.6px] leading-[23px] text-[#3d3d3d]">
+        <div className="mt-0.5 flex items-start gap-2.5" role="group" aria-labelledby="cf-terms-label">
+          <input
+            id="cf-terms"
+            name="terms"
+            type="checkbox"
+            value={TERMS_VALUE}
+            required
+            className="mt-0.5 size-4 shrink-0 rounded border-slate-300 text-brand accent-[#0a2b9b]"
+            {...aria("terms")}
+          />
+          <label htmlFor="cf-terms" className="text-[14px] leading-[22px] text-slate-600">
             {TERMS_VALUE}
           </label>
         </div>
@@ -165,9 +165,16 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="mt-[14px] h-[53px] bg-[#f0f0f0] px-[35px] text-[13px] font-semibold text-body hover:bg-[#e2e2e2] disabled:opacity-70"
+        className="mt-1 inline-flex h-[52px] items-center justify-center gap-2 rounded-xl bg-cta px-8 font-inter text-[15px] font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-700 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand disabled:cursor-not-allowed disabled:opacity-70"
       >
-        {status === "sending" ? "Sending..." : "Submit"}
+        {status === "sending" ? (
+          <>
+            <span className="inline-block size-4 animate-spin rounded-full border-2 border-white border-r-transparent" aria-hidden />
+            Sending...
+          </>
+        ) : (
+          "Submit"
+        )}
       </button>
     </form>
   );

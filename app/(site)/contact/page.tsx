@@ -7,6 +7,7 @@ import GoogleMap from "@/components/GoogleMap";
 import Icon from "@/components/Icon";
 import Accordion from "@/components/ui/Accordion";
 import RichText from "@/components/ui/RichText";
+import Reveal from "@/components/ui/Reveal";
 import { pages } from "@/data/pages";
 import { contactCards, contactFaq, contactFormBlock, contactHeadline, contactIntro, contactMap } from "@/data/contact";
 import { crumbsFor, pageMetadata, pageSchema } from "@/lib/page";
@@ -14,8 +15,10 @@ import { crumbsFor, pageMetadata, pageSchema } from "@/lib/page";
 const page = pages.contact;
 export const metadata: Metadata = pageMetadata(page);
 
-const card = "flex flex-col items-center rounded-[3px] border border-[rgba(122,122,122,0.25)] p-2.5 md:m-5 md:flex-1 md:px-5 md:py-0";
-const cardIcon = "flex h-8 items-start justify-center text-[25px] text-[#69727d]";
+const card =
+  "group flex flex-1 flex-col items-center gap-3 rounded-card border border-slate-100 bg-white p-7 text-center shadow-card transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-card-hover";
+const cardIcon =
+  "flex size-14 items-center justify-center rounded-2xl bg-brand text-[24px] text-white transition-transform duration-300 group-hover:scale-110";
 
 export default function ContactPage() {
   return (
@@ -24,111 +27,109 @@ export default function ContactPage() {
       <PageHero title={page.pageTitle} subtitle={contactHeadline} bg="/images/office.jpg" crumbs={crumbsFor(page)} />
 
       {/* Intro */}
-      <section className="flow-root bg-white px-5 py-[75px] md:p-0">
-        <h2 className="text-center text-[45px] leading-none font-semibold text-[#1e148b]">{contactIntro.title}</h2>
-        <h2 className="mt-5 text-center text-[30px] leading-none font-semibold text-[#e93378]">{contactIntro.subtitle}</h2>
-        <RichText html={contactIntro.text} className="mt-5 text-[16px] leading-6 text-body [&_p]:mb-4" />
+      <section className="bg-white px-5 py-14 md:px-6 md:py-20">
+        <Reveal className="reveal-up mx-auto flex max-w-[680px] flex-col items-center gap-3 text-center">
+          <h2 className="font-poppins text-[28px] leading-[1.15] font-bold text-brand-navy md:text-[40px]">{contactIntro.title}</h2>
+          <p className="font-poppins text-[18px] leading-snug font-semibold text-brand md:text-[22px]">{contactIntro.subtitle}</p>
+          <RichText html={contactIntro.text} className="font-inter text-[15px] leading-7 text-muted [&_p]:m-0" />
+        </Reveal>
       </section>
 
       {/* Image + form */}
-      <section className="mt-10 mb-20 px-2.5">
-        <div className="e-container flex flex-col py-2.5 md:flex-row">
-          <div className="m-10 flex flex-col gap-5 pt-[35px] md:w-[calc(52.97%-80px)] md:shrink-0">
-            <h2 className="pb-[30px] text-[17px] leading-none font-semibold text-[#1e148b] md:text-[35px]">{contactFormBlock.title}</h2>
+      <section className="bg-brand-50 px-5 py-14 md:px-6 md:py-20">
+        <div className="e-container grid grid-cols-1 items-start gap-10 md:grid-cols-2 md:gap-14">
+          <Reveal className="reveal-up flex flex-col gap-6">
+            <h2 className="font-poppins text-[24px] leading-tight font-bold text-brand-navy md:text-[32px]">{contactFormBlock.title}</h2>
             <Image
               src={contactFormBlock.image.src}
               alt={contactFormBlock.image.alt}
               width={contactFormBlock.image.width}
               height={contactFormBlock.image.height}
-              sizes="(max-width: 767px) 100vw, 625px"
-              className="w-full"
+              sizes="(max-width: 767px) 100vw, 50vw"
+              className="w-full rounded-card object-cover shadow-card"
             />
-          </div>
-          <div className="mt-[35px] p-2.5 md:flex-1">
-            {/* WPForms widget box on the live page is 656px tall */}
-            <div className="flow-root min-h-[656px]">
-              <ContactForm />
-            </div>
-          </div>
+          </Reveal>
+          <Reveal className="reveal-up rounded-card border border-slate-100 bg-white p-6 shadow-card md:p-8">
+            <ContactForm />
+          </Reveal>
         </div>
       </section>
 
       {/* Headline */}
-      <section className="px-[30px] pt-20 pb-[100px] md:px-0 md:py-10">
-        <div className="p-2.5">
-          <h2 className="text-center text-[25px] leading-none font-semibold text-[#1e148b] md:text-[45px]">{contactHeadline}</h2>
-        </div>
+      <section className="bg-white px-5 pt-14 md:px-6 md:pt-20">
+        <h2 className="mx-auto max-w-[800px] text-center font-poppins text-[24px] leading-[1.2] font-bold text-brand-navy md:text-[40px]">{contactHeadline}</h2>
       </section>
 
       {/* Contact cards */}
-      <section className="px-[15px] pb-[50px] md:px-0 md:pb-0">
-        <div className="-mt-[35px] rounded-[5px] px-[15px] pt-2.5 pb-[45px] shadow-[0_0_50px_-10px_rgba(0,0,0,0.13)] md:mt-0 md:p-0">
-          <div className="e-container mt-5 flex flex-col gap-[15px] md:mt-[35px] md:mb-10 md:flex-row md:gap-0 md:px-5">
-            <div className={card}>
-              <span className={cardIcon}>
-                <Icon name="phone" />
-              </span>
-              <RichText html={`<p>${contactCards.phone}</p>`} className="w-full text-center text-[16px] leading-6 text-body [&_p]:mb-4" />
-            </div>
-            <div className={card}>
-              <span className={cardIcon}>
-                <Icon name="envelope-regular" />
-              </span>
-              <p className="mb-4 w-full text-center text-[16px] leading-6 text-body">
-                <a href={`mailto:${contactCards.email}`}>
-                  {contactCards.email}
-                </a>
-              </p>
-              <ul className="flex justify-center gap-[7px]">
-                {contactCards.social.map((s) => (
-                  <li key={s.href}>
-                    <a
-                      href={s.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={s.label}
-                      className="flex h-[22px] w-[33px] items-center justify-center text-[22px] text-[#1bb0ce]"
-                    >
-                      <Icon name={s.icon} />
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className={`${card} md:items-stretch`}>
-              <span className={`${cardIcon} self-center`}>
-                <Icon name="map-marker-alt" />
-              </span>
-              <RichText html={contactCards.addressHtml} className="w-full text-[16px] leading-6 text-body [&_p]:mb-4" />
-            </div>
+      <section className="bg-white px-5 py-14 md:px-6 md:py-16">
+        <Reveal className="reveal-stagger e-container grid grid-cols-1 gap-6 md:grid-cols-3">
+          <div className={card}>
+            <span className={cardIcon}>
+              <Icon name="phone" />
+            </span>
+            <RichText html={`<p>${contactCards.phone}</p>`} className="w-full font-inter text-[15px] leading-6 text-muted [&_p]:m-0" />
           </div>
-        </div>
+          <div className={card}>
+            <span className={cardIcon}>
+              <Icon name="envelope-regular" />
+            </span>
+            <p className="w-full font-inter text-[15px] leading-6 text-muted">
+              <a href={`mailto:${contactCards.email}`} className="transition-colors hover:text-brand">
+                {contactCards.email}
+              </a>
+            </p>
+            <ul className="flex justify-center gap-2">
+              {contactCards.social.map((s) => (
+                <li key={s.href}>
+                  <a
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={s.label}
+                    className="flex size-9 items-center justify-center rounded-full bg-brand-50 text-[18px] text-brand transition-colors hover:bg-brand hover:text-white"
+                  >
+                    <Icon name={s.icon} />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className={card}>
+            <span className={cardIcon}>
+              <Icon name="map-marker-alt" />
+            </span>
+            <RichText html={contactCards.addressHtml} className="w-full font-inter text-[15px] leading-6 text-muted [&_p]:m-0" />
+          </div>
+        </Reveal>
       </section>
 
-      {/* FAQ (Elementor toggle: closed by default, icon on the right) */}
-      <section className="px-[30px] pt-[50px] pb-[60px] md:px-0 md:pt-5 md:pb-0">
-        <div className="flex flex-col gap-5 md:pl-[50px]">
-          <h2 className="text-center text-[38px] leading-none font-semibold text-[#1e148b]">{contactFaq.title}</h2>
-          <div className="mt-[9px] pt-[15px] md:mx-5 md:mt-0 md:p-2.5">
-            <Accordion
-              items={contactFaq.items}
-              multiple
-              styles={{
-                iconPosition: "right",
-                closedIcon: "caret-right",
-                openIcon: "caret-up",
-                title: "mb-[25px] px-[30px] py-[21px] text-[16px] leading-none font-bold text-body",
-                activeTitle: "mb-0",
-                content: "mb-[25px] px-[30px] pb-[21px] text-[16px] leading-6 text-body",
-              }}
-            />
-          </div>
-        </div>
+      {/* FAQ (toggle: closed by default, icon on the right) */}
+      <section className="bg-brand-50 px-5 py-14 md:px-6 md:py-20">
+        <h2 className="text-center font-poppins text-[28px] leading-[1.15] font-bold text-brand-navy md:text-[40px]">{contactFaq.title}</h2>
+        <Reveal className="reveal-up mx-auto mt-10 max-w-[840px]">
+          <Accordion
+            items={contactFaq.items}
+            multiple
+            styles={{
+              box: "flex flex-col gap-3",
+              iconPosition: "right",
+              closedIcon: "plus",
+              openIcon: "minus",
+              title:
+                "rounded-card border border-slate-100 bg-white px-6 py-[18px] font-poppins text-[15px] md:text-[16px] font-medium text-brand-navy shadow-card transition-colors hover:text-brand",
+              activeTitle: "text-brand! rounded-b-none!",
+              content:
+                "rounded-b-2xl border border-t-0 border-slate-100 bg-white px-6 pb-5 font-inter text-[14px] leading-6 text-muted",
+            }}
+          />
+        </Reveal>
       </section>
 
       {/* Map */}
-      <section className="md:pb-10">
-        <GoogleMap src={contactMap.src} title={contactMap.title} height={430} />
+      <section className="bg-brand-50 px-5 pb-16 md:px-6 md:pb-20">
+        <div className="e-container overflow-hidden rounded-card shadow-card ring-1 ring-slate-100">
+          <GoogleMap src={contactMap.src} title={contactMap.title} height={430} className="w-full" />
+        </div>
       </section>
     </>
   );

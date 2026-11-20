@@ -14,6 +14,7 @@ export default function StatCounter({
   label,
   duration = 1600,
   className = "",
+  tone = "brand",
 }: {
   value: number;
   suffix?: string;
@@ -21,6 +22,8 @@ export default function StatCounter({
   label: string;
   duration?: number;
   className?: string;
+  /** "brand" = blue number on light bg; "onDark" = white number for dark bands */
+  tone?: "brand" | "onDark";
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [display, setDisplay] = useState(value); // SSR / no-JS shows the final number
@@ -55,14 +58,16 @@ export default function StatCounter({
     };
   }, [value, duration]);
 
+  const numberCls = tone === "onDark" ? "text-white" : "text-brand";
+  const labelCls = tone === "onDark" ? "text-white/70" : "text-muted";
   return (
     <div ref={ref} className={`flex flex-col items-center text-center ${className}`}>
-      <div className="font-poppins text-[34px] leading-none font-bold text-brand md:text-[44px]">
+      <div className={`font-poppins text-[38px] leading-none font-bold md:text-[48px] ${numberCls}`}>
         {prefix}
         {display.toLocaleString("en-IN")}
         {suffix}
       </div>
-      <div className="mt-2 font-inter text-[14px] font-medium text-muted md:text-[15px]">{label}</div>
+      <div className={`mt-2 font-inter text-[14px] font-medium md:text-[15px] ${labelCls}`}>{label}</div>
     </div>
   );
 }

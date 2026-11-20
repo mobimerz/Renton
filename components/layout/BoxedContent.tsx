@@ -3,5 +3,5 @@
  * 70px space above (under the title bar) and below (before the footer).
  */
 export default function BoxedContent({ children }: { children: React.ReactNode }) {
-  return <div className="px-[35px] py-[70px]">{children}</div>;
+  return <div className="mx-auto w-full max-w-[1440px] px-5 py-12 md:px-8 md:py-16">{children}</div>;
 }

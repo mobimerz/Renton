@@ -7,6 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import EkitIcon from "@/components/EkitIcon";
 import EkitAccordion from "@/components/ui/EkitAccordion";
 import RichText from "@/components/ui/RichText";
+import Reveal from "@/components/ui/Reveal";
 import { pages } from "@/data/pages";
 import { comprehensive, productsFaq, productsHero, secureSolutions, specialFeatures, type EkitBox } from "@/data/products";
 import { crumbsFor, pageMetadata, pageSchema } from "@/lib/page";
@@ -14,35 +15,29 @@ import { crumbsFor, pageMetadata, pageSchema } from "@/lib/page";
 const page = pages.products;
 export const metadata: Metadata = pageMetadata(page);
 
-const sectionTitle = " text-[36px] leading-[54px] font-bold text-black";
-const sectionText = " text-[16px] leading-[26px] text-[#565656]";
-const boxTitle = "mb-[12.6px] text-[21px] leading-[25px]";
-const boxText = " text-[15px] leading-[25px] text-[#565656] [&_p]:mb-7";
+const sectionTitle = "font-poppins text-[28px] leading-[1.2] font-bold text-brand-navy md:text-[36px]";
+const sectionText = "font-inter text-[15px] leading-7 text-muted md:text-[17px]";
+const boxTitle = "mb-2 font-poppins text-[19px] leading-[1.3]";
+const boxText = "font-inter text-[14px] leading-[25px] text-muted [&_p]:mb-3";
 
-function SectionHeading({ title, text, textMb }: { title: string; text?: string | null; textMb: string }) {
+function SectionHeading({ title, text, textMb = "" }: { title: string; text?: string | null; textMb?: string }) {
   return (
-    <div className="mx-auto max-w-[540px] px-[15px] text-center">
-      <h2 className={`mb-2 ${sectionTitle}`}>{title}</h2>
-      {text && <RichText html={text} className={`${sectionText} ${textMb}`} />}
+    <div className="mx-auto max-w-[620px] px-4 text-center">
+      <h2 className={sectionTitle}>{title}</h2>
+      {text && <RichText html={text} className={`mt-3 ${sectionText} ${textMb}`} />}
     </div>
   );
 }
 
-/** Icon-left ElementsKit info box (sections 3 and 4). */
-function SideBox({ box, variant }: { box: EkitBox; variant: "pink" | "plain" }) {
+/** Icon-left info box (comprehensive + special-features sections). */
+function SideBox({ box }: { box: EkitBox }) {
   return (
-    <div className={`flex items-start rounded-[5px] pt-5 ${variant === "pink" ? "pl-2" : "min-h-[211px] pl-[15px] md:min-h-0"}`}>
-      {variant === "pink" ? (
-        <span className="mt-[5px] mr-5 flex size-[75px] shrink-0 items-center justify-center rounded-[50px] border-[1.6px] border-[#fa346e] bg-white text-[#fa346e]">
-          <EkitIcon widgetId={box.id} className="size-[45px]" />
-        </span>
-      ) : (
-        <span className="mr-5 flex size-20 shrink-0 items-center justify-center rounded-[50px] bg-white text-[#111633] shadow-[-1px_7px_15px_rgba(0,0,0,0.07)]">
-          <EkitIcon widgetId={box.id} className="size-[35px]" />
-        </span>
-      )}
+    <div className="group flex items-start gap-4 rounded-card border border-slate-100 bg-white p-5 shadow-card transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-card-hover">
+      <span className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-brand text-white transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-6">
+        <EkitIcon widgetId={box.id} className="size-7" />
+      </span>
       <div>
-        <h3 className={`${boxTitle} font-bold ${variant === "pink" ? "text-[#111633]" : "text-black"}`}>{box.title}</h3>
+        <h3 className={`${boxTitle} font-bold text-brand-navy`}>{box.title}</h3>
         <RichText html={box.text} className={boxText} />
       </div>
     </div>
@@ -67,70 +62,73 @@ export default function ProductsPage() {
       />
       <BoxedContent>
         {/* Secure IT Rental & Data Protection Solutions */}
-        <section className="bg-[#f7f9fb] pt-[50px] md:pt-[60px] md:pb-[41px]">
-          <SectionHeading title={secureSolutions.heading.title} textMb="" />
-          <div className="flex flex-col gap-[30px] p-[15px] md:flex-row">
+        <section className="bg-brand-50 px-5 py-14 md:px-6 md:py-20">
+          <SectionHeading title={secureSolutions.heading.title} />
+          <Reveal className="reveal-stagger mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
             {secureSolutions.boxes.map((b) => (
-              <div key={b.id} className="flex-1 self-start border-[0.8px] border-[#f5f5f5] bg-white px-10 py-[45px] text-center">
-                <span className="mx-auto mb-[13px] flex size-[100px] items-center justify-center rounded-full border-[9.6px] border-white bg-[#fa346e] text-white shadow-[0_0_1px_#fa346e]">
-                  <EkitIcon widgetId={b.id} className="size-[45px]" />
+              <article
+                key={b.id}
+                className="group flex flex-col items-center gap-3 rounded-card border border-slate-100 bg-white p-8 text-center shadow-card transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-card-hover"
+              >
+                <span className="flex size-20 items-center justify-center rounded-full bg-brand text-white shadow-[0_10px_24px_-8px_rgba(10,43,155,0.5)] transition-transform duration-300 group-hover:scale-110">
+                  <EkitIcon widgetId={b.id} className="size-10" />
                 </span>
-                <h3 className={`${boxTitle} font-semibold text-black`}>{b.title}</h3>
+                <h3 className={`${boxTitle} font-semibold text-brand-navy`}>{b.title}</h3>
                 <RichText html={b.text} className={boxText} />
-              </div>
+              </article>
             ))}
-          </div>
+          </Reveal>
         </section>
 
         {/* Comprehensive IT Solutions */}
-        <section className="bg-white pt-[103px] pb-[83px] md:pt-[106px] md:pb-[74px]">
-          <SectionHeading title={comprehensive.heading.title!} text={comprehensive.heading.text} textMb="[&_p]:mb-[46px]" />
-          <div className="flex flex-col gap-2.5 p-2.5 md:flex-row">
-            <div className="flex flex-col justify-center p-[15px] md:w-[47.8%]">
+        <section className="bg-white px-5 py-14 md:px-6 md:py-20">
+          <SectionHeading title={comprehensive.heading.title!} text={comprehensive.heading.text} />
+          <div className="mt-10 grid grid-cols-1 items-center gap-10 md:grid-cols-2 md:gap-14">
+            <Reveal className="reveal-up">
               <Image
                 src={comprehensive.image.src}
                 alt={comprehensive.image.alt}
                 width={comprehensive.image.width}
                 height={comprehensive.image.height}
-                sizes="(max-width: 767px) 100vw, 60vw"
-                className="w-full md:-mx-[100px] md:w-[calc(100%+200px)] md:max-w-none"
+                sizes="(max-width: 767px) 100vw, 50vw"
+                className="w-full rounded-card object-cover shadow-card"
               />
-            </div>
-            <div className="flex flex-col justify-center gap-3 p-[15px] md:flex-1 md:pt-[28px] md:pl-[100px]">
+            </Reveal>
+            <Reveal className="reveal-stagger flex flex-col gap-4">
               {comprehensive.boxes.map((b) => (
-                <SideBox key={b.id} box={b} variant="pink" />
+                <SideBox key={b.id} box={b} />
               ))}
-            </div>
+            </Reveal>
           </div>
         </section>
 
         {/* Our Special Features */}
-        <section className="bg-[#f7f9fb] pt-[87px] pb-[69px] md:pb-[71px]">
-          <SectionHeading title={specialFeatures.heading.title!} text={specialFeatures.heading.text} textMb="[&_p]:mb-[23px]" />
-          <div className="grid grid-cols-1 gap-x-2.5 gap-y-[5px] p-2.5 md:grid-cols-3">
+        <section className="bg-brand-50 px-5 py-14 md:px-6 md:py-20">
+          <SectionHeading title={specialFeatures.heading.title!} text={specialFeatures.heading.text} />
+          <Reveal className="reveal-stagger mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
             {specialFeatures.boxes.map((b) => (
-              <SideBox key={b.id} box={b} variant="plain" />
+              <SideBox key={b.id} box={b} />
             ))}
-          </div>
+          </Reveal>
         </section>
 
         {/* FAQ */}
-        <section className="bg-white px-[15px] pt-[107px] pb-[107px] md:pb-[108px]">
-          <SectionHeading title={productsFaq.heading.title!} text={productsFaq.heading.text} textMb="[&_p]:mb-[46px]" />
-          <div className="flex flex-col gap-2.5 p-2.5 md:flex-row">
-            <div className="p-[15px] md:w-1/2">
+        <section className="bg-white px-5 py-14 md:px-6 md:py-20">
+          <SectionHeading title={productsFaq.heading.title!} text={productsFaq.heading.text} />
+          <div className="mt-10 grid grid-cols-1 items-start gap-10 md:grid-cols-2 md:gap-14">
+            <Reveal className="reveal-up">
               <Image
                 src={productsFaq.image.src}
                 alt={productsFaq.image.alt}
                 width={productsFaq.image.width}
                 height={productsFaq.image.height}
                 sizes="(max-width: 767px) 100vw, 45vw"
-                className="m-2.5 w-[calc(100%-20px)]"
+                className="w-full rounded-card object-cover shadow-card"
               />
-            </div>
-            <div className="p-[15px] md:w-1/2">
+            </Reveal>
+            <Reveal className="reveal-up">
               <EkitAccordion items={productsFaq.items} />
-            </div>
+            </Reveal>
           </div>
         </section>
       </BoxedContent>

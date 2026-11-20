@@ -86,8 +86,10 @@ a {
 }
 
 /* Elementor boxed container: max 1600px, columns have 10px gutters */
+/* Centered content container — full-width section backgrounds, boxed inner content. */
 .e-container {
-  max-width: 1600px;
+  width: 100%;
+  max-width: 1440px;
   margin-inline: auto;
 }
 

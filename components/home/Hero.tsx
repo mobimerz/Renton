@@ -58,12 +58,6 @@ export default function Hero({ hero }: { hero: Hero }) {
             <Button href={hero.primary.href} variant="white" size="lg">
               {hero.primary.label}
             </Button>
-            <Button href={hero.secondary.href} variant="accent" size="lg" newTab>
-              <svg viewBox="0 0 24 24" className="size-5 fill-current" aria-hidden>
-                <path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.9 14.2c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .1-3.1-.8-2.6-1.1-4.3-3.8-4.4-4-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.4-.3.6-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.3c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.5-.1l.7-.9c.2-.3.4-.2.6-.1l1.9.9c.2.1.4.2.5.3.1.2.1.6-.1 1.1z" />
-              </svg>
-              WhatsApp
-            </Button>
           </div>
 
           <ul className="mt-2 flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px] text-white/80">

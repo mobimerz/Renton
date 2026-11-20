@@ -13,9 +13,9 @@ export default function ProductsGrid({ slides }: { slides: Slide[] }) {
         return (
           <article
             key={s.src}
-            className="group flex flex-col overflow-hidden rounded-card border border-slate-100 bg-white shadow-card transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-card-hover"
+            className="group flex flex-col overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-card transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-card-hover"
           >
-            <div className="relative aspect-[16/11] overflow-hidden bg-brand-50">
+            <div className="relative aspect-[16/9] overflow-hidden bg-brand-50">
               <Image
                 src={s.src}
                 alt={s.alt}
@@ -24,8 +24,8 @@ export default function ProductsGrid({ slides }: { slides: Slide[] }) {
                 className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
               />
             </div>
-            <div className="flex grow flex-col gap-2 p-5">
-              <h3 className="font-poppins text-[19px] font-semibold text-brand-navy">{label}</h3>
+            <div className="flex grow flex-col gap-2.5 p-6">
+              <h3 className="font-poppins text-[18px] font-semibold text-brand-navy">{label}</h3>
               <p className="grow font-inter text-[14px] leading-6 text-muted">{productBlurbs[label] ?? "Available for flexible rent."}</p>
               <Link
                 href="/contact/"
