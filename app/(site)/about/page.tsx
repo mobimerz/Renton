@@ -23,6 +23,7 @@ export default function AboutPage() {
         title={aboutHero.title}
         subtitle={aboutHero.subtitle}
         descriptionHtml={aboutHero.text}
+        bg="/images/about-bg-img.jpg"
         crumbs={crumbsFor(page)}
       />
       <BoxedContent>

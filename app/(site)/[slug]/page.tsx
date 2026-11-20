@@ -90,7 +90,7 @@ export default async function Page({ params }: Params) {
     return (
       <>
         <JsonLd data={graph(...nodes)} />
-        <PageHero title={meta.pageTitle} crumbs={crumbs} />
+        <PageHero title={meta.pageTitle} bg="/images/pexels-photo-1181354-1181354-scaled.jpg" crumbs={crumbs} />
         <BoxedContent>
           <article className="hentry type-page">
             <div className="entry-content">

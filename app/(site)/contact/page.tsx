@@ -21,7 +21,7 @@ export default function ContactPage() {
   return (
     <>
       <JsonLd data={pageSchema(page, contactFaq.items)} />
-      <PageHero title={page.pageTitle} subtitle={contactHeadline} crumbs={crumbsFor(page)} />
+      <PageHero title={page.pageTitle} subtitle={contactHeadline} bg="/images/office.jpg" crumbs={crumbsFor(page)} />
 
       {/* Intro */}
       <section className="flow-root bg-white px-5 py-[75px] md:p-0">

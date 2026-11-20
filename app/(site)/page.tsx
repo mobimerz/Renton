@@ -28,8 +28,6 @@ export const revalidate = 3600;
 export default async function HomePage() {
   const { content } = await getHomepageContent();
   const { hero, rentalProducts, whyChoose, testimonials, homeFaq } = content;
-  const heroW = hero.image.width || 1024;
-  const heroH = hero.image.height || 683;
   const allFaqs = homeFaq.columns.flat();
 
   return (
@@ -44,7 +42,7 @@ export default async function HomePage() {
         )}
       />
 
-      <Hero hero={hero} imgW={heroW} imgH={heroH} />
+      <Hero hero={hero} />
 
       <StatsStrip />
 

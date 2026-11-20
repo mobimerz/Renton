@@ -15,33 +15,39 @@ type Hero = {
 };
 
 const trust = ["24-hour delivery", "1 month–3 year plans", "24/7 support"];
+/** Full-bleed hero background photo. */
+const HERO_BG = "/images/pexels-photo-1181354-1181354-scaled.jpg";
 
-export default function Hero({ hero, imgW, imgH }: { hero: Hero; imgW: number; imgH: number }) {
+export default function Hero({ hero }: { hero: Hero }) {
   return (
-    <section className="relative overflow-hidden bg-[linear-gradient(135deg,#0a2b9b_0%,#142344_60%,#07164f_100%)]">
-      {/* subtle dot grid */}
+    <section className="relative isolate flex min-h-[560px] items-center overflow-hidden md:min-h-[640px]">
+      <Image src={HERO_BG} alt="" fill priority sizes="100vw" className="-z-20 object-cover object-center" />
+      {/* Brand-blue gradient overlay keeps the white text legible over the photo */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 opacity-[0.10] [background-image:radial-gradient(circle,#ffffff_1px,transparent_1px)] [background-size:26px_26px]"
+        className="absolute inset-0 -z-10 bg-[linear-gradient(120deg,rgba(7,22,79,0.94)_0%,rgba(10,43,155,0.82)_45%,rgba(20,35,68,0.72)_100%)]"
       />
-      <div className="e-container relative grid grid-cols-1 items-center gap-10 px-5 py-14 md:grid-cols-2 md:px-6 md:py-20">
-        {/* Copy */}
-        <Reveal className="reveal-up flex flex-col gap-5">
+      <div
+        aria-hidden
+        className="absolute inset-0 -z-10 opacity-[0.10] [background-image:radial-gradient(circle,#ffffff_1px,transparent_1px)] [background-size:26px_26px]"
+      />
+      <div className="e-container relative px-5 py-16 md:px-6 md:py-24">
+        <Reveal className="reveal-up flex max-w-[680px] flex-col gap-5">
           <span className="inline-flex w-fit items-center gap-2 rounded-full bg-white/10 px-3.5 py-1.5 text-[12px] font-semibold tracking-wide text-white/90 uppercase ring-1 ring-white/15">
             {hero.kicker}
           </span>
-          <h1 className="font-poppins text-[34px] leading-[1.08] font-bold text-white md:text-[52px]">
+          <h1 className="font-poppins text-[36px] leading-[1.06] font-bold text-white md:text-[56px]">
             {hero.headline}
             <br />
             <RotatingText words={hero.rotating} className="text-accent" />
           </h1>
-          <RichText html={hero.text} className="max-w-[560px] font-inter text-[15px] leading-7 text-white/80 [&_p]:m-0" />
+          <RichText html={hero.text} className="max-w-[560px] font-inter text-[15px] leading-7 text-white/85 md:text-[16px] [&_p]:m-0" />
 
           <ul className="flex flex-wrap gap-2.5">
             {hero.rotating.map((r) => (
               <li
                 key={r}
-                className="rounded-full bg-white/10 px-3.5 py-1.5 text-[13px] font-medium text-white ring-1 ring-white/15"
+                className="rounded-full bg-white/10 px-3.5 py-1.5 text-[13px] font-medium text-white ring-1 ring-white/15 backdrop-blur-sm"
               >
                 {r}
               </li>
@@ -60,7 +66,7 @@ export default function Hero({ hero, imgW, imgH }: { hero: Hero; imgW: number; i
             </Button>
           </div>
 
-          <ul className="mt-2 flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px] text-white/75">
+          <ul className="mt-2 flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px] text-white/80">
             {trust.map((t) => (
               <li key={t} className="flex items-center gap-1.5">
                 <svg viewBox="0 0 20 20" className="size-4 fill-accent" aria-hidden>
@@ -70,23 +76,6 @@ export default function Hero({ hero, imgW, imgH }: { hero: Hero; imgW: number; i
               </li>
             ))}
           </ul>
-        </Reveal>
-
-        {/* Image */}
-        <Reveal className="reveal-up" delay={150}>
-          <div className="relative mx-auto max-w-[560px]">
-            <div aria-hidden className="absolute -inset-4 rounded-[32px] bg-brand-bright/20 blur-2xl" />
-            <Image
-              src={hero.image.src}
-              alt={hero.image.alt}
-              width={imgW}
-              height={imgH}
-              loading="eager"
-              priority
-              sizes="(max-width: 767px) 100vw, 45vw"
-              className="animate-floaty relative w-full rounded-[28px] shadow-[0_30px_60px_-20px_rgba(0,0,0,0.55)]"
-            />
-          </div>
         </Reveal>
       </div>
     </section>

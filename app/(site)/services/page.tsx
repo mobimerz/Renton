@@ -18,7 +18,7 @@ export default function ServicesPage() {
       <PageHero
         title={servicesHero.title}
         descriptionHtml={servicesHero.text}
-        image={servicesHero.image}
+        bg={servicesHero.image.src}
         crumbs={crumbsFor(page)}
         actions={
           <Button href={servicesHero.button.href} variant="accent" size="lg">

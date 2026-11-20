@@ -57,7 +57,7 @@ export default function ProductsPage() {
         eyebrow={productsHero.subtitle}
         title={productsHero.title}
         descriptionHtml={productsHero.text}
-        image={productsHero.image}
+        bg="/images/IT-hardware.jpeg"
         crumbs={crumbsFor(page)}
         actions={productsHero.buttons.map((b) => (
           <Button key={b.label} href={b.href} variant={b.href.startsWith("/") ? "white" : "accent"} size="lg">

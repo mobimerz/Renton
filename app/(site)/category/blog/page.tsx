@@ -48,7 +48,7 @@ export default async function CategoryBlogPage() {
           breadcrumb(path, crumbs),
         )}
       />
-      <PageHero title="Posts in category: Blog" crumbs={crumbs} />
+      <PageHero title="Posts in category: Blog" bg="/images/Image-_Blog_03-11-2026.jpeg" crumbs={crumbs} />
       <div className="aux-archive">
         <BoxedContent>
           {allPosts.map((p) => {
