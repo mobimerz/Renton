@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import PageTitleBar from "@/components/layout/PageTitleBar";
+import PageHero from "@/components/layout/PageHero";
 import BoxedContent from "@/components/layout/BoxedContent";
 import JsonLd from "@/components/JsonLd";
 import ElementorBody from "@/components/elementor/ElementorBody";
@@ -90,7 +90,7 @@ export default async function Page({ params }: Params) {
     return (
       <>
         <JsonLd data={graph(...nodes)} />
-        <PageTitleBar title={meta.pageTitle} crumbs={crumbs} />
+        <PageHero title={meta.pageTitle} crumbs={crumbs} />
         <BoxedContent>
           <article className="hentry type-page">
             <div className="entry-content">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import PageTitleBar from "@/components/layout/PageTitleBar";
+import PageHero from "@/components/layout/PageHero";
 import BoxedContent from "@/components/layout/BoxedContent";
 import JsonLd from "@/components/JsonLd";
 import ElementorBody from "@/components/elementor/ElementorBody";
@@ -48,7 +48,7 @@ export default async function CategoryBlogPage() {
           breadcrumb(path, crumbs),
         )}
       />
-      <PageTitleBar title="Posts in category: Blog" crumbs={crumbs} />
+      <PageHero title="Posts in category: Blog" crumbs={crumbs} />
       <div className="aux-archive">
         <BoxedContent>
           {allPosts.map((p) => {

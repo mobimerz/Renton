@@ -23,84 +23,84 @@ const contact: { icon: IconName; text: string; href?: string }[] = [
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer>
-      <div className="bg-footer px-5 pb-0 md:px-0 md:pt-[50px] md:pb-[25px]">
-        <div className="e-container flex flex-wrap">
-          {/* About */}
-          <div className="w-full p-5 md:w-[28%]">
-            <div className="p-2.5">
-              <Link href="/" aria-label="Renton Technologies" className="block h-[93px] p-2.5 md:h-[103px]">
-                <Image src={site.footerLogo} alt="logo renton" width={300} height={300} className="size-[65px] md:size-[75px]" />
-              </Link>
-            </div>
-            <p className="m-2.5 mb-[13px] md:mb-[14px] text-[13px] leading-[19.5px] text-white md:text-[14px] md:leading-[21px]">{site.footerText}</p>
+    <footer className="bg-[linear-gradient(180deg,#142344_0%,#0b1430_100%)] text-white">
+      <div className="e-container grid grid-cols-1 gap-8 px-5 py-14 md:px-6 md:py-16 lg:grid-cols-[1.4fr_1fr_1.3fr_1.3fr]">
+        {/* About */}
+        <div className="flex flex-col gap-4">
+          <Link href="/" aria-label="Renton Technologies" className="inline-block w-fit">
+            <Image src={site.footerLogo} alt="logo renton" width={300} height={300} className="size-[70px] object-contain" />
+          </Link>
+          <p className="max-w-[320px] font-inter text-[14px] leading-6 text-white/70">{site.footerText}</p>
+          <div className="mt-1 flex flex-wrap gap-2.5">
+            {footerSocial.map((k) => (
+              <a
+                key={k}
+                href={social[k].href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={k === "twitter" ? "X-twitter" : social[k].label}
+                className="flex size-9 items-center justify-center rounded-full text-white transition-transform duration-300 hover:-translate-y-1 hover:brightness-110"
+                style={{ backgroundColor: footerBg(k) }}
+              >
+                <Icon name={footerIcon[k]} className="text-[14px]" />
+              </a>
+            ))}
           </div>
+        </div>
 
-          {/* Quick links */}
-          <div className="w-1/2 p-5 md:w-[15%]">
-            <h2 className="mb-[17px] font-poppins text-[16px] leading-4 font-medium text-footer-heading md:text-[20px] md:leading-5">Quick Links</h2>
-            <ul className="space-y-[17px]">
-              {footerQuickLinks.map((l) => (
-                <li key={l.label} className="leading-[14px]">
-                  <Link href={l.href} className=" text-[14px] leading-[14px] text-white hover:text-footer-heading">
-                    {l.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Map */}
-          <div className="w-1/2 p-5 md:w-[30%]">
-            <GoogleMap src={site.mapEmbed} title="Renton Technologies LLP, Electronic City, Bengaluru" height={250} small />
-          </div>
-
-          {/* Social + contact */}
-          <div className="w-full p-5 pb-[29px] md:w-[27%] md:pb-5">
-            <h2 className="mb-0.5 font-poppins text-[16px] leading-4 font-medium text-footer-heading md:mb-[11px] md:text-[20px] md:leading-5">Social Connection</h2>
-            <div className="mb-[11px] flex gap-2">
-              {footerSocial.map((k) => (
-                <a
-                  key={k}
-                  href={social[k].href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={k === "twitter" ? "X-twitter" : social[k].label}
-                  className="flex size-9 items-center justify-center rounded-[30px] text-white hover:opacity-90"
-                  style={{ backgroundColor: footerBg(k) }}
+        {/* Quick links */}
+        <div className="flex flex-col gap-4">
+          <h2 className="font-poppins text-[18px] font-semibold text-footer-heading md:text-[20px]">Quick Links</h2>
+          <ul className="flex flex-col gap-3">
+            {footerQuickLinks.map((l) => (
+              <li key={l.label}>
+                <Link
+                  href={l.href}
+                  className="group inline-flex items-center gap-2 font-inter text-[14px] text-white/80 transition-colors hover:text-footer-heading"
                 >
-                  <Icon name={footerIcon[k]} className="text-[14px]" />
-                </a>
-              ))}
-            </div>
-            <ul>
-              {contact.map((c, i) => (
-                <li key={c.text} className={`flex items-center ${i > 0 ? "mt-1.5" : ""} ${i < contact.length - 1 ? "pb-1.5" : ""}`}>
-                  <Icon name={c.icon} className="w-[25px]! shrink-0 text-[20px] text-footer-heading" />
-                  {c.href ? (
-                    <a href={c.href} className="font-poppins text-[14px] leading-[21px] text-white">
-                      {c.text}
-                    </a>
-                  ) : (
-                    <span className="font-poppins text-[14px] leading-[21px] text-white">{c.text}</span>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
+                  <span className="h-px w-0 bg-footer-heading transition-all duration-300 group-hover:w-4" />
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Social Connection + contact */}
+        <div className="flex flex-col gap-4">
+          <h2 className="font-poppins text-[18px] font-semibold text-footer-heading md:text-[20px]">Social Connection</h2>
+          <ul className="flex flex-col gap-3.5">
+            {contact.map((c) => (
+              <li key={c.text} className="flex items-start gap-3">
+                <Icon name={c.icon} className="mt-0.5 w-[20px]! shrink-0 text-[18px] text-footer-heading" />
+                {c.href ? (
+                  <a href={c.href} className="font-inter text-[14px] leading-6 text-white/80 transition-colors hover:text-white">
+                    {c.text}
+                  </a>
+                ) : (
+                  <span className="font-inter text-[14px] leading-6 text-white/80">{c.text}</span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Map */}
+        <div className="overflow-hidden rounded-card ring-1 ring-white/10">
+          <GoogleMap src={site.mapEmbed} title="Renton Technologies LLP, Electronic City, Bengaluru" height={220} small className="h-full min-h-[200px]" />
         </div>
       </div>
 
       {/* Copyright bar */}
-      <div className="bg-copyright">
-        <div className="e-container p-2.5">
-          <p className="mb-[11px] text-center font-poppins text-[11px] leading-[16.5px] tracking-[0.3px] text-copyright-text md:mb-4 md:text-[16px] md:leading-6">
+      <div className="border-t border-white/10">
+        <div className="e-container px-5 py-5 md:px-6">
+          <p className="text-center font-inter text-[12px] leading-6 tracking-[0.2px] text-white/60 md:text-[14px]">
             © {year}. All Rights Reserved by Renton Technologies. |{" "}
-            <Link href="/terms-and-conditions/" className="text-white">
+            <Link href="/terms-and-conditions/" className="text-white/80 transition-colors hover:text-white">
               Terms &amp; Conditions
             </Link>
             &nbsp; |&nbsp;{" "}
-            <Link href="/privacy-policy/" className="text-white">
+            <Link href="/privacy-policy/" className="text-white/80 transition-colors hover:text-white">
               Privacy Policy
             </Link>
           </p>

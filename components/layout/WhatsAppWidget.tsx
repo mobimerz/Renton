@@ -4,45 +4,51 @@ import { useState } from "react";
 import Icon from "@/components/Icon";
 import { whatsappWidget as wa } from "@/data/site";
 
-/** Rebuild of the WP WhatsApp (NinjaTeam) floating chat button + popup used on every page. */
+/** Modern floating WhatsApp chat button + popup (CSS-only open/close animation). */
 export default function WhatsAppWidget() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="font-[Arial,Helvetica,sans-serif]">
+    <div className="font-inter">
       {/* Popup */}
       <div
         role="dialog"
         aria-label={wa.title}
         aria-hidden={!open}
-        className={`fixed z-[9999] w-[351px] max-w-[calc(100vw-40px)] overflow-hidden rounded-[5px_5px_8px_8px] shadow-[0_10px_10px_4px_rgba(0,0,0,0.04)] transition-all duration-300 ${
-          open ? "visible translate-y-0 opacity-100" : "invisible translate-y-[50px] opacity-0"
+        className={`fixed z-[9999] w-[340px] max-w-[calc(100vw-40px)] origin-bottom-right overflow-hidden rounded-2xl bg-white shadow-[0_24px_60px_-12px_rgba(0,0,0,0.3)] ring-1 ring-black/5 transition-all duration-300 ease-out ${
+          open ? "visible translate-y-0 scale-100 opacity-100" : "invisible translate-y-3 scale-95 opacity-0"
         }`}
-        style={{ right: wa.right, bottom: wa.bottom + 72 }}
+        style={{ right: wa.right, bottom: wa.bottom + 76 }}
       >
-        <div className="relative pt-[15px] pr-[43px] pb-[17px] pl-[74px]" style={{ background: wa.color }}>
-          <Icon name="whatsapp" className="absolute top-1/2 left-[25px] -translate-y-1/2 text-[34px] text-white" />
-          <div className="pt-0.5 text-[18px] leading-tight text-white">{wa.title}</div>
-          <div className="pt-1 text-[12px] leading-[1.5] text-[#d9ebc6]">
-            {wa.description.before}
-            <strong>{wa.description.strong}</strong>
-            {wa.description.after}
+        <div className="relative flex items-center gap-3 bg-[linear-gradient(135deg,#2db742_0%,#1f9e36_100%)] px-5 py-4 text-white">
+          <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-white/15">
+            <Icon name="whatsapp" className="text-[26px] text-white" />
+          </span>
+          <div>
+            <div className="text-[16px] leading-tight font-semibold">{wa.title}</div>
+            <div className="pt-0.5 text-[12px] leading-[1.5] text-white/90">
+              {wa.description.before}
+              <strong>{wa.description.strong}</strong>
+              {wa.description.after}
+            </div>
           </div>
         </div>
-        <div className="bg-white pt-[13px] pr-5 pb-[21px] pl-[19px]">
+        <div className="p-4">
           <a
             href={wa.chatUrl}
             target="_blank"
             rel="noopener noreferrer"
             tabIndex={open ? 0 : -1}
-            className="relative block rounded-[2px] border-l-2 border-[#2db742] bg-[#f5f7f9] pt-[13px] pr-10 pb-3 pl-[74px] hover:bg-[#eef0f3]"
+            className="relative flex items-center gap-3 rounded-xl bg-[#f5f7f9] p-3 transition-colors hover:bg-[#eef0f3]"
           >
-            <span className="absolute top-1/2 left-3 flex size-12 -translate-y-1/2 items-center justify-center rounded-full bg-[#55cd6c]">
-              <Icon name="whatsapp" className="text-[28px] text-white" />
+            <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-[#55cd6c]">
+              <Icon name="whatsapp" className="text-[24px] text-white" />
             </span>
-            <span className="block text-[14px] leading-tight text-[#363c47]">{wa.account.name}</span>
-            <span className="block pt-0.5 text-[11px] leading-tight text-[#989b9f]">{wa.account.title}</span>
-            <Icon name="whatsapp" className="absolute top-1/2 right-4 -translate-y-1/2 text-[20px] text-[#2db742]" />
+            <span className="min-w-0 flex-1">
+              <span className="block text-[14px] leading-tight font-semibold text-[#363c47]">{wa.account.name}</span>
+              <span className="block pt-0.5 text-[11px] leading-tight text-[#989b9f]">{wa.account.title}</span>
+            </span>
+            <Icon name="whatsapp" className="text-[20px] text-[#2db742]" />
           </a>
         </div>
       </div>
@@ -53,8 +59,7 @@ export default function WhatsAppWidget() {
           <button
             type="button"
             onClick={() => setOpen(true)}
-            className="mr-[7px] w-[156px] rounded px-3 py-2 text-left text-[12px] leading-[18px] text-[#43474e] shadow-[0_1px_4px_rgba(0,0,0,0.12)]"
-            style={{ backgroundColor: "#f5f7f9" }}
+            className="mr-2.5 rounded-xl bg-white px-3.5 py-2.5 text-left text-[12px] leading-[18px] text-[#43474e] shadow-[0_6px_18px_-4px_rgba(0,0,0,0.2)] ring-1 ring-black/5 transition-transform duration-200 hover:-translate-y-0.5"
           >
             {wa.buttonLabel.text} <strong>{wa.buttonLabel.strong}</strong>
           </button>
@@ -64,7 +69,7 @@ export default function WhatsAppWidget() {
           aria-label={open ? "Close WhatsApp chat" : "Open WhatsApp chat"}
           aria-expanded={open}
           onClick={() => setOpen((o) => !o)}
-          className="flex size-14 items-center justify-center rounded-full text-white shadow-[0_6px_8px_2px_rgba(0,0,0,0.14)]"
+          className={`flex size-14 items-center justify-center rounded-full text-white shadow-[0_8px_20px_-4px_rgba(45,183,66,0.6)] transition-transform duration-200 hover:scale-105 ${open ? "" : "animate-wa-pulse"}`}
           style={{ backgroundColor: wa.color }}
         >
           {open ? (

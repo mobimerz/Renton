@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { preload } from "react-dom";
-import PageTitleBar from "@/components/layout/PageTitleBar";
+import PageHero from "@/components/layout/PageHero";
 import BoxedContent from "@/components/layout/BoxedContent";
 import JsonLd from "@/components/JsonLd";
 import Icon from "@/components/Icon";
@@ -17,29 +16,20 @@ export const metadata: Metadata = pageMetadata(page);
 const body = " text-[16px] leading-6 text-body [&_p]:mb-4";
 
 export default function AboutPage() {
-  // hero background is a CSS image, so the browser would only find it after the stylesheet
-  preload("/images/about-bg-img.jpg", { as: "image", fetchPriority: "high" });
   return (
     <>
       <JsonLd data={pageSchema(page)} />
-      <PageTitleBar title={page.pageTitle} crumbs={crumbsFor(page)} />
+      <PageHero
+        title={aboutHero.title}
+        subtitle={aboutHero.subtitle}
+        descriptionHtml={aboutHero.text}
+        crumbs={crumbsFor(page)}
+      />
       <BoxedContent>
-        {/* Hero banner */}
-        <section className="relative flex min-h-[440px] flex-col justify-center bg-[url('/images/about-bg-img.jpg')] bg-cover bg-center px-[30px] pt-[60px] md:min-h-[500px] md:px-2.5 md:pt-0">
-          {/* Dark scrim so the white text stays legible over the bright photo */}
-          <div aria-hidden className="absolute inset-0 bg-black/50" />
-          <div className="relative z-10 flex flex-col gap-5 text-center text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.6)]">
-            {/* Second <h1> on the page, as on WordPress (theme title "About" + this "About Us") */}
-            <h1 className="mt-[15px] text-[43.2px] leading-none font-semibold md:mt-0">{aboutHero.title}</h1>
-            <h4 className=" text-[22px] leading-none font-semibold">{aboutHero.subtitle}</h4>
-            <RichText html={aboutHero.text} className=" text-[16px] leading-6 [&_p]:mb-4" />
-          </div>
-        </section>
-
         {/* Vision / Mission / What We Do */}
-        <section className="relative -mt-[50px] mb-[51px] flex flex-col gap-[14px] px-[30px] py-[7px] md:-mt-[110px] md:mb-[91px] md:flex-row md:gap-[30px] md:p-[15px]">
+        <section className="mt-[40px] mb-[51px] flex flex-col gap-[14px] px-[30px] py-[7px] md:mt-[60px] md:mb-[91px] md:flex-row md:gap-[30px] md:p-[15px]">
           {aboutCards.map((c) => (
-            <div key={c.title} className="flex flex-1 flex-col gap-5 p-[30px] shadow-[0_0_40px_rgba(36,42,86,0.15)] md:p-[35px]">
+            <div key={c.title} className="flex flex-1 flex-col gap-5 rounded-card border border-slate-100 bg-white p-[30px] shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover md:p-[35px]">
               <span className="block w-[50px] border-t-[7px] border-[#0c0d0e]" role="separator" />
               <h3 className=" text-[27px] leading-none font-semibold text-body">{c.title}</h3>
               {"html" in c ? (

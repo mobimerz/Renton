@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
-import PageTitleBar from "@/components/layout/PageTitleBar";
+import PageHero from "@/components/layout/PageHero";
+import Button from "@/components/ui/Button";
 import JsonLd from "@/components/JsonLd";
 import RichText from "@/components/ui/RichText";
 import { pages } from "@/data/pages";
@@ -14,45 +15,17 @@ export default function ServicesPage() {
   return (
     <>
       <JsonLd data={pageSchema(page)} />
-      <PageTitleBar title={page.pageTitle} crumbs={crumbsFor(page)} />
-
-      {/* Hero */}
-      <section className="bg-[#233857] px-5 py-10 md:px-0 md:py-[50px]">
-        <div className="flex flex-col-reverse md:flex-row">
-          <div className="flex flex-col items-center justify-center text-center md:mr-[60px] md:w-[calc(50%-60px)] md:items-start md:text-left">
-            <h1 className="font-poppins text-[28px] leading-8 font-semibold text-white md:text-[37px] md:leading-[56px]">{servicesHero.title}</h1>
-            <p className=" text-[16px] leading-6 text-white md:my-5 md:mr-20">{servicesHero.text}</p>
-            <a
-              href={servicesHero.button.href}
-              className="inline-block rounded-[10px] bg-[linear-gradient(120deg,#f3931b_0%,#eb5c2b_100%)] px-10 py-5 text-[16px] leading-5 text-white uppercase"
-            >
-              {servicesHero.button.label}
-            </a>
-          </div>
-          <div className="relative flex items-center md:w-1/2">
-            <div className="flex w-full shrink-0 justify-end md:w-[104.6%] md:justify-center">
-              <Image
-                src={servicesHero.image.src}
-                alt={servicesHero.image.alt}
-                width={servicesHero.image.width}
-                height={servicesHero.image.height}
-                priority
-                sizes="(max-width: 767px) 340px, 600px"
-                // Elementor sizes this image to a fixed 320px height (object-fit: fill), max 600px wide
-                className="h-[320px] w-[340px] max-w-none object-fill md:w-[600px]"
-              />
-            </div>
-            <Image
-              src={servicesHero.layer.src}
-              alt=""
-              aria-hidden="true"
-              width={servicesHero.layer.width}
-              height={servicesHero.layer.height}
-              className="absolute top-[72px] left-[256px] z-[1] w-20 md:top-[227px] md:left-[394.5px] md:w-[125px]"
-            />
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title={servicesHero.title}
+        descriptionHtml={servicesHero.text}
+        image={servicesHero.image}
+        crumbs={crumbsFor(page)}
+        actions={
+          <Button href={servicesHero.button.href} variant="accent" size="lg">
+            {servicesHero.button.label}
+          </Button>
+        }
+      />
 
       {/* Service rows */}
       {serviceRows.map((row) => (

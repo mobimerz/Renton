@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import type { Metadata } from "next";
-import PageTitleBar from "@/components/layout/PageTitleBar";
+import PageHero from "@/components/layout/PageHero";
+import Button from "@/components/ui/Button";
 import BoxedContent from "@/components/layout/BoxedContent";
 import JsonLd from "@/components/JsonLd";
 import EkitIcon from "@/components/EkitIcon";
@@ -53,41 +53,19 @@ export default function ProductsPage() {
   return (
     <>
       <JsonLd data={pageSchema(page)} />
-      <PageTitleBar title={page.pageTitle} crumbs={crumbsFor(page)} />
+      <PageHero
+        eyebrow={productsHero.subtitle}
+        title={productsHero.title}
+        descriptionHtml={productsHero.text}
+        image={productsHero.image}
+        crumbs={crumbsFor(page)}
+        actions={productsHero.buttons.map((b) => (
+          <Button key={b.label} href={b.href} variant={b.href.startsWith("/") ? "white" : "accent"} size="lg">
+            {b.label}
+          </Button>
+        ))}
+      />
       <BoxedContent>
-        {/* Hero */}
-        <section className="flex flex-col gap-2.5 bg-white pt-[100px] pb-[90px] md:flex-row md:gap-0 md:py-[60px]">
-          <div className="flex flex-col p-[15px] md:w-[53.55%]">
-            <div className="md:my-[25px]">
-              <h3 className="mt-[3.6px] mb-[10.8px] text-[18px] leading-[25px] font-bold text-[#111633]">{productsHero.subtitle}</h3>
-              <h2 className="mb-2.5 text-[44px] leading-[70px] font-bold text-[#111633]">{productsHero.title}</h2>
-              <RichText html={productsHero.text} className={`max-w-[530px] ${sectionText} [&_p]:mb-0`} />
-            </div>
-            <div className="flex flex-wrap gap-x-[60px]">
-              {productsHero.buttons.map((b) => (
-                <Link
-                  key={b.label}
-                  href={b.href}
-                  className="inline-flex h-[45px] items-center justify-center rounded-[5px] bg-[#2575fc] px-[30px] text-[15px] leading-none text-white hover:bg-[#1a63de]"
-                >
-                  {b.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-          <div className="flex flex-col justify-center px-2.5 pt-[60px] md:flex-1 md:p-2.5">
-            <Image
-              src={productsHero.image.src}
-              alt={productsHero.image.alt}
-              width={productsHero.image.width}
-              height={productsHero.image.height}
-              sizes="(max-width: 767px) 100vw, 45vw"
-              priority
-              className="w-full"
-            />
-          </div>
-        </section>
-
         {/* Secure IT Rental & Data Protection Solutions */}
         <section className="bg-[#f7f9fb] pt-[50px] md:pt-[60px] md:pb-[41px]">
           <SectionHeading title={secureSolutions.heading.title} textMb="" />

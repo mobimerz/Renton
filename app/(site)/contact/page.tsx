@@ -1,7 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
-import { preload } from "react-dom";
-import PageTitleBar from "@/components/layout/PageTitleBar";
+import PageHero from "@/components/layout/PageHero";
 import JsonLd from "@/components/JsonLd";
 import ContactForm from "@/components/ContactForm";
 import GoogleMap from "@/components/GoogleMap";
@@ -19,15 +18,10 @@ const card = "flex flex-col items-center rounded-[3px] border border-[rgba(122,1
 const cardIcon = "flex h-8 items-start justify-center text-[25px] text-[#69727d]";
 
 export default function ContactPage() {
-  // hero background is a CSS image, so the browser would only find it after the stylesheet
-  preload("/images/about-bg-img.jpg", { as: "image", fetchPriority: "high" });
   return (
     <>
       <JsonLd data={pageSchema(page, contactFaq.items)} />
-      <PageTitleBar title={page.pageTitle} crumbs={crumbsFor(page)} />
-
-      {/* Banner image */}
-      <div className="min-h-[400px] bg-[url('/images/about-bg-img.jpg')] bg-cover bg-center px-[30px] md:min-h-[230px] md:px-2.5" />
+      <PageHero title={page.pageTitle} subtitle={contactHeadline} crumbs={crumbsFor(page)} />
 
       {/* Intro */}
       <section className="flow-root bg-white px-5 py-[75px] md:p-0">

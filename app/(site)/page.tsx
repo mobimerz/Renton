@@ -19,6 +19,7 @@ import { buildMetadata } from "@/lib/seo";
 import { breadcrumb, faqPage, graph, localBusiness, webPage, website } from "@/lib/schema";
 import { homeSeo } from "@/data/home";
 import { site } from "@/data/site";
+import { showClientLogos } from "@/data/home-extra";
 import { getHomepageContent } from "@/lib/homepage/content";
 
 export const metadata: Metadata = buildMetadata(homeSeo);
@@ -92,7 +93,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <LogosMarquee />
+      {showClientLogos && <LogosMarquee />}
 
       <FaqSection title={homeFaq.title} intro={homeFaq.intro} items={allFaqs} />
 

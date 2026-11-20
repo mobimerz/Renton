@@ -197,6 +197,24 @@ img.emoji {
   .reveal-stagger.is-visible > *:nth-child(6) { transition-delay: 0.40s; }
 }
 
+/* Gentle attention pulse (WhatsApp button) */
+@keyframes wa-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(45, 183, 66, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(45, 183, 66, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(45, 183, 66, 0);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .animate-wa-pulse {
+    animation: wa-pulse 2.4s ease-out infinite;
+  }
+}
+
 /* Soft floating effect for the hero image */
 @keyframes floaty {
   0%, 100% {

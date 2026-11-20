@@ -19,6 +19,9 @@ export const productBlurbs: Record<string, string> = {
   Printers: "Multi-function printers & scanners.",
 };
 
+/** Client-logos section stays hidden until real logos are added. TODO: set true once ready. */
+export const showClientLogos = false;
+
 /** Client-logos marquee. TODO: add real client logo files to /public/images and list them here. */
 export const clientLogos: { src?: string; name: string }[] = [
   { name: "Client 1" }, // TODO: add logo { src: "/images/clients/...", name: "..." }
