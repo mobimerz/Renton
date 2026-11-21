@@ -15,7 +15,7 @@ export default function HowItWorks() {
     <section className="bg-white">
       <div className="e-container px-5 py-14 md:px-6 md:py-20">
         <SectionHeader eyebrow="How it works" title="Renting made simple" subtitle="From requirement to support — four easy steps." />
-        <Reveal className="reveal-stagger relative mt-12 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <Reveal className="reveal-stagger grid-auto-4 relative mt-12 gap-10">
           {/* connecting line (desktop) */}
           <div aria-hidden className="absolute top-7 right-[12%] left-[12%] hidden h-px bg-brand-100 lg:block" />
           {steps.map((s, i) => (

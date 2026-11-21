@@ -64,7 +64,7 @@ export default function ProductsPage() {
         {/* Secure IT Rental & Data Protection Solutions */}
         <section className="bg-brand-50 px-5 py-14 md:px-6 md:py-20">
           <SectionHeading title={secureSolutions.heading.title} />
-          <Reveal className="reveal-stagger mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
+          <Reveal className="reveal-stagger grid-auto-3 mt-10 gap-6">
             {secureSolutions.boxes.map((b) => (
               <article
                 key={b.id}
@@ -105,7 +105,7 @@ export default function ProductsPage() {
         {/* Our Special Features */}
         <section className="bg-brand-50 px-5 py-14 md:px-6 md:py-20">
           <SectionHeading title={specialFeatures.heading.title!} text={specialFeatures.heading.text} />
-          <Reveal className="reveal-stagger mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
+          <Reveal className="reveal-stagger grid-auto-3 mt-10 gap-6">
             {specialFeatures.boxes.map((b) => (
               <SideBox key={b.id} box={b} />
             ))}

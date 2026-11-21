@@ -31,7 +31,7 @@ export default function AboutPage() {
       <BoxedContent>
         {/* Vision / Mission / What We Do */}
         <section className="px-5 py-14 md:px-6 md:py-20">
-          <Reveal className="reveal-stagger grid grid-cols-1 gap-6 md:grid-cols-3">
+          <Reveal className="reveal-stagger grid-auto-3 gap-6">
             {aboutCards.map((c) => (
               <article
                 key={c.title}
@@ -59,7 +59,7 @@ export default function AboutPage() {
         {/* Our 6-D Process */}
         <section className="bg-brand-50 px-5 py-14 md:px-6 md:py-20">
           <SectionHeader title={sixD.title} />
-          <Reveal className="reveal-stagger mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
+          <Reveal className="reveal-stagger grid-auto-3 mt-10 gap-6">
             {sixD.steps.map((s, i) => (
               <article
                 key={s.title}
@@ -98,7 +98,7 @@ export default function AboutPage() {
         {/* Our Core Advantages */}
         <section className="bg-brand-50 px-5 py-14 md:px-6 md:py-20">
           <SectionHeader eyebrow={advantages.kicker} title={advantages.title} />
-          <Reveal className="reveal-stagger mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <Reveal className="reveal-stagger grid-auto-3 mt-10 gap-6">
             {advantages.items.map((a) => (
               <article
                 key={a.title}

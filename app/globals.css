@@ -21,6 +21,20 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+.grid-auto-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px) {
+  .grid-auto-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  .grid-auto-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
 
 /* Design tokens measured from the live WordPress (Phlox + Elementor) site */
 @theme {

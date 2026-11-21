@@ -62,7 +62,7 @@ export default function ContactPage() {
 
       {/* Contact cards */}
       <section className="bg-white px-5 py-14 md:px-6 md:py-16">
-        <Reveal className="reveal-stagger e-container grid grid-cols-1 gap-6 md:grid-cols-3">
+        <Reveal className="reveal-stagger grid-auto-3 e-container gap-6">
           <div className={card}>
             <span className={cardIcon}>
               <Icon name="phone" />

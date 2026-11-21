@@ -11,7 +11,7 @@ export default function StatsStrip() {
         className="pointer-events-none absolute inset-0 opacity-[0.10] [background-image:radial-gradient(circle,#ffffff_1px,transparent_1px)] [background-size:26px_26px]"
       />
       <div className="e-container relative px-5 py-12 md:px-6 md:py-16">
-        <Reveal className="reveal-stagger grid grid-cols-2 gap-y-10 md:grid-cols-4 md:divide-x md:divide-white/10">
+        <Reveal className="reveal-stagger grid-auto-4 gap-y-10 md:divide-x md:divide-white/10">
           {homeStats.map((s) => (
             <StatCounter key={s.label} value={s.value} suffix={s.suffix} prefix={s.prefix} label={s.label} tone="onDark" className="px-2" />
           ))}
