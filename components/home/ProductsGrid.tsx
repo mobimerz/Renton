@@ -7,7 +7,7 @@ import { productBlurbs } from "@/data/home-extra";
 /** Rental products as a responsive card grid (replaces the old duplicated carousel markup). */
 export default function ProductsGrid({ slides }: { slides: Slide[] }) {
   return (
-    <Reveal className="reveal-stagger mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <Reveal className="reveal-stagger grid-auto-3 mt-10 gap-5">
       {slides.map((s) => {
         const label = s.caption ?? s.alt;
         return (

@@ -5,6 +5,23 @@
 @source not "../docs";
 @source not "../public";
 
+/* The Turbopack content scan misses grid-cols-3/4/5, so define the responsive
+   grids the redesign needs as plain CSS utilities (reliable in dev and prod). */
+.grid-auto-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px) {
+  .grid-auto-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 768px) {
+  .grid-auto-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 /* Design tokens measured from the live WordPress (Phlox + Elementor) site */
 @theme {
   /* Theme font (Raleway on every page — intentional fix, see docs/site-audit.md §10) */
