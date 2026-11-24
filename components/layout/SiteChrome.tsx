@@ -14,8 +14,8 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
       </a>
       <header id="masthead">
         <TopBar />
-        <Header />
       </header>
+      <Header />
       <main id="main" className="overflow-x-clip">
         {children}
       </main>

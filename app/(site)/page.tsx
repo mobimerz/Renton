@@ -14,6 +14,7 @@ import TestimonialsCarousel from "@/components/home/TestimonialsCarousel";
 import LogosMarquee from "@/components/home/LogosMarquee";
 import FaqSection from "@/components/home/FaqSection";
 import LocationMap from "@/components/home/LocationMap";
+import QuotePopup from "@/components/home/QuotePopup";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumb, faqPage, graph, localBusiness, webPage, website } from "@/lib/schema";
 import { homeSeo } from "@/data/home";
@@ -98,6 +99,8 @@ export default async function HomePage() {
       </section>
 
       <LocationMap />
+
+      <QuotePopup />
     </>
   );
 }

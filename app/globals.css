@@ -195,6 +195,18 @@ img.emoji {
   }
 }
 
+/* Popup/modal entrance (components/home/QuotePopup.tsx) */
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 /* Scroll-reveal entrance (components/ui/Reveal.tsx adds .is-visible when in view) */
 @media (prefers-reduced-motion: no-preference) {
   .reveal-up {
